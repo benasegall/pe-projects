@@ -1,0 +1,290 @@
+@import "meyer.css";
+@import "setup.css";
+
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+/* structure */
+
+column {
+	display: block;
+	width: 100%;
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+
+/* flex */
+
+home-logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 10px;
+}
+
+home-logo .logo {
+	max-width: 50px;
+	margin-right: 10px;
+}
+
+.company-name {
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.svg-s1 {
+	max-width: 500px;
+	padding-top: 30px;
+}
+
+.svg-s2-4 {
+	max-width: 100px;
+	padding-top: 20px;
+}
+
+.page-section-1 h1 {
+	font-size: 24px;
+	padding: 20px 0px;
+}
+
+.page-section-1 column {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+/* S2 */
+
+.page-section-2 h3 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.page-section-2 p {
+	padding-bottom: 10px;
+}
+
+.page-section-2 a {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-decoration: underline;
+}
+
+/* S3 */
+
+.page-section-3 h3 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.page-section-3 p {
+	padding-bottom: 10px;
+}
+
+.page-section-3 a {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-decoration: underline;
+}
+
+/* S4 */
+
+.page-section-4 h3 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.page-section-4 p {
+	padding-bottom: 10px;
+}
+
+.page-section-4 a {
+	padding-top: 5px;
+	padding-bottom: 40px;
+	text-decoration: underline;
+}
+
+/* footer */
+
+footer a {
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+/* media medium */
+
+@media (min-width: 600px) {
+	.page-section-1 column {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.page-section-1 h1 {
+		flex-basis: 50%,;
+		max-width: 25ch;
+		line-height: 1.2em;
+		font-size: 28px;
+	}
+
+	.page-section-2 column {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.page-section-2 info-container {
+		padding-left: 30px;
+	}
+
+	.page-section-3 column {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.page-section-3 info-container {
+		padding-left: 30px;
+	}
+
+	.page-section-4 {
+		padding-bottom: 40px;
+	}
+
+	.page-section-4 column {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.page-section-4 info-container {
+		padding-left: 30px;
+	}
+
+	footer column {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	footer p {
+		padding-top: 10px;
+	}
+
+	footer a {
+		padding-top: 28px;
+		margin-left: 60px;
+	}
+}
+
+/* media large */
+
+@media (min-width: 900px) {
+	.grid-container {
+  	display: grid;
+  	column-gap: 50px;
+  	grid-template-columns: auto auto auto;
+  	background-color: #d4dffe;
+  	padding-left: 10%;
+  	padding-right: 10%;
+	}
+
+	.page-section-2 column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.page-section-3 column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.page-section-4 column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.page-section-4 a {
+		padding-top: 5px;
+		padding-bottom: 10px;
+		text-decoration: underline;
+	}
+
+	a {
+		color: white;
+	}
+
+	.circle {
+  border-radius: 100px;
+  background-color: black;
+  padding: 10px;
+	}
+}
+
+/* media extra large */
+
+@media (min-width: 1200px) {
+	.grid-container {
+  	display: grid;
+  	column-gap: 50px;
+  	grid-template-columns: auto auto auto;
+  	background-color: #d4dffe;
+  	padding-left: 14%;
+  	padding-right: 14%;
+	}
+
+	.page-section-2 column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.page-section-3 column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.page-section-4 column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	a {
+		color: white;
+	}
+}
+
+/* styles */
+
+header {
+	background-color: #c3d2fe;
+}
+
+.page-section-1 {
+	background-color: #6e95fc;
+}
+
+.page-section-2, .page-section-3, .page-section-4 {
+	background-color: #d4dffe;
+}
+
+footer {
+	background-color: #35497b;
+	color: whitesmoke;
+}
+
+
+
+
+
+
+
+

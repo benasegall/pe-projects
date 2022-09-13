@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="Artboard1" x="0" y="0" width="100" height="100" style="fill:none;"/>
+    <g id="Artboard11" serif:id="Artboard1">
+        <g id="chest" transform="matrix(-1,-0.000480376,0.000480376,-1,103.121,113.253)">
+            <path d="M59.092,42.321L70.976,50.955L65.034,59.134L74.648,62.257L70.109,76.228L60.495,73.104L60.495,83.213L45.806,83.213L45.806,73.104L36.192,76.228L31.653,62.257L41.267,59.134L35.325,50.955L47.209,42.321L53.15,50.5L59.092,42.321Z" style="fill:rgb(255,0,40);"/>
+        </g>
+        <g id="pink-circle" transform="matrix(1,0,0,1,0.648125,-19.1419)">
+            <circle cx="49.352" cy="49.154" r="10.024" style="fill:rgb(218,0,255);"/>
+        </g>
+        <g id="yellow-circle" transform="matrix(1,0,0,1,-10.8259,20.8344)">
+            <circle cx="49.352" cy="49.154" r="10.024" style="fill:rgb(255,233,0);"/>
+        </g>
+        <g id="green-circle" transform="matrix(1,0,0,1,12.1221,20.8344)">
+            <circle cx="49.352" cy="49.154" r="10.024" style="fill:rgb(0,255,22);"/>
+        </g>
+        <g id="blue-circle" transform="matrix(1,0,0,1,22.1459,-5.07375)">
+            <circle cx="49.352" cy="49.154" r="10.024" style="fill:rgb(0,141,255);"/>
+        </g>
+        <g id="pink-circle1" serif:id="pink-circle" transform="matrix(1,0,0,1,-20.8496,-5.07375)">
+            <circle cx="49.352" cy="49.154" r="10.024" style="fill:rgb(255,0,139);"/>
+        </g>
+        <g id="case" transform="matrix(1.12955,0,0,0.898529,-8.68913,5.5342)">
+            <rect x="42.442" y="40.036" width="19.032" height="19.929" style="fill:rgb(191,255,0);"/>
+        </g>
+        <g id="star" transform="matrix(1,0,0,1,-1.45344,-1.26378)">
+            <path d="M51.453,44.08L53.237,49.568L59.007,49.568L54.339,52.96L56.122,58.448L51.453,55.056L46.785,58.448L48.568,52.96L43.9,49.568L49.67,49.568L51.453,44.08Z" style="fill:rgb(56,0,255);"/>
+        </g>
+    </g>
+</svg>
