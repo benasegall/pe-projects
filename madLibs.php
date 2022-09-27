@@ -1,5 +1,16 @@
 <html>
+	<head>
+		<style>
+			h3 {
+				color: red;
+			}
+		</style>
+	</head>
 	<body>
+		<header>
+			<h1>Mad Libs</h1>
+			<h3>the most ever</h3>
+		</header>
 		<?php
 			$noun = "Stacey";
 			$pluralNoun = "rolling";
@@ -7,7 +18,7 @@
 			$plural = "eyes";
 			$adjective = "the most ever";
 
-			echo "<p>" . "Today, every student has a computer small enough to fit into their " . $noun . ". You can solve any math problem by simply pushing the computer’s little" . $plural . "</p>"
+			echo "<p>" . "Today, every student has a computer small enough to fit into their " . $noun . ". You can solve any math problem by simply pushing the computer’s little " . $plural . ". </p>"
 		?>
 
 		<p>Computers can add, multiply, divide, and <?php echo $verb;?>. They can also <?php echo $verb;?> better than a human.</p>
