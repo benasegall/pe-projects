@@ -24,8 +24,8 @@ body {
 /* STRUCTURE */
 
 div.content {
-	width: 500px;
-	max-width: 90%;
+	width: 450px;
+	max-width: 80%;
 	min-height: 95vh;
 	margin-left: auto;
 	margin-right: auto;
@@ -43,7 +43,6 @@ div.column1 {
 
 div.column2 {
 	display: block;
-	text-align: justify;
 }
 
 div.column3 {
@@ -76,7 +75,7 @@ footer ul li {
 }
 
 a {
-	color: white;
+	color: inherit;
 }
 
 a:hover {

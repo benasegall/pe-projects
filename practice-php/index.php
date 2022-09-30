@@ -1,23 +1,24 @@
-<h1>PHP practice</h1>
-
 <?php
-	$first = "";
 
-	if (!$first) {
-		$first = "Benjamin";
-	}
+$items = [14, true, "Hello World"];
 
-	$last = "Segall";
-	$fullName = $first . " " . $last;
-	$age = 10 + 12;
+$chosenItem = $items[2];
 
-	if ($age < 22) {
-		$age = "YOU ARE WRONG";
-	} else {
-		$age = "OK";
-	}
+echo $chosenItem;
 
-	echo $first . " " . $last;
+$dog = [
+	"age" => 14,
+	"name" => "Toby",
+	"breed" => "Labradoodle",
+	"nickNames" => ["Tobs", "Tobias", "TB"]
+];
+
+echo $dog["name"];
+
 ?>
 
-<p>My name is <?=$fullName?>. I'm <?=$age?> years old.</p>
+<p>The chosen item is <?=$chosenItem?></p>
+
+<p>My dogs name is <?=$dog["name"]?>.</p>
+
+<p>One nickname you can call him is <?=$dog["nickNames"(2)]?></p>
