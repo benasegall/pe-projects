@@ -1,81 +1,69 @@
 <?php
 
-// $array = ["one", 21, "cat", "monster"];
-
-// $monster = [
-// 	"id" => "2015",
-// 	"name" => "Robert",
-// 	"favoriteFood" => "humans",
-// 	"age" => 202,
-// 	"adopted" => "false"
-// ];
-
-// $concat = $array[0] . " " . $array[2]; 
-// //the dots aren't that bad if you think of them as plus signs like other languages, . == +
-
-// echo "<ol>";
-
-// foreach ($array as $item) {
-// 	echo "<li>" . $item . "</li>";
-// }
-
-// MONSTERS
-
-$Bob = [
+$shadow = [
 	"id" => "1",
-	"name" => "Bob",
+	"name" => "Shadow",
 	"favoriteFood" => "Building Materials",
 	"age" => 6,
 	"adopted" => "false",
 	"portrait" => "https://peprojects.dev/images/portrait.jpg",
 ];
 
-$Billy = [
+$orangina = [
 	"id" => "2",
-	"name" => "Billy",
+	"name" => "Orangina",
 	"favoriteFood" => "friedChicken",
 	"age" => 4,
 	"adopted" => "true",
 	"portrait" => "https://peprojects.dev/images/portrait.jpg",
 ];
 
-$BillyBob = [
+$mrBanana = [
 	"id" => "3",
-	"name" => "BillyBob",
+	"name" => "MR. Banana",
 	"favoriteFood" => "chicken",
 	"age" => 5,
 	"adopted" => "false",
 	"portrait" => "https://peprojects.dev/images/portrait.jpg",
 ];
 
-$BillyJeff = [
+$missReadsALot = [
 	"id" => "4",
-	"name" => "BillyJeff",
+	"name" => "Miss Readsalot",
 	"favoriteFood" => "eggos",
 	"age" => 7,
 	"adopted" => "false",
 	"portrait" => "https://peprojects.dev/images/portrait.jpg",
 ];
 
-$JeffJamesBob = [
+$limabean = [
 	"id" => "5",
-	"name" => "JeffJamesBob",
+	"name" => "Limabean",
 	"favoriteFood" => "feet",
 	"age" => 2,
 	"adopted" => "true",
 	"portrait" => "https://peprojects.dev/images/portrait.jpg",
 ];
 
-$Jill = [
+$fragoo = [
 	"id" => "6",
-	"name" => "Jill",
+	"name" => "Fragoo",
 	"favoriteFood" => "water",
 	"age" => 11,
 	"adopted" => "false",
 	"portrait" => "https://peprojects.dev/images/portrait.jpg",
 ];
 
-$monsters = [$Bob, $Billy, $BillyBob, $BillyJeff, $JeffJamesBob, $Jill];
+$codey = [
+	"id" => "6",
+	"name" => "Codey",
+	"favoriteFood" => "water",
+	"age" => 11,
+	"adopted" => "false",
+	"portrait" => "https://peprojects.dev/images/portrait.jpg",
+];
+
+$monsters = [$shadow, $orangina, $mrBanana, $limabean, $fragoo, $codey];
 
 foreach ($monsters as $monster) {
 	$id = $monster["id"];
