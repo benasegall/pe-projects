@@ -24,7 +24,7 @@ body {
 /* STRUCTURE */
 
 div.content {
-	width: 450px;
+	width: 440px;
 	max-width: 80%;
 	min-height: 100vh;
 	margin-left: auto;
@@ -43,7 +43,7 @@ div.column1 {
 
 div.column2 {
 	display: block;
-	text-align: justify;
+	text-align: start;
 }
 
 div.column3 {
@@ -68,6 +68,10 @@ h1 {
 
 h2 {
 	line-height: 1;
+}
+
+p {
+	word-spacing: 0.1rem;
 }
 
 footer ul li {
