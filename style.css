@@ -50,6 +50,7 @@ div.column3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 	margin-top: 5rem;
 }
 
@@ -89,6 +90,7 @@ main a {
 }
 
 div.column3 a {
+	display: inline-block;
 	position: relative;
 }
 

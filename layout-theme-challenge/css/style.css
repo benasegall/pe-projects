@@ -66,13 +66,12 @@ html {
 
 /* OK! SITE STYLES! */
 .site-header {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--color);
+  color: var(--white);
 }
 
 .site-header a {
 	font-family: 'Merriweather Sans', sans-serif;
-	color: #656665;
 }
 
 .site-header a:hover {
@@ -81,6 +80,9 @@ html {
 
 .welcome {
   background-color: #fefefe;
+  background-image: url("../images/grass-train.jpeg");
+  background-position: center;
+  background-size: cover;
 }
 
 
@@ -88,8 +90,9 @@ html {
 
 
 .get-involved {
-  background-color:  var(--highlight);
-  background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  background-color:  white;
+  border: 1px solid green;
+  /*background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");*/
 } /* interesting way to include the whole image in your CSS */
 
 .get-involved inner-column {
@@ -97,9 +100,8 @@ html {
 }
 
 .get-involved call-to-action {
-	background-color:  var(--highlight);
+	/*background-color:  var(--highlight);*/
 }
-
 
 .stuff {
   

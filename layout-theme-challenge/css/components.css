@@ -2,7 +2,7 @@
 /* COMPONENTS */
 .button {
   text-transform: uppercase;
-  color: inherit;
+  /*color: inherit;*/
   font-weight: 700;
   letter-spacing: .05em;
   text-decoration: underline;
@@ -10,11 +10,13 @@
   /* should a link look like a "button" though? */
   display: flex;
   flex-direction: row;
-  border:  1px solid black;
+  /*border:  1px solid black;*/
   padding:  10px;
   text-decoration: none;
   font-family: sans-serif;
   font-weight:  400;
+  background-color: var(--color);
+  color: var(--white);
 }
 
 .arrow {
