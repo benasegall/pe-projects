@@ -13,8 +13,13 @@ article-card h2 {
   margin-top: 20px;
 }
 
-article-card a {
+article-card h2 + p {
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article-card a {
+  margin-top: auto;
   font-weight: 600;
   letter-spacing: .05em;
   padding:  10px 0;

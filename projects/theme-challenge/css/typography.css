@@ -43,6 +43,12 @@
 	line-height: 1.4;
 }
 
+p {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1rem;
+	line-height: 1.4;
+}
+
 /* these would be scoped to section or to an article element */
 /* this is just a loose setting for now $todo */
 p + p {
