@@ -11,6 +11,7 @@ a {
 	display: block;
 	text-decoration: none;
 	color: inherit;
+	text-underline-position: under;
 }
 
 p a {

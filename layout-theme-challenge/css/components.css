@@ -1,11 +1,8 @@
 
 /* COMPONENTS */
 .button {
-  text-transform: uppercase;
-  /*color: inherit;*/
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: .05em;
-  text-decoration: underline;
   padding:  10px 0;
   /* should a link look like a "button" though? */
   display: flex;
@@ -13,10 +10,12 @@
   /*border:  1px solid black;*/
   padding:  10px;
   text-decoration: none;
-  font-family: sans-serif;
-  font-weight:  400;
-  background-color: var(--color);
+  background-color: var(--color-light);
   color: var(--white);
+}
+
+.button:hover {
+  background-color: var(--color);
 }
 
 .arrow {

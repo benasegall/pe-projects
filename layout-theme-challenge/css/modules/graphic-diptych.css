@@ -8,6 +8,7 @@ graphic-diptych {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-bottom: 220px;
 }
 
 graphic-diptych picture {
@@ -16,15 +17,17 @@ graphic-diptych picture {
 
 graphic-diptych text-content {
   display: block;
-  background-color: hsla(199, 100%, 19%, .5);
+  background-color: var(--color-light);
   padding: 10px;
   color: var(--white);
 }
 
 @media (min-width: 660px) {
   graphic-diptych {
+    min-width: 1100px;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 270px;
   }
 
   graphic-diptych :is(picture, text-content) {

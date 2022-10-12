@@ -2,9 +2,9 @@
 html {
 	--black: #111111;
 	--white: #fefefe;
-	--color: #157fa6;
-	--color-dark: #002436;
-	--highlight: #539fe3;
+	--red: #ed2c35;
+	--color: #212121;
+	--color-light: hsla(0, 0%, 13%, .75);
 }
 /* you can make more! */
 

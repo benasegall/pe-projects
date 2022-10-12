@@ -2,28 +2,28 @@
 <mast-head>
 
 	<nav class='site-menu'>
-		<!-- <a class='logo' href='#'>
-			<img src="images/logo.svg" alt=""> -->
+		<a class='logo' href='#'>
+			<img src="images/bass.svg" alt="">
 			<!-- or you could actually use the SVG -->
 		<!-- </a> -->
 
 		<a href='#'>
-			<span>PROJECTS</span>
+			<span>Projects</span>
 		</a>
 
 		<a href='#'>
-			<span>IDEAS</span>
+			<span>Ideas</span>
 		</a>
 
 		<a href='#'>
-			<span>PEOPLE</span>
+			<span>People</span>
 		</a>
 	</nav>
 
 
 	<nav class='user-menu'>
 		<a href='#'>
-			<span>ABOUT</span>
+			<span>About</span>
 		</a>
 	</nav>
 
