@@ -12,7 +12,7 @@
 
 		<p class='calm-voice'>Here are some reasons... and things you can do.</p>
 
-		<a href='#'>
+		<a class="button" href='#'>
 			<span>Here's an action!</span>
 		</a>
 

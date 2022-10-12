@@ -49,10 +49,9 @@ html {
 
 /* SITE SECTIONS */
 .site-header {
-	/*background-color: #9ec9eb;*/
 	position: sticky;
 	top: 0;
-	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
+	box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);
 }
 .site-header inner-column {
 	padding: 14px;
@@ -109,11 +108,11 @@ html {
 }
 
 .site-footer {
-	background-color: var(--color);
+	background-color: var(--black);
 	color: var(--white);
 }
 
 .site-footer .logo {
-	max-width:  60px;
+	max-width:  100px;
 }
 

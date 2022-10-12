@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700&family=Merriweather+Sans:wght@300&display=swap');
 
 .loud-voice	{
-	font-family: sans-serif;
+	font-family: 'Catamaran', sans-serif;
 	font-size: clamp(36px, 5vw, 60px);
 }
 @media (min-width: 600px) {

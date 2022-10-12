@@ -1,5 +1,6 @@
 
 site-map {
+  font-family: 'Catamaran', sans-serif;
   display: block;
   /* */
   padding-top: 40px;
@@ -20,10 +21,14 @@ site-map .logo * {
 }
 
 site-map a {
-  font-family: sans-serif;
+  font-family: inherit;
   font-size: 1rem;
   padding:  10px;
   text-decoration: underline;
+}
+
+site-map a:hover {
+  text-decoration: none;
 }
 
 @media (min-width:  700px) {

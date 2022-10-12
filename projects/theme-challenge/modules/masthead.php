@@ -5,7 +5,7 @@
 		<a class='logo' href='#'>
 			<img src="images/bass.svg" alt="">
 			<!-- or you could actually use the SVG -->
-		<!-- </a> -->
+		</a>
 
 		<a href='#'>
 			<span>Projects</span>

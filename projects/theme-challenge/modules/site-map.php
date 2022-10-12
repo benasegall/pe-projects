@@ -3,7 +3,7 @@
 
 	<nav class='site-menu'>
 		<a class='logo' href='#'>
-			<?php include("./icons/circle.php"); ?>
+			<?php include("images/bass-dark.svg"); ?>
 		</a>
 		<a href='./'>Home</a>
 		<a href='404.php'>404 error</a>
