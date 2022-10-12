@@ -15,5 +15,19 @@ article-card h2 {
 
 article-card a {
   margin-top: 20px;
-  color: var(--color);
+  font-weight: 600;
+  letter-spacing: .05em;
+  padding:  10px 0;
+  /* should a link look like a "button" though? */
+  display: flex;
+  flex-direction: row;
+  /*border:  1px solid black;*/
+  padding:  8px;
+  text-decoration: none;
+  background-color: var(--color-light);
+  color: var(--white);
+}
+
+article-card a:hover {
+  background-color: var(--color);
 }

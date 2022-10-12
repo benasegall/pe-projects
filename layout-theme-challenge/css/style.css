@@ -102,7 +102,7 @@ html {
 }
 
 .stuff {
-  border: 1px solid var(--color);
+  background-color: whitesmoke;
 }
 
 .help-us {
