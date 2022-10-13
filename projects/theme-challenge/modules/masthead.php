@@ -21,7 +21,7 @@
 	</nav>
 
 
-	<nav class='user-menu'>
+	<nav class='user-menu-top'>
 		<a href='#'>
 			<span>About</span>
 		</a>

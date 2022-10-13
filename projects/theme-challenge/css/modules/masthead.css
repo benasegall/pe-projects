@@ -3,6 +3,10 @@ mast-head {
   display: block;
 }
 
+mast-head span {
+  font-size: 18px;
+}
+
 mast-head nav {
   display: flex;
   flex-direction: row;
@@ -21,7 +25,7 @@ mast-head .logo:hover:after {
 
 mast-head a {
   font-size: 1rem;
-  padding: 10px 10px 10px 10px;;
+  padding: 10px 10px 10px 10px;
   display: inline-block;
   position: relative;
 }

@@ -53,14 +53,10 @@ html {
 	top: 0;
 	box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);
 }
+
 .site-header inner-column {
-	padding: 14px;
+	padding: 14px 14px 7px 14px;
 }
-
-
-
-
-
 
 
 /* OK! SITE STYLES! */
