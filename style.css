@@ -24,7 +24,7 @@ body {
 /* STRUCTURE */
 
 div.content {
-	width: 440px;
+	width: 450px;
 	max-width: 80%;
 	min-height: 100vh;
 	margin-left: auto;
@@ -73,6 +73,10 @@ h2 {
 
 p {
 	word-spacing: 0.1rem;
+}
+
+p, p {
+	margin-top: 1.6rem;
 }
 
 footer ul li {
