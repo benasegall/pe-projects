@@ -3,6 +3,11 @@ mast-head {
   display: block;
 }
 
+mast-head .nav-box {
+  display: flex;
+  flex-direction: row;
+}
+
 mast-head span {
   font-size: 18px;
 }
@@ -11,23 +16,34 @@ mast-head nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+mast-head .site-menu {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
 }
 
 mast-head .logo {
-  max-width:  80px;
+  margin-left: 12px;
+  max-width:  60px;
   position: relative;
-  bottom: 24px;
+  top: 0;
+  left: 0;
+  transform: translate(0, -15px);
 }
 
 mast-head .logo:hover:after {
   transform: scaleX(0);
 }
 
-mast-head a {
+mast-head a:not(.logo) {
   font-size: 1rem;
-  padding: 10px 10px 10px 10px;
+  padding: 24px 24px 24px 24px;
   display: inline-block;
   position: relative;
+  align-content: center;
 }
 
 mast-head a:after {
@@ -56,8 +72,8 @@ mast-head a:hover:after {
     flex-direction: row;
     justify-content: space-between;
   }
-  mast-head .logo {
-    margin-right: 10px;
+  mast-head a:not(.logo) {
+    padding: 12px 24px 24px 24px;
   }
 }
 
