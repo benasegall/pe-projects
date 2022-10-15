@@ -2,6 +2,9 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 10 15
+Made a few final edits to the layout page. Of course final edits are never final but for now I want to put the project down and let it be so I can work on other things.
+
 # 10 13
 Spend the morning hunting for some fresh inspiration for the theme challenge with success. Implemented many new styles to the theme and I think now it is in a place where I can look at it with some condfidence. A few more iterations and I think it could be good enough to present.
 
