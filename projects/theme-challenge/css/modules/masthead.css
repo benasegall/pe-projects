@@ -23,6 +23,7 @@ mast-head .site-menu {
   margin: 0 auto;
   text-align: center;
   position: relative;
+  justify-content: center;
 }
 
 mast-head .logo {
