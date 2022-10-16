@@ -41,7 +41,7 @@ mast-head .logo:hover:after {
 
 mast-head a:not(.logo) {
   font-size: 1rem;
-  padding: 24px 24px 24px 24px;
+  padding: 12px 24px 12px 24px;
   display: inline-block;
   position: relative;
   align-content: center;
