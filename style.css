@@ -81,6 +81,9 @@ p, p {
 
 footer ul li {
 	display: inline;
+}
+
+footer ul li:not(:nth-child(1)) {
 	margin-left: 1.6rem;
 }
 
