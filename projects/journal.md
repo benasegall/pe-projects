@@ -2,6 +2,9 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 10 17
+Today I read about psuedocode, how it is used to help engineers conceptualize problems and there solutions. Test plans. Inputs, processess, outputs. Test again. Test Driven Developement (TTD)
+
 # 10 15
 Made a few final edits to the layout page. Of course final edits are never final but for now I want to put the project down and let it be so I can work on other things.
 
