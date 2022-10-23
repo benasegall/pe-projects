@@ -3,12 +3,11 @@
 .button {
   font-weight: 600;
   letter-spacing: .05em;
-  padding:  10px 0;
   /* should a link look like a "button" though? */
   display: flex;
   flex-direction: row;
   /*border:  1px solid black;*/
-  padding:  8px;
+  padding:  6px 12px;
   text-decoration: none;
   background-color: var(--color-light);
   color: var(--white);

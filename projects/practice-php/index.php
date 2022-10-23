@@ -1,24 +1,66 @@
+<style>
+	form {
+		padding: 10px;
+	}
+
+	label, input {
+		display: block;
+	}
+
+	[type=submit] {
+		margin-top: 15px;
+	}
+
+	.field + .field {
+		margin-top: 10px;
+	}
+
+	.feedback {
+		color: forestgreen;
+	}
+</style>
+
+
 <?php
 
-$items = [14, true, "Hello World"];
+	$peeta = 0;
+	$katniss = 0;
 
-$chosenItem = $items[2];
+	if (isset($_POST['entered'])) {
 
-echo $chosenItem;
+		if(isset($_POST["peeta"])) {
+			$peeta = $_POST["peeta"];
+		}
+		if (isset($_POST["katniss"])) {
+			$katniss = $_POST["katniss"];
+		}
 
-$dog = [
-	"age" => 14,
-	"name" => "Toby",
-	"breed" => "Labradoodle",
-	"nickNames" => ["Tobs", "Tobias", "TB"]
-];
+		$count = floatval($peeta) + floatval($katniss);
 
-echo $dog["name"];
+		echo "<p class='feedback'>$count</p>"; 
+	}
 
 ?>
 
-<p>The chosen item is <?=$chosenItem?></p>
 
-<p>My dogs name is <?=$dog["name"]?>.</p>
+<form method="POST">
 
-<p>One nickname you can call him is <?=$dog["nickNames"(2)]?></p>
+	<p>idk fill it out</p>
+	
+	<div class="field">
+		<label>Peeta's berries</label>
+		<input type="number" name="peeta" value="<?=$peeta?>" min="0" >
+	</div>
+
+	<div class="field">
+		<label>Katniss's berries</label>
+		<input type="number" name="katniss" value="<?=$katniss?>" min="0">
+	</div>
+
+	<button type="submit" name="entered">Submit</button>
+
+</form>
+
+
+
+

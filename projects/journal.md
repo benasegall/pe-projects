@@ -2,6 +2,15 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 10 22
+Solved a problem but mainly today my focus was on revising my website and my first project based on my teams suggestions. It went well :)
+
+# 10 21
+Solving problems from Exersises for programmers and getting accostomed to php function methods. Working to include as many as I can to further understand these methods.
+
+# 10 20
+Working with templates in PHP using if / if-else statments. Figuring out how to implement styles with these new values.
+
 # 10 17
 Today I read about psuedocode, how it is used to help engineers conceptualize problems and there solutions. Test plans. Inputs, processess, outputs. Test again. Test Driven Developement (TTD)
 

@@ -1,6 +1,6 @@
 
 mast-head {
-  display: block;
+  display: inline-flex;
 }
 
 mast-head .nav-box {
@@ -9,7 +9,9 @@ mast-head .nav-box {
 }
 
 mast-head span {
-  font-size: 18px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
 }
 
 mast-head nav {
@@ -28,11 +30,12 @@ mast-head .site-menu {
 
 mast-head .logo {
   margin-left: 12px;
+  min-width: 60px;
   max-width:  60px;
   position: relative;
   top: 0;
   left: 0;
-  transform: translate(0, -15px);
+  transform: translate(0, 0px);
 }
 
 mast-head .logo:hover:after {
@@ -41,7 +44,7 @@ mast-head .logo:hover:after {
 
 mast-head a:not(.logo) {
   font-size: 1rem;
-  padding: 12px 24px 12px 24px;
+  padding: 24px 12px 4px 32px;
   display: inline-block;
   position: relative;
   align-content: center;
@@ -72,9 +75,11 @@ mast-head a:hover:after {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 72px;
   }
   mast-head a:not(.logo) {
-    padding: 12px 24px 24px 24px;
+    padding: 24px 12px 4px 32px;
+
   }
 }
 

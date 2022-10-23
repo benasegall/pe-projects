@@ -1,8 +1,7 @@
 
 article-card {
   display: block;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 10px 0 20px 0;
   /* */
   display: grid;
   flex-direction: column;
@@ -40,7 +39,7 @@ article-card a {
   display: flex;
   flex-direction: row;
   /*border:  1px solid black;*/
-  padding:  8px;
+  padding:  6px 12px;
   text-decoration: none;
   background-color: var(--color-light);
   color: var(--white);
