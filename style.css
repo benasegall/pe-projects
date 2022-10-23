@@ -21,6 +21,7 @@ body {
 .content {
 	font-size: 1.8rem;
 	line-height: 1.5;
+	letter-spacing: 0.01rem;
 	padding: 0 10%;
 	overflow: hidden;
 }
