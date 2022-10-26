@@ -1,0 +1,49 @@
+/* setup */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	display: block;
+	color: inherit;
+}
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+}
+
+/* style */
+
+body {
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+.content {
+	border: 1px solid darkgray;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	margin-right: 10px;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.item + .item {
+	margin-top: 20px;
+}
