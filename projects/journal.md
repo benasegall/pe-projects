@@ -2,6 +2,9 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 10 25
+Reviewed the GET command and figured out an idea for how I could implement this new method into a projects demonstating my mastery of the concept.
+
 # 10 22
 Solved a problem but mainly today my focus was on revising my website and my first project based on my teams suggestions. It went well :)
 
