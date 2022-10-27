@@ -2,6 +2,9 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 10 27
+Working on the dynamic template layout. Lots of files to keep track of and getting into CRUD and creating forms.
+
 # 10 25
 Reviewed the GET command and figured out an idea for how I could implement this new method into a projects demonstating my mastery of the concept.
 
