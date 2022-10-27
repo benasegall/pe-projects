@@ -11,6 +11,11 @@
 		$page = "home"; // default
 	}
 
+	// find and include page
+	function includePage($page) {
+		include($page . ".php");
+	}
+
 ?>
 
 <html lang="en">
@@ -26,18 +31,10 @@
 		<?php include("site-menu.php"); ?>
 	</header>
 
-	<main class="content">
+	<div class="content">
 		<?php
-			if ($page == "home") {
-				include("home.php");
-			}	
-			if ($page == "list") {
-				include("list.php");
-			}
-			if ($page == 'detail') {
-				include("detail.php");
-			}
+			includePage($page);
 		?>
-	</main>
+	</div>
 </body>
 </html>

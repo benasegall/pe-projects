@@ -32,5 +32,5 @@
 
 	<h1>404.</h1>
 	<p>Information could not be located. Please return to the listing page.</p>
-	<a href="?page=list">here.</a>
+	<a href="?page=list">Here.</a>
 <?php } ?>

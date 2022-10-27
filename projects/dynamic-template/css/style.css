@@ -1,5 +1,9 @@
 /* setup */
 
+html {
+	font-size: 62.5%;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -23,11 +27,31 @@ img {
 /* style */
 
 body {
+	margin: 4rem 1rem 2rem 1rem;
 	font-family: sans-serif;
-	padding: 10px;
+}
+
+/* custom elements */
+field {
+	display: block;
+}
+
+field :is(label, input) {
+	display: block;
+}
+
+field + field {
+	margin-top: 20px;
+}
+
+header {
+	padding: 0 10%;
 }
 
 .content {
+	padding: 0 10%;
+	line-height: 1.5;
+	font-size: 1.8rem;
 	border: 1px solid darkgray;
 }
 
@@ -36,6 +60,7 @@ nav {
 }
 
 nav a {
+	font-size: 1.6rem;
 	margin-right: 10px;
 }
 
