@@ -18,19 +18,19 @@
 <?php
 	if (isset($this_data)) { ?>
 
-	<h1><?=$this_data["label"]?></h1>
+	<h1><?=$this_data["project"]?></h1>
 	
-	<h1>info</h1>
+	<h2>New Development in the North Side.</h2>
 
 	<picture>
-		<img src="https://peprojects.dev/images/landscape.jpg" alt="todo">
+		<img src="images/scheme-one.jpeg" alt="todo">
 	</picture>
 
-	<p>info</p>
+	<p>This is a schematic of our plans for East County's North District.</p>
 
 <?php } else { ?>
 
 	<h1>404.</h1>
 	<p>Information could not be located. Please return to the listing page.</p>
-	<a href="?page=list">Here.</a>
+	<a href="?page=projects">Here.</a>
 <?php } ?>

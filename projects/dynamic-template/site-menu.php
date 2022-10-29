@@ -1,6 +1,6 @@
 
 <nav class="site-menu">
-	<a href="?page=home">Home</a>
-	<a href="?page=list">List</a>
-	<a href="?page=new">New</a>
+	<a class="text" href="?page=home">Home</a>
+	<a class="text" href="?page=projects">Projects</a>
+	<a class="text" href="?page=new">Polling</a>
 </nav>
