@@ -2,6 +2,9 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 10 30
+Today I worked on the css for my tempalate layout, I admittedly would like to have done more of the backend and get the form functional.
+
 # 10 27
 Working on the dynamic template layout. Lots of files to keep track of and getting into CRUD and creating forms.
 
