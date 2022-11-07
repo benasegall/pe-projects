@@ -13,7 +13,6 @@
 	<div class="column3">
 		<h3>selected work</h3>
 		<ul>
-			<!-- <li><a href="https://peprojects.dev/alpha-5/ben/projects/goals/" target="_blank">the goals</a></li> -->
 			<li><a href="?page=goals">the goals</a></li>
 			<li><a href="https://peprojects.dev/alpha-5/ben/projects/theme-challenge/" target="_blank">concept layout</a></li>
 			<!-- <li><a href="#">link here</a></li> -->
