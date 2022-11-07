@@ -8,76 +8,36 @@
 
 	<!-- FAVICON -->
 	<link rel="icon" href="images/favicon.svg">
-
-<style>
-	html {
-	font-size: 62.5%;
-	--white: #fff;
-	--blue: #0135e9;
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
-	}
-
-	* {
-		box-sizing: border-box;
-	}
-
-	body {
-		background-color: var(--white);
-		color: #000;
-		font-weight: 300;
-		padding: 10px;
-	}
-
-	main {
-		font-size: 1.8rem;
-		line-height: 1.5;
-		width: 600px;
-		max-width: 90%;
-		margin-left: auto;
-		margin-right: auto;
-		overflow: hidden;
-	}
-
-	h1 {
-		font-size: 4.8rem;
-		line-height: 1;
-		font-weight: 600;
-		border-bottom: 1px solid #676767;
-	}
-
-	h2 {
-		font-size: 2.4rem;
-		font-weight: 600;
-		color: var(--blue);
-	}
-
-	ul {
-		list-style-type: circle;
-	}
-</style>
 </head>
 <body>
-	<main>
+	<div class="goals">
 		<h1>Goals</h1>
-		<h2>End of month</h2>
+		<h2 class="intro">End of month</h2>
 		<ul>
 			<li>Write a Substack article oriented to the jobs I'm interested in.</li>
 			<li>Learn how to properly implement PHP.</li>
+			<li>Have a thorough understanding of WordPress.</li>
 		</ul>
 
-		<h2>End of course</h2>
+		<h2 class="intro">End of course</h2>
 		<ul>
 			<li>A job that I will learn from and build experience with.</li>
 			<li>Live independently.</li>
 			<li>An apartment spacious enough for my dog.</li>
 		</ul>
 
-		<h2>5-years</h2>
+		<h2 class="intro">5-years</h2>
 		<ul>
 			<li>Become a <i>seasoned</i> developer with lots of experience under my belt.</li>
 			<li>Live comfortably in New York.</li>
 			<li>Financial independence.</li>
 		</ul>
-	</main>
+
+		<div class="back">
+			<ul>
+				<li><a href="?page=home">back</a></li>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>

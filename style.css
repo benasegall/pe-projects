@@ -28,7 +28,15 @@ body {
 	margin: 3rem 0 2.5rem 0;
 }
 
+.goals .intro {
+	margin: 3rem 0 .8rem 0;
+}
+
 .column2 {
+	max-width: 485px;
+}
+
+.goals {
 	max-width: 485px;
 }
 
@@ -69,6 +77,10 @@ a {
 	color: inherit;
 	text-decoration: none;
 	font-weight: 500;
+}
+
+li {
+	font-weight: 300;
 }
 
 .column3 a {
@@ -112,3 +124,18 @@ a {
 .column4 a:hover {
 	opacity: 100%;
 }
+
+.back {
+	margin-top: 6.4rem;
+}
+
+.back a {
+	font-size: 1.5rem;
+	font-weight: 300;
+	opacity: 65%;
+}
+
+.back a:hover {
+	opacity: 100%;
+}
+
