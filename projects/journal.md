@@ -2,6 +2,9 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 11 8
+Today I completly updated my goals page and interleaved it into my portfolio webpage
+
 # 11 7
 After a break I dived into CRUD and JSON, route based info and organizing data in the backend.
 
