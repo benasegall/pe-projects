@@ -2,9 +2,9 @@
 <?php
 
 	$title = "";
-	$describe = "";
+	$description = "";
 	$hasTitle = false;
-	$hasDescribe = false;
+	$hasDescription = false;
 	$answer = "";
 
 	if (isset($_POST["submitted"])) { // if button submitted
@@ -13,18 +13,40 @@
 
 			if (strlen($title) > 0) {
 				$hasTitle = true;
+
+				// new tile
+				$newTitle = [
+					"title" => $title,
+				];
+
+				// JSON file
+				$titleJson = json_encode($newTitle);
+
+				// save json
+				file_get_contents("title.json", $titleJson);
+			} 
+		}
+
+		if (isset($_POST["description"])) {
+			$description = $_POST["description"];
+
+			if (strlen($description) > 0) {
+				$hasDescription = true;
+
+				// new tile
+				$newDescription = [
+					"description" => $description,
+				];
+
+				// JSON file
+				$descriptionJson = json_encode($newDescription);
+
+				// save json
+				file_get_contents("description.json", $descriptionJson);
 			}
 		}
 
-		if (isset($_POST["describe"])) {
-			$describe = $_POST["describe"];
-
-			if (strlen($describe) > 0) {
-				$hasDescribe = true;
-			}
-		}
-
-		if ($hasTitle && $hasDescribe) {
+		if ($hasTitle && $hasDescription) {
 			$answer = "submitted";
 		}
 
@@ -35,13 +57,13 @@
 
 <form method="POST">
 	<div class="field">
-		<label>Title</label>
+		<label>Product Title</label>
 		<input type="text" name="title" value="<?=$title?>">
 	</div>
 
 	<div class="field">
-		<label>Description</label>
-		<input type="text" name="describe" value="<?=$describe?>">
+		<label>Product Description</label>
+		<input type="text" name="description" value="<?=$description?>">
 	</div>
 
 	<button type="submit" name="submitted">
