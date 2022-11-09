@@ -1,3 +1,4 @@
+
 /* setup */
 
 html {
@@ -5,7 +6,7 @@ html {
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
 	--header: #325482;
 	--divider: #ebf2f3;
-	--button-black: #011627;
+	--black: #011627;
 	--button-hover: #55c3d5;
 	--white: #fff;
 }
@@ -47,6 +48,7 @@ img {
 body {
 	font-family: Inter;
 	background-color: var(--divider);
+	color: var(--black);
 }
 
 .content {
@@ -58,31 +60,31 @@ body {
 }
 
 .about {
-	padding: 8rem 0 6rem 0;
+	padding: 8rem 0 8rem 0;
 	background-color: var(--header);
 	color: var(--white);
 }
 
 .challenge {
-	padding: 6rem 0 6rem 0;
+	padding: 8rem 0 8rem 0;
 }
 
 .prototype {
-	padding: 6rem 0 6rem 0;
+	padding: 8rem 0 8rem 0;
 	background-color: var(--white);
 }
 
 .solution {
-	padding: 6rem 0 6rem 0;
+	padding: 8rem 0 8rem 0;
 }
 
 .style {
-	padding: 6rem 0 6rem 0;
+	padding: 8rem 0 8rem 0;
 	background-color: var(--white);
 }
 
 .results {
-	padding: 6rem 0 6rem 0;
+	margin: 8rem 0 8rem 0;
 }
 
 .center {
@@ -101,13 +103,13 @@ body {
 }
 
 .link {
-	padding: 2rem 0 8rem 0;
+	padding: 0 0 8rem 0;
 	text-align: center;
 }
 
 .button {
 	font-weight: 500;
-	background-color: var(--button-black);
+	background-color: var(--black);
 	color: var(--white);
 	padding: 16px 32px;
 	border-radius: 25px;
@@ -115,7 +117,7 @@ body {
 
 .button:hover {
 	background-color: var(--button-hover);
-	color: var(--button-black);
+	color: var(--black);
 	transition: all .2s ease-in-out;
 }
 
@@ -125,6 +127,7 @@ h1 {
 	font-family: Montserrat;
 	font-size: 6.4rem;
 	font-weight: 500;
+	margin-bottom: 1.6rem;
 }
 
 h2 {
@@ -146,8 +149,13 @@ picture {
 
 @media (min-width: 1120px) {
 	picture {
+		padding: 0 0 0 0;
+	}
+
+	.formal-images {
 		padding: 0 0 0 1.6rem;
 	}
+
 	.flex {
 		display: flex;
 	}
@@ -160,6 +168,3 @@ picture {
 	width: 40%;
 	}
 }
-
-
-

@@ -7,7 +7,4 @@
 	<picture>
 		<img src="https://peprojects.dev/images/landscape.jpg" alt="">
 	</picture>
-	<picture>
-		<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-	</picture>
 </div>
