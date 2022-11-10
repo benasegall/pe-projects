@@ -35,17 +35,17 @@ img {
 /* site wide */
 
 @font-face {
-	font-family: Inter;
-	src: url(Inter-Regular.ttf);
+	font-family: "Inter";
+	src: url(Inter-Regular.ttf) format("ttf");
 }
 
 @font-face {
-	font-family: Montserrat;
-	src: url(Montserrat-Regular.ttf);
+	font-family: "Montserrat";
+	src: url(Montserrat-Regular.ttf) format("ttf");
 }
 
 body {
-	font-family: Inter;
+	font-family: "Inter";
 	background-color: var(--divider);
 	color: var(--black);
 }
@@ -130,14 +130,14 @@ body {
 /* typography */
 
 h1 {
-	font-family: Montserrat;
+	font-family: "Montserrat";
 	font-size: 6.4rem;
 	font-weight: 500;
 	margin-bottom: 1.6rem;
 }
 
 h2 {
-	font-family: Montserrat;
+	font-family: "Montserrat";
 	font-size: 4.8rem;
 	font-weight: 500;
 }

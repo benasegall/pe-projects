@@ -16,8 +16,13 @@ picture {
 img {
 	display: block;
 	width: 100%;
-	max-width: 200px;
+	max-width: 100px;
 	height: auto;
+}
 
-/* site-wide */
-
+@font-face {
+  font-family: 'FAMILY_NAME';
+  font-style: NORMAL_OR_ITALIC;
+  font-weight: NUMERIC_WEIGHT_VALUE;
+  src: url(FONT_FILE_NAME.woff2) format('woff2');
+}
