@@ -2,6 +2,9 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 11 11
+Case study layout continued, tried to match the theme to my portfolio and will use this theme in future
+
 # 11 9
 Completed my case study layout, styled and ready to be filled with my project case studies
 
