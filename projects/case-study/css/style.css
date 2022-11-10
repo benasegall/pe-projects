@@ -27,7 +27,7 @@ picture {
 img {
 	display: block;
 	width: 100%;
-	min-width: 440px;
+	min-width: 400px;
 	max-width: 440px;
 	height: auto;
 }
@@ -36,14 +36,13 @@ img {
 
 @font-face {
 	font-family: Inter;
-	src: url(Inter.ttf);
+	src: url(Inter-Regular.ttf);
 }
 
 @font-face {
 	font-family: Montserrat;
-	src: url(Montserrat.ttf);
+	src: url(Montserrat-Regular.ttf);
 }
-
 
 body {
 	font-family: Inter;
@@ -99,6 +98,13 @@ body {
 @media (min-width: 1120px) {
 	.results-images {
 		padding: 3.2rem 0 0 0;
+	}
+}
+
+@media (max-width: 550px) {
+	.formal-images {
+		display: flex;
+		justify-content: center;
 	}
 }
 
@@ -166,5 +172,21 @@ picture {
 
 	.right {
 	width: 40%;
+	}
+}
+
+/* mobile */
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 4.8rem;
+	}
+
+	h2 {
+		font-size: 3.2rem
+	}
+
+	p {
+		font-size: 1.6rem;
 	}
 }
