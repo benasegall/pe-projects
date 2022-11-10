@@ -27,7 +27,7 @@ picture {
 img {
 	display: block;
 	width: 100%;
-	min-width: 400px;
+	min-width: 440px;
 	max-width: 440px;
 	height: auto;
 }
@@ -188,5 +188,10 @@ picture {
 
 	p {
 		font-size: 1.6rem;
+	}
+
+	img {
+		min-width: 360px;
+		max-width: 360px;
 	}
 }
