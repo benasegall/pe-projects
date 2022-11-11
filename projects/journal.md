@@ -3,6 +3,9 @@ by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
 # 11 11
+Redid my responsive layout and its now on my portfolio
+
+# 11 10
 Case study layout continued, tried to match the theme to my portfolio and will use this theme in future
 
 # 11 9
