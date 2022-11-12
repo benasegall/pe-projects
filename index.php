@@ -15,14 +15,6 @@
 	<!-- FAVICON -->
 	<link rel="icon" href="images/favicon.svg">
 
-	<!-- FONT -->
-	<style>
-		@font-face {
-		font-family: "Poppins";
-		src: url("/fonts/Poppins-Regular.ttf") format("ttf");
-	}
-	</style>
-
 	<!-- CSS -->
 	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
