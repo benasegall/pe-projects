@@ -10,7 +10,7 @@
 		<div class="site-nav">
 			<nav>
 				<ul class="white">
-					<li><a href="/ben">About</a></li>
+					<li><a href="../ben">About</a></li>
 					<li><a href="../code">Code</a></li>
 				</ul>
 			</nav>
