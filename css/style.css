@@ -67,7 +67,7 @@ img {
 /* structure */
 
 body {
-	padding: 6rem 4rem 6rem 4rem;
+	padding: 6rem 2rem 6rem 4rem;
 	font-family: "Inter", sans-serif;
 }
 
@@ -86,12 +86,6 @@ body {
 	line-height: 1.5;
 	padding: 0 5%;
 	overflow: hidden;
-}
-
-/* box-shadow fix */
-
-.work {
-	padding-bottom: 1.6rem;
 }
 
 /* site-nav */
@@ -146,7 +140,7 @@ p {
 
 .about h2 {
 	font-family: "Inter-Medium", sans-serif;
-	margin-bottom: .8rem;
+	margin-bottom: 1rem;
 }
 
 .about p {
@@ -154,7 +148,7 @@ p {
 }
 
 .about p + p {
-	margin-top: 1.6rem;
+	margin-top: 2rem;
 }
 
 .about a {
@@ -162,6 +156,23 @@ p {
 }
 
 /* work */
+
+.work .card {
+	border: 1px solid var(--blue);
+	background-color: var(--white);
+	color: var(--blue);
+	padding: 16px;
+	border-radius: 10px;
+}
+
+/* grid */
+
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 3.2rem;
+/*	grid-auto-flow: minmax(300px, 1fr);*/
+}
 
 .work h2 {
 	font-family: "Inter-Medium", sans-serif;
@@ -171,16 +182,16 @@ p {
 	font-family: "Inter", sans-serif;
 }
 
+.work p.lang {
+	font-size: 1.6rem;
+}
+
 .work a {
 	font-family: "Inter-Medium", sans-serif;
 }
 
 .project a {
 	text-decoration: none;
-}
-
-.work + .work {
-	margin-top: 1.6rem;
 }
 
 .name {
@@ -219,7 +230,7 @@ p {
 	border: 1px solid var(--blue);
 	background-color: var(--blue);
 	color: var(--white);
-	padding: 2px 16px;
+	padding: 4px 16px;
 	border-radius: 20px;
 	width: fit-content;
 }
@@ -227,21 +238,6 @@ p {
 .project .button:hover {
 	background-color: var(--white);
 	color: var(--blue);
-	transition: all .2s ease-in-out;
-	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2);
-}
-
-.white .button {
-	border: 1px solid var(--blue);
-	background-color: var(--white);
-	color: var(--blue);
-	padding: 2px 16px;
-	border-radius: 20px;
-}
-
-.white .button:hover {
-	background-color: var(--blue);
-	color: var(--white);
 	transition: all .2s ease-in-out;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2);
 }
@@ -274,8 +270,11 @@ p {
 
 /* media control */
 
-@media (max-width: 430px) {
+@media (max-width: 768px) {
+	body {
+		padding: 6rem 0 6rem 0;
+	}
 	h1 {
-		font-size: 5.5rem;
+		font-size: 6rem;
 	}
 }
