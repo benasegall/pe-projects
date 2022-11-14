@@ -1,12 +1,12 @@
 
 <?php
-	require "meta.php";
+	require "../meta.php";
 ?>
 
-<body class="home">
+<body class="code">
 	<div class="structure">
 		<?php
-		include "about.php";
+		include "work.php";
 		?>
 	</div>
 </body>
