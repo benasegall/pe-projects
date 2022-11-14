@@ -9,9 +9,9 @@
 	<section class="nav">
 		<div class="site-nav">
 			<nav>
-				<ul class="white">
-					<li><a href="../">About</a></li>
-					<li><a href="../code">Code</a></li>
+				<ul>
+					<li class="off"><a href="../">About</a></li>
+					<li class="on"><a href="../code">Code</a></li>
 				</ul>
 			</nav>
 		</div>
