@@ -159,14 +159,6 @@ p {
 
 /* work */
 
-.work {
-	line-height: 1.2;
-}
-
-.work .button {
-	line-height: 1.5;
-}
-
 .work .card {
 	border: 1px solid var(--blue);
 	background-color: var(--white);
@@ -183,6 +175,17 @@ p {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 3.2rem;
+}
+
+/* align-self: end */
+
+.card {
+	display: flex;
+	flex-direction: column;
+}
+
+.card ul {
+	margin-top: auto;
 }
 
 .work h2 {
@@ -206,15 +209,15 @@ p {
 }
 
 .name {
-	margin-bottom: .8rem;
+	margin-bottom: .5rem;
 }
 
 .lang {
-	margin-bottom: .8rem;
+	margin-bottom: .5rem;
 }
 
 .descr {
-	margin-bottom: 1.2rem;
+	margin-bottom: 1rem;
 }
 
 /* nav select */
@@ -233,11 +236,15 @@ p {
 
 /* buttons */
 
+.button {
+	display: block;
+}
+
 .project .button {
 	border: 1px solid var(--blue);
 	background-color: var(--blue);
 	color: var(--white);
-	padding: 6px 16px;
+	padding: 4px 16px;
 	border-radius: 20px;
 }
 

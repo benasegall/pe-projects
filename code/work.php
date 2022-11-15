@@ -10,7 +10,7 @@
 		<div class="card">
 			<h2 class="name">Responsive design</h2>
 			<p class="lang">HTML, CSS</p>
-			<p class="descr">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Expedita, fugiat.</p>
+			<p class="descr">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Minus, recusandae.</p>
 			<ul class="project">
 				<li><a class="button" href="https://peprojects.dev/alpha-5/ben/projects/responsive-design/" target="_blank">Project</a></li>
 			</ul>
