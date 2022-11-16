@@ -38,7 +38,7 @@
 html {
 	font-size: 62.5%;
 	--white: #fff;
-	--haze: #f6f8fa;
+	--off-white: #fbfbfb;
 	--blue: #0135e9;
 	--black: #011627;
 }
@@ -77,7 +77,7 @@ body {
 }
 
 .code {
-	background-color: var(--haze);
+	background-color: var(--off-white);
 	color: var(--blue);
 }
 
