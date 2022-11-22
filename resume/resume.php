@@ -11,7 +11,7 @@
 			<h2>Curriculum Vitae</h2>
 			<a class="button" href="javascript:if(window.print)window.print()">Print</a>
 		</div>
-		<p>New York, NY | (732) 947-8414 | benasegall@gmail.com</p>
+		<p>New York, NY — (732) 947-8414 — benasegall@gmail.com</p>
 	</div>
 
 	<div class="smry">
@@ -62,6 +62,6 @@
 	<div class="speaks border">
 		<h3>Languages</h3>
 		<p>English - Native</p>
-		<p>French - Intermediate</p>
+		<p>French - Limited Working Proficiency</p>
 	</div>
 </section>

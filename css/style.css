@@ -2,35 +2,30 @@
 /* font */
 
 @font-face {
-	font-family: "Inter-Light";
-	src: url(fonts/Inter-Light.ttf) format("ttf");
-	font-style: normal;
-	font-weight: 300;
-}
-@font-face {
-	font-family: "Inter";
-	src: url(fonts/Inter-Regular.ttf) format("ttf");
-	font-style: normal;
-	font-weight: 400;
-}
-@font-face {
-	font-family: "Inter-Medium";
-	src: url(fonts/Inter-Medium.ttf) format("ttf");
-	font-style: normal;
-	font-weight: 500;
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+       url("Inter-Regular.woff?v=3.19") format("woff");
 }
 
 @font-face {
-	font-family: "Poppins";
-	src: url(fonts/Poppins-Regular.ttf) format("ttf");
-	font-style: normal;
-	font-weight: 400;
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("Inter-SemiBold.woff2?v=3.19") format("woff2"),
+       url("Inter-SemiBold.woff?v=3.19") format("woff");
 }
+
 @font-face {
-	font-family: "Poppins-Medium";
-	src: url(fonts/Poppins-Medium.ttf) format("ttf");
-	font-style: normal;
-	font-weight: 500;
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
+       url("Inter-Bold.woff?v=3.19") format("woff");
 }
 
 /* setup */
@@ -52,23 +47,11 @@ a {
 	color: inherit;
 }
 
-picture {
-	display: block;
-}
-
-img {
-	display: block;
-	width: 100%;
-	min-width: ;
-	max-width: ;
-	height: auto;
-}
-
 /* structure */
 
 body {
 	padding: 6rem 2rem 6rem 4rem;
-	font-family: "Inter", sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 .home {
@@ -98,7 +81,7 @@ body {
 /* site-nav */
 
 .nav {
-	font-family: "Poppins-Medium", sans-serif;
+	font-weight: 700;
 	font-size: 2.4rem;
 	margin: 3.6rem 0;
 }
@@ -135,13 +118,18 @@ body {
 /* common */
 
 h1 {
-	font-family: "Poppins", sans-serif;
+	font-weight: 700;
 	font-size: 7rem;
 	line-height: 1;
 }
 
 h2 {
+	font-weight: 700;
 	font-size: 2.4rem;
+}
+
+h3 {
+	font-weight: 600;
 }
 
 p {
@@ -151,20 +139,15 @@ p {
 /* about */
 
 .about h2 {
-	font-family: "Inter-Medium", sans-serif;
 	margin-bottom: 1rem;
 }
 
-.about p {
-	font-family: "Inter-Light", sans-serif;
+.about h3 {
+	font-size: 2.4rem;
 }
 
 .about p + p {
 	margin-top: 2rem;
-}
-
-.about a {
-	font-family: "Inter", sans-serif;
 }
 
 /* work */
@@ -206,20 +189,8 @@ p {
 	margin-top: auto;
 }
 
-.work h2 {
-	font-family: "Inter-Medium", sans-serif;
-}
-
-.work p {
-	font-family: "Inter", sans-serif;
-}
-
 .work p.lang {
 	font-size: 1.6rem;
-}
-
-.work a {
-	font-family: "Inter-Medium", sans-serif;
 }
 
 .project a {
@@ -246,13 +217,12 @@ p {
 }
 
 .vitae h2 {
-	font-family: "Inter-Medium", sans-serif;
 	font-size: 3.2rem;
 	padding-bottom: 2rem;
 }
 
 .vitae h3 {
-	font-family: "Inter-Medium", sans-serif;
+	font-weight: 700;
 	font-size: 2.4rem;
 	margin: 2rem 0 2rem 0;
 }
@@ -267,11 +237,7 @@ p {
 }
 
 .vitae .stmt {
-	font-family: "Inter-Medium", sans-serif;
-}
-
-.vitae .button {
-	font-family: "Inter-Medium", sans-serif;
+	font-weight: 600;
 }
 
 /* nav select */
@@ -292,6 +258,7 @@ p {
 
 .button {
 	display: block;
+	font-weight: 600;
 }
 
 .vitae .button {
