@@ -26,7 +26,7 @@
 			<p class="date">July 2022 - Present</p>
 		</div>
 		<ul>
-			<li>Enrolled in a in-depth mentorship program that demonstrated the design and developmental process of software</li>
+			<li>Enrolled in an in-depth mentorship program that demonstrated the design and developmental process of software</li>
 			<li>Shaped professional skills while familiarizing with programming languages, application frameworks, and drawing tools</li>
 		</ul>
 		<br>
