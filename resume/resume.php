@@ -27,14 +27,16 @@
 		</div>
 		<ul>
 			<li>Enrolled in a long term in-depth mentorship created to teach the whole of the design and development process</li>
-			<li>Shaped professional development skills familiarizing myself with multiple programming languages, application frameworks and drawing tools</li>
+			<li>Shaped professional development skills while becoming familiarized with multiple programming languages, application frameworks and drawing tools</li>
 		</ul>
 		<br>
 		<div class="flex">
 			<p class="stmt">Computer Science Prep at Codesmith</p>
 			<p class="date">September 2021 - January 2022</p>
 		</div>
-		<p>Learned fundamental JavaScript concepts, engineering best practices and technical communication skills</p>
+		<ul>
+			<li>Learned fundamental JavaScript concepts and the foundations of multiple programming languages, engineering best practices and technical communication skills</li>
+		</ul>
 		<br>
 		<div class="flex">
 			<p class="stmt">Brookdale Community College</p>
