@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<meta name="description" content="Portfolio of Full-Stack Developer Benjamin Segall based in New York.">
+	<meta name="description" content="Portfolio of Front-End Developer Benjamin Segall based in New York.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="icon" href="images/favicon-green.svg">
