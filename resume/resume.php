@@ -21,17 +21,6 @@
 
 	<div class="edu border">
 		<h3>Education</h3>
-		<p>Test 1</p>
-		<br>
-		<p class="stmt">Mentorship Program at Perpetual Education</p>
-		<p class="date">July 2022 - Present</p>
-		<ul>
-			<li>Enrolled in a long term in-depth mentorship created to teach the whole of the design and development process</li>
-			<li>Shaped professional development skills familiarizing myself with multiple programming languages, application frameworks and drawing tools</li>
-		</ul>
-		<br>
-		<p> Test 2</p>
-		<br>
 		<div class="flex">
 			<p class="stmt">Mentorship Program at Perpetual Education</p>
 			<p class="date">July 2022 - Present</p>
@@ -41,12 +30,16 @@
 			<li>Shaped professional development skills familiarizing myself with multiple programming languages, application frameworks and drawing tools</li>
 		</ul>
 		<br>
-		<p class="stmt">Computer Science Prep at Codesmith</p>
-		<p>September 2021 - January 2022</p>
+		<div class="flex">
+			<p class="stmt">Computer Science Prep at Codesmith</p>
+			<p class="date">September 2021 - January 2022</p>
+		</div>
 		<p>Learned fundamental JavaScript concepts, engineering best practices and technical communication skills</p>
 		<br>
-		<p class="stmt">Brookdale Community College</p>
-		<p>September 2018 - May 2021</p>
+		<div class="flex">
+			<p class="stmt">Brookdale Community College</p>
+			<p class="date">September 2018 - May 2021</p>
+		</div>
 		<p>Relevant Coursework</p>
 		<ul>
 			<li>Introduction to Business</li>
