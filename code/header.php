@@ -2,7 +2,7 @@
 <header>
 	<section class="title">
 		<div class="site-title">
-			<h1>Benjamin Segall</h1>
+			<h1>Projects</h1>
 		</div>
 	</section>
 

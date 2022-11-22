@@ -8,7 +8,7 @@
 <section class="vitae">
 	<div class="ident">
 		<div class="flex">
-			<h2>Portfolio</h2>
+			<h2>Benjamin Segall</h2>
 			<a class="button" href="javascript:if(window.print)window.print()">Print</a>
 		</div>
 		<p>New York, NY — (732) 947-8414 — benasegall@gmail.com</p>
@@ -26,7 +26,7 @@
 			<p class="date">July 2022 - Present</p>
 		</div>
 		<ul>
-			<li>Enrolled in an in-depth mentorship program that demonstrated the design and optimization process of software development</li>
+			<li>Enrolled in an in-depth mentorship program that taught the process of software design and development</li>
 			<li>Shaped professional skills while familiarizing with programming languages, application frameworks, and drawing tools</li>
 		</ul>
 		<br>
@@ -35,7 +35,7 @@
 			<p class="date">September 2021 - January 2022</p>
 		</div>
 		<ul>
-			<li>Enrolled in bootcamp where education was focused on fundamental JavaScript concepts, the foundations of programming languages, engineering best practices, and technical communication skills</li>
+			<li>Learned fundamental JavaScript concepts, the foundations of programming languages, engineering best practices, and technical communication skills</li>
 		</ul>
 		<br>
 		<div class="flex">
