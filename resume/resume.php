@@ -16,7 +16,7 @@
 
 	<div class="smry">
 		<h3>Profile</h3>
-		<p>Dynamic front-end developer looking for employment in team settings, with the goal of delivering frictionless experiences across devices</p>
+		<p>Dynamic front-end developer looking to bring his passion for responsive design to a team setting, with the goal of delivering frictionless experiences across devices</p>
 	</div>
 
 	<div class="edu border">
@@ -26,7 +26,7 @@
 			<p class="date">July 2022 - Present</p>
 		</div>
 		<ul>
-			<li>Enrolled in an in-depth mentorship program that demonstrated the design and developmental process of software</li>
+			<li>Enrolled in an in-depth mentorship program that demonstrated the design and optimization process of software development</li>
 			<li>Shaped professional skills while familiarizing with programming languages, application frameworks, and drawing tools</li>
 		</ul>
 		<br>
