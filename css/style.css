@@ -8,7 +8,7 @@
   font-display: swap;
   src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
        url("Inter-Regular.woff?v=3.19") format("woff"),
-       url("Inter-Regular.ttf?v=3.19") format("ttf");
+       url("Inter.ttf?v=3.19") format("ttf");
 }
 
 @font-face {
@@ -18,7 +18,7 @@
   font-display: swap;
   src: url("Inter-SemiBold.woff2?v=3.19") format("woff2"),
        url("Inter-SemiBold.woff?v=3.19") format("woff"),
-       url("Inter-SemiBold.ttf?v=3.19") format("ttf");
+       url("Inter.ttf?v=3.19") format("ttf");
 }
 
 @font-face {
@@ -28,7 +28,7 @@
   font-display: swap;
   src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
        url("Inter-Bold.woff?v=3.19") format("woff"),
-       url("Inter-Bold.ttf?v=3.19") format("ttf");
+       url("Inter.ttf?v=3.19") format("ttf");
 }
 
 /* setup */
