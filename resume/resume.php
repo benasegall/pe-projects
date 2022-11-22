@@ -45,7 +45,6 @@
 		<p>Relevant Coursework</p>
 		<ul>
 			<li>Introduction to Business</li>
-			<li>Introduction to Psychology I</li>
 			<li>Introduction to Psychology II</li>
 			<li>Public Speaking</li>
 			<li>Money Management and Personal Finance</li>
