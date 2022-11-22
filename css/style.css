@@ -218,7 +218,7 @@ p {
 
 .vitae h2 {
 	font-size: 3.2rem;
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 }
 
 .vitae h3 {
@@ -238,6 +238,11 @@ p {
 
 .vitae .stmt {
 	font-weight: 600;
+}
+
+.vitae .date {
+	margin-left: auto;
+	margin-bottom: 1rem;
 }
 
 /* nav select */

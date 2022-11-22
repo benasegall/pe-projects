@@ -8,15 +8,55 @@
 <section class="vitae">
 	<div class="ident">
 		<div class="flex">
-			<h2>Curriculum Vitae</h2>
+			<h2>Benjamin Segall</h2>
 			<a class="button" href="javascript:if(window.print)window.print()">Print</a>
 		</div>
 		<p>New York, NY — (732) 947-8414 — benasegall@gmail.com</p>
 	</div>
 
 	<div class="smry">
-		<h3>Summary</h3>
-		<p>Dynamic and detail-oriented front-end developer looking to contribute to and learn from product building in team settings, with the goal of delivering frictionless user-oriented experiences across devices.</p>
+		<h3>Profile</h3>
+		<p>Dynamic front-end developer looking for employment in team settings, with the goal of delivering frictionless experiences across devices</p>
+	</div>
+
+	<div class="edu border">
+		<h3>Education</h3>
+		<p>Test 1</p>
+		<br>
+		<p class="stmt">Mentorship Program at Perpetual Education</p>
+		<p class="date">July 2022 - Present</p>
+		<ul>
+			<li>Enrolled in a long term in-depth mentorship created to teach the whole of the design and development process</li>
+			<li>Shaped professional development skills familiarizing myself with multiple programming languages, application frameworks and drawing tools</li>
+		</ul>
+		<br>
+		<p> Test 2</p>
+		<br>
+		<div class="flex">
+			<p class="stmt">Mentorship Program at Perpetual Education</p>
+			<p class="date">July 2022 - Present</p>
+		</div>
+		<ul>
+			<li>Enrolled in a long term in-depth mentorship created to teach the whole of the design and development process</li>
+			<li>Shaped professional development skills familiarizing myself with multiple programming languages, application frameworks and drawing tools</li>
+		</ul>
+		<br>
+		<p class="stmt">Computer Science Prep at Codesmith</p>
+		<p>September 2021 - January 2022</p>
+		<p>Learned fundamental JavaScript concepts, engineering best practices and technical communication skills</p>
+		<br>
+		<p class="stmt">Brookdale Community College</p>
+		<p>September 2018 - May 2021</p>
+		<p>Relevant Coursework</p>
+		<ul>
+			<li>Introduction to Business</li>
+			<li>Introduction to Psychology I</li>
+			<li>Introduction to Psychology II</li>
+			<li>Public Speaking</li>
+			<li>Money Management and Personal Finance</li>
+			<li>Introduction to Marketing</li>
+			<li>English Composition: Writing Process</li>
+		</ul>
 	</div>
 
 	<div class="skill border">
@@ -28,6 +68,7 @@
 					<li>CSS</li>
 					<li>PHP</li>
 					<li>JavaScript</li>
+					<li>Python</li>
 				</ul>
 			</div>
 			<div class="card">
@@ -37,26 +78,6 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-
-	<div class="edu border">
-		<h3>Education & Training</h3>
-		<p class="stmt">Perpetual Education</p>
-		<p>Shaped professional development skills while learning about the design and development process.</p>
-		<br>
-		<p class="stmt">CS Prep at Codesmith</p>
-		<p>Learned fundamental JavaScript concepts, engineering best practices and technical communication skills.</p>
-		<br>
-		<p class="stmt">Brookdale Community College</p>
-		<p>Relevant Coursework:</p>
-		<ul>
-			<li>Introduction to Business</li>
-			<li>Introduction to Psychology II</li>
-			<li>Public Speaking</li>
-			<li>Money Management and Personal Finance</li>
-			<li>Introduction to Marketing</li>
-			<li>English Composition: Writing Process</li>
-		</ul>
 	</div>
 
 	<div class="speaks border">
