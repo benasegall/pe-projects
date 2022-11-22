@@ -21,7 +21,7 @@
 		<div class="card">
 			<h2 class="name">Layout Concept</h2>
 			<p class="lang">HTML, CSS, PHP</p>
-			<p class="descr">A first iteration using PHP for making a dynamic and interactive webpage.</p>
+			<p class="descr">A first iteration using PHP for making a dynamic webpage.</p>
 			<ul class="project">
 				<li><a class="button" href="https://peprojects.dev/alpha-5/ben/projects/theme-challenge/" target="_blank">Project</a></li>
 			</ul>

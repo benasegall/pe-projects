@@ -10,9 +10,9 @@
 		<div class="site-nav">
 			<nav>
 				<ul>
-					<li class="on"><a href="../ben">About</a></li>
-					<li class="off"><a href="./code">Code</a></li>
-					<li class="off"><a href="./resume">Resume</a></li>
+					<li class="off"><a href="../">About</a></li>
+					<li class="off"><a href="../code">Code</a></li>
+					<li class="on"><a href="../resume">Resume</a></li>
 				</ul>
 			</nav>
 		</div>

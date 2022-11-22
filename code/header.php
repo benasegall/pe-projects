@@ -12,6 +12,7 @@
 				<ul>
 					<li class="off"><a href="../">About</a></li>
 					<li class="on"><a href="../code">Code</a></li>
+					<li class="off"><a href="../resume">Resume</a></li>
 				</ul>
 			</nav>
 		</div>

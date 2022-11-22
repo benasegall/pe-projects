@@ -81,6 +81,11 @@ body {
 	color: var(--blue);
 }
 
+.resume {
+	background-color: var(--off-white);
+	color: var(--blue);
+}
+
 .structure {
 	font-size: 1.8rem;
 	line-height: 1.5;
@@ -118,6 +123,11 @@ body {
 
 .work ul li:not(:nth-child(1)) {
 	margin-left: 1rem;
+}
+
+.vitae .flex {
+	display: flex;
+	align-items: center;
 }
 
 /* typography */
@@ -177,11 +187,19 @@ p {
 	gap: 3.2rem;
 }
 
+.vitae .card-grid {
+	gap: 0;
+}
+
 /* align-self: end */
 
 .card {
 	display: flex;
 	flex-direction: column;
+}
+
+.vitae .card {
+	display: block;
 }
 
 .card ul {
@@ -220,6 +238,42 @@ p {
 	margin-bottom: 1rem;
 }
 
+/* resume */
+
+.vitae ul {
+	list-style-type: disc;
+	margin-left: 1.6rem;
+}
+
+.vitae h2 {
+	font-family: "Inter-Medium", sans-serif;
+	font-size: 3.2rem;
+	padding-bottom: 2rem;
+}
+
+.vitae h3 {
+	font-family: "Inter-Medium", sans-serif;
+	font-size: 2.4rem;
+	margin: 2rem 0 2rem 0;
+}
+
+.vitae div {
+	max-width: 40em;
+}
+
+.vitae .border {
+	border-top: 1px solid var(--blue);
+	margin-top: 2rem;
+}
+
+.vitae .stmt {
+	font-family: "Inter-Medium", sans-serif;
+}
+
+.vitae .button {
+	font-family: "Inter-Medium", sans-serif;
+}
+
 /* nav select */
 
 .off {
@@ -240,15 +294,20 @@ p {
 	display: block;
 }
 
-.project .button {
+.vitae .button {
+	display: inline-block;
+	margin-left: auto;
+}
+
+.button {
 	border: 1px solid var(--blue);
 	background-color: var(--blue);
 	color: var(--white);
 	padding: 4px 16px;
-	border-radius: 20px;
+	border-radius: 16px;
 }
 
-.project .button:hover {
+.button:hover {
 	background-color: var(--white);
 	color: var(--blue);
 	transition: all .2s ease-in-out;
@@ -286,6 +345,10 @@ p {
 @media (max-width: 641px) {
 	.card-grid {
 		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.vitae .card-grid {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
