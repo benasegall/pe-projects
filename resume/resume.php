@@ -26,8 +26,8 @@
 			<p class="date">July 2022 - Present</p>
 		</div>
 		<ul>
-			<li>Enrolled in a long term in-depth mentorship created to teach the whole of the design and development process</li>
-			<li>Shaped professional development skills while becoming familiarized with multiple programming languages, application frameworks and drawing tools</li>
+			<li>Enrolled in a long term in-depth mentorship that taught the design and development process</li>
+			<li>Shaped professional development skills while becoming familiarized with multiple programming languages, application frameworks, and drawing tools</li>
 		</ul>
 		<br>
 		<div class="flex">
@@ -35,7 +35,7 @@
 			<p class="date">September 2021 - January 2022</p>
 		</div>
 		<ul>
-			<li>Learned fundamental JavaScript concepts and the foundations of multiple programming languages, engineering best practices and technical communication skills</li>
+			<li>Learned fundamental JavaScript concepts, the foundations of multiple programming languages, engineering best practices, and technical communication skills</li>
 		</ul>
 		<br>
 		<div class="flex">
