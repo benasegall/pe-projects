@@ -1,33 +1,4 @@
 
-/* font */
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
-       url("Inter-Regular.woff?v=3.19") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("Inter-SemiBold.woff2?v=3.19") format("woff2"),
-       url("Inter-SemiBold.woff?v=3.19") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
-       url("Inter-Bold.woff?v=3.19") format("woff");
-}
-
 /* setup */
 
 html {
@@ -139,11 +110,8 @@ p {
 /* about */
 
 .about h2 {
-	margin-bottom: 1rem;
-}
-
-.about h3 {
 	font-size: 2.4rem;
+	font-weight: 600;
 }
 
 .about p + p {

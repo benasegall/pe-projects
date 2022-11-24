@@ -6,7 +6,7 @@
 <title>Benjamin Segall</title>
 
 <section class="about">
-	<h3>Hello, my name is Ben.</h3>
+	<h2>Hello, my name is Ben.</h2>
 	<p>I’m a front-end developer based in New York. I build and maintain websites and web applications. I strive to create readable, functional software to deliver intuitive experiences and solve problems.</p>
 
 	<p>It's important to me that I have a full view of the development process, while I have a growing understanding of the back-end my passion is for design and presentation.</p>
