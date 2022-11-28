@@ -2,6 +2,12 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 11 28
+Over the break I made a resume page and practiced some JS
+
+# 11 14 - 21
+Redid my website and investigated WordPress for developers
+
 # 11 11
 Redid my responsive layout and its now on my portfolio
 

@@ -16,7 +16,7 @@
 
 	<div class="smry">
 		<h3>Profile</h3>
-		<p>Dynamic front-end developer looking to bring his passion for responsive design to a team setting, with the goal of delivering frictionless experiences across devices</p>
+		<p>Dynamic front-end developer looking to bring his passion for responsive design to a communicative team setting, with the goal of delivering frictionless experiences across devices</p>
 	</div>
 
 	<div class="edu border">
