@@ -8,11 +8,10 @@
 <div class="card-grid">
 	<section class="work">
 		<div class="card">
-			<h2 class="name">Responsive design</h2>
-			<p class="lang">HTML, CSS</p>
-			<p class="descr">Using CSS to automatically resize a webpage for different screen sizes and viewports.</p>
+			<h2 class="name">Responsive design modules</h2>
+			<p class="descr">A series of responsively designed webpage layouts.</p>
 			<ul class="project">
-				<li><a class="button" href="https://peprojects.dev/alpha-5/ben/projects/responsive-design/" target="_blank">Project</a></li>
+				<li><a class="button" href="/code/responsive-design">Launch</a></li>
 			</ul>
 		</div>
 	</section>

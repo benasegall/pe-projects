@@ -3,9 +3,10 @@
 
 html {
 	font-size: 62.5%;
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
 	--white: #fff;
+	--off-white: #fbfbfb;
 	--blue: #0135e9;
+	--black: #011627;
 	--tile: #f6f8fa;
 }
 

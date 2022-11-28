@@ -10,6 +10,7 @@
 
 	<link rel="icon" href="images/favicon-green.svg">
 	<link rel="icon" href="../images/favicon-green.svg">
+	<link rel="icon" href="../../images/favicon-green.svg">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +18,9 @@
 
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../../css/reset.css">
 	
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../../css/style.css">
 </head>
