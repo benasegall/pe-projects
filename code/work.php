@@ -11,7 +11,7 @@
 			<h2 class="name">Responsive design modules</h2>
 			<p class="descr">A series of responsively designed webpage layouts.</p>
 			<ul class="project">
-				<li><a class="button" href="/code/responsive-design">Launch</a></li>
+				<li><a class="button" href="../code/responsive-design">Launch</a></li>
 			</ul>
 		</div>
 	</section>
