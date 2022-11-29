@@ -3,6 +3,9 @@ by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
 # 11 28
+Today I made a new responsive layout and am working on some PHP problem solutions
+
+# 11 27
 Over the break I made a resume page and practiced some JS
 
 # 11 14 - 21
