@@ -20,10 +20,9 @@
 	<section class="work">
 		<div class="card">
 			<h2 class="name">Module – 2</h2>
-			<p class="lang">Used Languages</p>
-			<p class="descr">Description</p>
+			<p class="lang">HTML, CSS, PHP</p>
+			<p class="descr">Application of media queries on a grid layout for data organization.</p>
 			<ul class="project">
-				<li><a class="button" href="#">Case study</a></li>
 				<li><a class="button" href="https://peprojects.dev/alpha-5/ben/projects/module-2/" target="_blank">Project</a></li>
 			</ul>
 		</div>

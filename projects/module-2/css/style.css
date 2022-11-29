@@ -1,0 +1,126 @@
+
+/* setup */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+html {
+	font-size: 62.5%;
+	--black: #040404;
+	--white: #fbfbfb;
+}
+
+/* structure */
+
+body {
+	background-color: var(--white);
+	color: var(--black);
+	padding: 0 0 8rem 0;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.structure {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 5%;
+	max-width: 1440px;
+	margin: auto;
+}
+
+.opener {
+	max-width: 25em;
+	padding: 8rem 0 8rem 0;
+}
+
+/* typography */
+
+h2 {
+	font-size: 3.2rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+h3 {
+	font-size: 2.4rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.card h3 {
+	padding-top: 2rem;
+}
+
+.card p {
+	padding-bottom: 2rem;
+}
+
+/* flex */
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+/* grid */
+
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+
+picture {
+	padding-top: 2rem;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+}
+
+.border {
+	border-top: 1.4px solid var(--black);
+}
+
+/* media query */
+
+@media (min-width: 641px) {
+	.card-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+	}
+
+	picture {
+		padding-top: 0;
+		padding-bottom: 2rem;
+	}
+
+	.structure {
+		padding: 0 4%;
+	}
+}
+
+@media (min-width: 1281px) {
+	.card-grid {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.structure {
+		padding: 0 3%;
+	}
+}
