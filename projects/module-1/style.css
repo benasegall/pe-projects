@@ -67,7 +67,7 @@ header h1 {
 
 .diptych picture {
 	min-width: 250px;
-	max-width: 400px;
+	max-width: 480px;
 }
 
 .info {
@@ -121,7 +121,7 @@ header .flex {
 
 /* tablet */
 
-@media (min-width: 481px) {
+@media (min-width: 641px) {
 	picture {
 		max-width: 120px;
 	}

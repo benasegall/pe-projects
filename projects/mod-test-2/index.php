@@ -4,11 +4,23 @@
 ?>
 
 <body>
+
 	<section class="opener">
 		<div class="structure">
-			<p class="teaser">Little teaser</p>
-			<h2>Heading level 2</h2>
-			<p>This is some body text. This is some body text. This is some body text. This is some body text.</p>
+			<div class="drop-down-flex">
+				<section class="organizer">
+					<p class="teaser">Little teaser</p>
+					<h2>Heading level 2</h2>
+					<p>This is some body text. This is some body text. This is some body text. This is some body text.</p>
+				</section>
+
+				<section class="drop-down">
+					<details>
+						<summary>Heading level 3</summary>
+						<p>This is some body text. This is some body text. This is some body text. This is some body text.</p>
+					</details>
+				</section>
+			</div>
 		</div>
 	</section>
 

@@ -22,20 +22,16 @@ img {
 
 html {
 	font-size: 62.5%;
-	--ink: #040404;
+	--black: #040404;
 	--white: #fbfbfb;
-	--paper: #fbfbfb;
-	--color: #ffdafb;
-	--pink: #ff00ae;
-	--highlight: #307cff;
 }
 
 /* structure */
 
 body {
-	background-color: var(--paper);
-	color: var(--ink);
-	padding: 0 0 6rem 0;
+	background-color: var(--white);
+	color: var(--black);
+	padding: 0 0 8rem 0;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
 }
 
@@ -48,22 +44,8 @@ body {
 }
 
 .opener {
-	max-width: 24em;
-	padding: 6rem 0 2rem 0;
-}
-
-.closer {
-	margin-top: 4rem;
-}
-
-.line {
-	border-top: 3px solid var(--highlight);
-	max-width: 20rem;
-	padding-bottom: 1rem;
-}
-
-.logo {
-	max-width: 80px;
+	max-width: 25em;
+	padding: 8rem 0 8rem 0;
 }
 
 /* typography */
@@ -80,17 +62,12 @@ h3 {
 	padding-bottom: 1rem;
 }
 
+.card h3 {
+	padding-top: 2rem;
+}
+
 .card p {
-	max-width: 24em;
-}
-
-.closer p {
-	max-width: 18em;
-}
-
-.teaser {
-	color: var(--pink);
-	font-weight: 700;
+	padding-bottom: 2rem;
 }
 
 /* flex */
@@ -116,12 +93,8 @@ picture {
 	flex-direction: column;
 }
 
-.card + .card {
-	margin-top: 2rem;
-}
-
-.space {
-	margin-bottom: 2rem;
+.border {
+	border-top: 1.4px solid var(--black);
 }
 
 /* media query */
@@ -132,32 +105,9 @@ picture {
 		gap: 2rem;
 	}
 
-	.opener {
-		padding: 6rem 0 4rem 0;
-	}
-
-	.closer {
-		max-width: 42rem;
-		background-color: var(--highlight);
-		color: var(--white);
-		padding: 20px;
-	}
-
-	.card {
-		background-color: var(--color);
-	}
-
-	.border {
-		padding: 20px;
-		border: 3px solid var(--ink);
-	}
-
-	.space {
-		margin-bottom: 0;
-	}
-
-	.line {
-		padding-bottom: 0;
+	picture {
+		padding-top: 0;
+		padding-bottom: 2rem;
 	}
 
 	.structure {
@@ -167,22 +117,10 @@ picture {
 
 @media (min-width: 1281px) {
 	.card-grid {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.opener {
-		padding: 6rem 0 6rem 0;
-	}
-
-	.closer {
-		margin-top: 6rem;
+		grid-template-columns: repeat(4, 1fr);
 	}
 
 	.structure {
 		padding: 0 3%;
-	}
-
-	.border {
-		padding: 30px;
 	}
 }
