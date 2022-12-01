@@ -1,27 +1,17 @@
-<style>
-	form {
-		padding: 10px;
-	}
 
-	label, input {
-		display: block;
-	}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	[type=submit] {
-		margin-top: 15px;
-	}
+	<title>Tax Calculator</title>
 
-	.field + .field {
-		margin-top: 10px;
-	}
-
-	.feedback {
-		color: forestgreen;
-	}
-</style>
-
-
-<?php
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<?php
 
 	$peeta = 0;
 	$katniss = 0;
@@ -31,6 +21,7 @@
 		if(isset($_POST["peeta"])) {
 			$peeta = $_POST["peeta"];
 		}
+
 		if (isset($_POST["katniss"])) {
 			$katniss = $_POST["katniss"];
 		}
@@ -39,13 +30,10 @@
 
 		echo "<p class='feedback'>$count</p>"; 
 	}
-
 ?>
 
-
 <form method="POST">
-
-	<p>idk fill it out</p>
+	<p>testing...</p>
 	
 	<div class="field">
 		<label>Peeta's berries</label>
@@ -61,6 +49,5 @@
 
 </form>
 
-
-
-
+</body>
+</html>

@@ -121,7 +121,7 @@ header .flex {
 
 /* tablet */
 
-@media (min-width: 580px) {
+@media (min-width: 481px) {
 	picture {
 		max-width: 120px;
 	}
@@ -156,7 +156,7 @@ header .flex {
 
 /* diptych fix */
 
-@media (max-width: 860px) {
+@media (max-width: 960px) {
 	.diptych .flex {
 		display: block;
 	}
@@ -164,7 +164,7 @@ header .flex {
 
 /* desktop */
 
-@media (min-width: 1080px) {
+@media (min-width: 961px) {
 	.flex-desktop {
 		display: flex;
 		text-align: -webkit-center;
