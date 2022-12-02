@@ -124,4 +124,8 @@ details[open] summary::after {
 	.card-grid {
 		grid-column: 2 / 3;
 	}
+
+	.opener {
+		max-width: 30em;
+	}
 }
