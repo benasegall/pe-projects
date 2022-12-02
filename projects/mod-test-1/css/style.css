@@ -18,6 +18,7 @@ img {
 	display: block;
 	width: 100%;
 	height: auto;
+	padding-top: 2rem;
 }
 
 html {
@@ -45,7 +46,7 @@ body {
 
 .opener {
 	max-width: 25em;
-	padding: 8rem 0 8rem 0;
+	padding: 8rem 0 6rem 0;
 }
 
 /* typography */
@@ -84,6 +85,11 @@ h3 {
 	grid-template-columns: repeat(1, 1fr);
 }
 
+.card-grid-2 {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+
 picture {
 	padding-top: 2rem;
 }
@@ -105,9 +111,13 @@ picture {
 		gap: 2rem;
 	}
 
+	.card-grid-2 {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+	}
+
 	picture {
 		padding-top: 0;
-		padding-bottom: 2rem;
 	}
 
 	.structure {
@@ -115,10 +125,43 @@ picture {
 	}
 }
 
-@media (min-width: 1281px) {
-	.card-grid {
-		grid-template-columns: repeat(4, 1fr);
+@media (max-width: 1340px) {
+	.block-small {
+		display: none;
 	}
+}
+
+@media (min-width: 1341px) {
+	.flex-column-1 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.whole-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.even-space {
+		padding: 12rem 0 0 2rem;
+	}
+
+	.block-wide {
+		display: none;
+	}
+
+	.card-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.card-grid-2 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.even-space picture {
+		min-width: 330px;
+		max-width: 330px;
+	}	
 
 	.structure {
 		padding: 0 3%;

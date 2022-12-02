@@ -14,23 +14,14 @@
 
 	<div class="structure">
 		<div class="card-grid flex-grid">
-			<div class="card border flex-box">
-				<img class="logo" src="images/m3-log.svg" alt="#">
-				<h3>Heading level 3</h3>
-				<p>This is some body text. This is some body text. This is some body text. This is some body text.</p>
-			</div>
 
-			<div class="card border flex-box">
-				<img class="logo" src="images/m3-log.svg" alt="#">
-				<h3>Heading level 3</h3>
-				<p>This is some body text. This is some body text. This is some body text. This is some body text.</p>
-			</div>
-
-			<div class="card border flex-box">
-				<img class="logo" src="images/m3-log.svg" alt="#">
-				<h3>Heading level 3</h3>
-				<p>This is some body text. This is some body text. This is some body text. This is some body text.</p>
-			</div>
+			<?php foreach ([1, 2, 3] as $card) { ?>
+				<div class="card border flex-box">
+					<img class="logo" src="images/m3-log.svg" alt="#">
+					<h3>Heading level 3</h3>
+					<p>This is some body text. This is some body text. This is some body text. This is some body text.</p>
+				</div>
+			<?php } ?>
 		</div>
 	</div>
 </body>

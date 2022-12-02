@@ -28,17 +28,13 @@
 			</section>
 
 			<section>
-				<div class="card border">
-					<img class="logo" src="images/m2-log.svg" alt="#">
-					<h3>Heading level 3</h3>
-					<p>This is some body text. This is some body text. This is some body text. This is some body text.</p>
-				</div>
-
-				<div class="card border">
-					<img class="logo" src="images/m2-log.svg" alt="#">
-					<h3>Heading level 3</h3>
-					<p>This is some body text. This is some body text. This is some body text. This is some body text.</p>
-				</div>
+				<?php foreach ([1, 2] as $card) { ?>
+					<div class="card border">
+						<img class="logo" src="images/m2-log.svg" alt="#">
+						<h3>Heading level 3</h3>
+						<p>This is some body text. This is some body text. This is some body text. This is some body text.</p>
+					</div>
+				<?php } ?>
 			</section>
 		</div>
 
