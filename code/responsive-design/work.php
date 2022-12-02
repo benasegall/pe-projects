@@ -21,7 +21,7 @@
 		<div class="card">
 			<h2 class="name">Module – 2</h2>
 			<p class="lang">HTML, CSS, PHP</p>
-			<p class="descr">Using color coding to break up data points and SVGs</p>
+			<p class="descr">Application of media queries and grid layout for data organization.</p>
 			<ul class="project">
 				<li><a class="button" href="https://peprojects.dev/alpha-5/ben/projects/module-2/" target="_blank">Open</a></li>
 			</ul>
@@ -32,9 +32,31 @@
 		<div class="card">
 			<h2 class="name">Module – 3</h2>
 			<p class="lang">HTML, CSS, PHP</p>
-			<p class="descr">Combining grid layout and flexbox to create a layered webpage.</p>
+			<p class="descr">Using color coding to break up data points and SVGs</p>
 			<ul class="project">
 				<li><a class="button" href="https://peprojects.dev/alpha-5/ben/projects/module-3/" target="_blank">Open</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="work">
+		<div class="card">
+			<h2 class="name">Module – 4</h2>
+			<p class="lang">HTML, CSS, PHP</p>
+			<p class="descr">Combining grid layout and flexbox to create a layered webpage.</p>
+			<ul class="project">
+				<li><a class="button" href="https://peprojects.dev/alpha-5/ben/projects/module-4/" target="_blank">Open</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="work">
+		<div class="card">
+			<h2 class="name">Module – 5</h2>
+			<p class="lang">HTML, CSS, PHP</p>
+			<p class="descr">CSS dropdown functionality using the details disclosure element</p>
+			<ul class="project">
+				<li><a class="button" href="https://peprojects.dev/alpha-5/ben/projects/module-5/" target="_blank">Open</a></li>
 			</ul>
 		</div>
 	</section>

@@ -10,6 +10,10 @@ a {
 	color: inherit;
 }
 
+picture {
+	display: block;
+}
+
 img {
 	display: block;
 	width: 100%;
@@ -20,18 +24,18 @@ html {
 	font-size: 62.5%;
 	--ink: #040404;
 	--white: #fbfbfb;
-	--paper: #dcdcdc;
-	--card: #fbfbfb;
+	--paper: #fbfbfb;
+	--color: #ffdafb;
 	--pink: #ff00ae;
-	--highlight: #222222;
+	--highlight: #307cff;
 }
 
 /* structure */
 
 body {
-	background-color: var(--white);
+	background-color: var(--paper);
 	color: var(--ink);
-	padding: 0 0 10rem 0;
+	padding: 0 0 6rem 0;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
 }
 
@@ -44,9 +48,18 @@ body {
 }
 
 .opener {
-	background-color: var(--highlight);
-	color: var(--white);
-	padding: 8rem 0 2rem 0;
+	max-width: 24em;
+	padding: 6rem 0 2rem 0;
+}
+
+.closer {
+	margin-top: 4rem;
+}
+
+.line {
+	border-top: 3px solid var(--highlight);
+	max-width: 20rem;
+	padding-bottom: 1rem;
 }
 
 .logo {
@@ -67,12 +80,12 @@ h3 {
 	padding-bottom: 1rem;
 }
 
-.opener p {
+.card p {
 	max-width: 24em;
 }
 
-.card p {
-	max-width: 24em;
+.closer p {
+	max-width: 18em;
 }
 
 .teaser {
@@ -80,12 +93,22 @@ h3 {
 	font-weight: 700;
 }
 
+/* flex */
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
 /* grid */
 
 .card-grid {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	padding-top: 4rem;
+}
+
+picture {
+	padding-top: 2rem;
 }
 
 .card {
@@ -104,25 +127,29 @@ h3 {
 /* media query */
 
 @media (min-width: 641px) {
-	body {
-		background-color: var(--paper);
-		padding: 0 0 0 0
+	.card-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
 	}
 
 	.opener {
-		padding: 8rem 0 14rem 0;
+		padding: 6rem 0 4rem 0;
 	}
 
-	.card-grid {
-		transform: translate(0, -126px);
+	.closer {
+		max-width: 42rem;
+		background-color: var(--highlight);
+		color: var(--white);
+		padding: 20px;
 	}
 
 	.card {
-		background-color: var(--card);
+		background-color: var(--color);
 	}
 
 	.border {
 		padding: 20px;
+		border: 3px solid var(--ink);
 	}
 
 	.space {
@@ -138,38 +165,21 @@ h3 {
 	}
 }
 
-/* max */
-
-@media (max-width: 1025px) {
-	.teaser {
-		display: none;
-	}
-}
-
-/* min */
-
-@media (min-width: 1025px) {
-	/* flex */
-
-	.flex-grid {
-		display: flex;
-	}
-
-	.flex-box {
-		display: block;
+@media (min-width: 1281px) {
+	.card-grid {
+		grid-template-columns: repeat(2, 1fr);
 	}
 
 	.opener {
-		padding: 8rem 0 21rem 0;
+		padding: 6rem 0 6rem 0;
+	}
+
+	.closer {
+		margin-top: 6rem;
 	}
 
 	.structure {
 		padding: 0 3%;
-	}
-
-	.card + .card {
-		margin-top: 0;
-		margin-left: 2.4rem;
 	}
 
 	.border {

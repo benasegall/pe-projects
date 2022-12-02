@@ -7,7 +7,7 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Module – 2</title>
+	<title>Module – 5</title>
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>

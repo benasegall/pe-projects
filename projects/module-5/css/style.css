@@ -22,9 +22,10 @@ img {
 
 html {
 	font-size: 62.5%;
-	--black: #040404;
-	--white: #fbfbfb;
 	--line: 1px;
+	--ink: #040404;
+	--white: #fbfbfb;
+	--pink: #ff00ae;
 }
 
 /* typography */
@@ -32,13 +33,24 @@ html {
 h2 {
 	font-size: 3.2rem;
 	font-weight: 700;
+	padding-bottom: 1rem;
 }
 
 h3 {
 	font-size: 2.4rem;
 	font-weight: 700;
+	padding-bottom: 1rem;
 }
 
+.h3 {
+	font-size: 2.4rem;
+	font-weight: 700;
+}
+
+.teaser {
+	color: var(--pink);
+	font-weight: 700;
+}
 
 /* structure */
 
@@ -56,7 +68,7 @@ body {
 	max-width: 1440px;
 	margin: auto;
 
-	display: grid;
+	display: grid;;
 	gap: 20px;
 }
 
@@ -70,29 +82,32 @@ body {
 }
 
 .card {
-	border-top: var(--line) solid var(--black);
 	padding-top: 2rem;
 }
 
-.image-grid {
-	display: grid;
-	gap: 2rem;
+details p {
+	max-width: 25em;
+	padding-top: 5px;
 }
 
-@media (min-width: 481px) {
-	.image-grid {
-		grid-template-columns: 1fr 1fr;
-	}
+summary {
+	border-bottom: var(--line) solid var(--ink);
+	list-style: none;
 }
 
+summary::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+details[open] summary::after {
+	content: "-";
+}
 
 @media (min-width: 641px) {
 	.structure {
 		padding: 0 4%;
-	}
-
-	.card-grid {
-		grid-template-columns: 1fr 1fr;
 	}
 }
 
@@ -107,13 +122,6 @@ body {
 	}
 
 	.card-grid {
-		grid-column: 1 / 2;
-		grid-row: 2 / 3;
-	}
-
-	.image-grid {
-		grid-column: 2 / 3 ;
-		grid-row: 1 / 3;
-		align-self: center;
+		grid-column: 2 / 3;
 	}
 }
