@@ -102,7 +102,7 @@ summary::after {
 }
 
 details[open] summary::after {
-	content: "-";
+	content: "–";
 }
 
 @media (min-width: 641px) {

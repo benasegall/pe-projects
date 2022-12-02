@@ -25,7 +25,6 @@ html {
 	--ink: #040404;
 	--white: #fbfbfb;
 	--paper: #fbfbfb;
-	--color: #ffdafb;
 	--pink: #ff00ae;
 	--highlight: #307cff;
 }
@@ -141,10 +140,6 @@ picture {
 		background-color: var(--highlight);
 		color: var(--white);
 		padding: 20px;
-	}
-
-	.card {
-		background-color: var(--color);
 	}
 
 	.border {

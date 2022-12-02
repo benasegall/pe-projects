@@ -27,7 +27,7 @@
 		</div>
 	</section>
 
-	<section class="work">
+	<!-- <section class="work">
 		<div class="card">
 			<h2 class="name">Exercises for Programmers</h2>
 			<p class="descr">Coding challenges solved with PHP</p>
@@ -35,7 +35,7 @@
 				<li><a class="button" href="../code/coding-challenges">Enter</a></li>
 			</ul>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- <section class="work">
 		<div class="card">

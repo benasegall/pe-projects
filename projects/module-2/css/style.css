@@ -32,11 +32,13 @@ html {
 h2 {
 	font-size: 3.2rem;
 	font-weight: 700;
+	padding-bottom: 1rem;
 }
 
 h3 {
 	font-size: 2.4rem;
 	font-weight: 700;
+	padding-bottom: 1rem;
 }
 
 
