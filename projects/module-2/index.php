@@ -3,7 +3,28 @@
 	require "meta.php";
 ?>
 
-<body>
+	<?php 
+
+		$theme = "";
+		if (isset($_GET["theme"])) {
+			if ($_GET['theme'] == "dark") {
+			$theme = "dark-theme";
+			}	
+		}
+	 ?>
+
+<body class="<?php echo $theme?>">
+
+	<section class="dark-theme-structure">
+		<div class="site-nav">
+			<nav>
+				<ul>
+	 				<li><a href="?"><img class="mode" src="images/sun.svg"></a></li>
+	 				<li><a href="?theme=dark"><img class="mode" src="images/moon.svg"></a></li>
+	 			</ul>
+			</nav>
+		</div>
+	</section>
 
 	<div class="structure">
 		

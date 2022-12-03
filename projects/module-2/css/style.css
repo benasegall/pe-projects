@@ -20,6 +20,10 @@ img {
 	height: auto;
 }
 
+.mode {
+	max-width: 75px;
+}
+
 html {
 	font-size: 62.5%;
 	--black: #040404;
@@ -41,7 +45,6 @@ h3 {
 	padding-bottom: 1rem;
 }
 
-
 /* structure */
 
 body {
@@ -49,6 +52,14 @@ body {
 	color: var(--black);
 	padding: 8rem 0 8rem 0;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.dark-theme-structure {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 5%;
+	max-width: 1440px;
+	margin: auto;
 }
 
 .structure {
@@ -60,6 +71,14 @@ body {
 
 	display: grid;
 	gap: 20px;
+}
+
+.site-nav ul {
+	display: flex;
+}
+
+.site-nav ul li:not(:nth-child(1)) {
+	margin-left: 2rem;
 }
 
 .opener {
@@ -93,6 +112,10 @@ body {
 		padding: 0 4%;
 	}
 
+	.dark-theme-structure {
+		padding: 0 4%;
+	}
+
 	.card-grid {
 		grid-template-columns: 1fr 1fr;
 	}
@@ -101,6 +124,10 @@ body {
 
 @media (min-width: 1025px) {
 	.structure {
+		padding: 0 3%;
+	}
+
+	.dark-theme-structure {
 		padding: 0 3%;
 	}
 
@@ -119,3 +146,12 @@ body {
 		align-self: center;
 	}
 }
+
+/* dark-mode */
+
+body.dark-theme {
+	--black: #fbfbfb;
+	--white: #252525;
+}
+
+
