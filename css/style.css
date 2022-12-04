@@ -299,12 +299,12 @@ html.dark-theme {
 
 label {
 	transform: rotate(90deg);
-	min-width: 62.5px;
-	min-height: 25px;
+	min-width: 60px;
+	min-height: 24px;
 	position: relative; 
 	display: block;
 	background: var(--ink);
-	border-radius: 25px;
+	border-radius: 20px;
 	box-shadow: inset 0px 5px 15px rgba(0, 0, 0, .5), inset 0px -5px 15px rgba(255, 255, 255, .5);
 	cursor: pointer;
 	transition: 0.3s;
@@ -314,8 +314,8 @@ label:after {
 	min-width: 20px;
 	min-height: 20px;
 	position: absolute;
-	top: 2.5px;
-	left: 2.5px;
+	top: 2px;
+	left: 2px;
 	background: linear-gradient(190deg, var(--ground-light), var(--ink));
 	border-radius: 20px;
 	box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
@@ -331,13 +331,13 @@ input:checked + label {
 	background: var(--dark-ink);
 }
 input:checked + label:after {
-	left: 60px;
+	left: 58px;
 	transform: translateX(-100%);
 	background: linear-gradient(-180deg, var(--ground-light), var(--dark-ink));
 }
 
 label:active:after {
-	width: 25px;
+	width: 24px;
 }
 
 /* underline animation */
@@ -381,6 +381,10 @@ label:active:after {
 @media (max-width: 768px) {
 	body {
 		padding: 6rem 0 6rem 0;
+	}
+
+	h1 {
+		font-size: 6rem;
 	}
 }
 

@@ -17,7 +17,7 @@
 		<div class="card">
 			<h2 class="name">Module – 2</h2>
 			<p class="lang">HTML, CSS, PHP</p>
-			<p class="descr">Application of media queries and grid layout for data organization.</p>
+			<p class="descr">Application of grid layout for data organization and light/dark themes.</p>
 			<ul class="project">
 				<li><a class="button" href="https://peprojects.dev/alpha-5/ben/projects/module-2/" target="_blank">Open</a></li>
 			</ul>
