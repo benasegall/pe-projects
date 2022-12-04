@@ -1,8 +1,4 @@
 
-<?php
-	include "header.php";
-?>
-
 <title>Coding challenges – Code - Benjamin Segall</title>
 
 <div class="card-grid">

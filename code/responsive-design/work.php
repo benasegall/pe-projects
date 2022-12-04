@@ -1,8 +1,4 @@
 
-<?php
-	include "header.php";
-?>
-
 <title>Responsive design – Code - Benjamin Segall</title>
 
 <div class="card-grid">
@@ -10,7 +6,7 @@
 		<div class="card">
 			<h2 class="name">Module – 1</h2>
 			<p class="lang">HTML, CSS</p>
-			<p class="descr">Using media queries to automatically resize a webpage for different screen sizes and viewports.</p>
+			<p class="descr">Using media queries to resize a webpage for different screen sizes and viewports.</p>
 			<ul class="project">
 				<li><a class="button" href="https://peprojects.dev/alpha-5/ben/projects/module-1/" target="_blank">Open</a></li>
 			</ul>

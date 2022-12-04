@@ -4,9 +4,11 @@
 html {
 	font-size: 62.5%;
 	--white: #fff;
-	--off-white: #fbfbfb;
-	--blue: #0135e9;
-	--black: #011627;
+	--black: #1b1b1b;
+	--ink: #0135e9;
+	--dark-ink: #508fc0;
+	--ground-light: #fbfbfb;
+	--ground-dark: #191e25;
 }
 
 * {
@@ -26,35 +28,47 @@ body {
 }
 
 .home {
-	background-color: var(--blue);
-	color: var(--white);
+	background-color: var(--ground-light);
+	color: var(--ink);
 }
 
 .code {
-	background-color: var(--off-white);
-	color: var(--blue);
+	background-color: var(--ground-light);
+	color: var(--ink);
 }
 
 .resume {
-	background-color: var(--off-white);
-	color: var(--blue);
+	background-color: var(--ground-light);
+	color: var(--ink);
 }
 
 .structure {
 	font-size: 1.8rem;
 	line-height: 1.5;
 	padding: 0 5%;
-	overflow: hidden;
 	max-width: 1440px;
 	margin: auto;
 }
 
 /* site-nav */
 
+.home .nav {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background-color: var(--ground-light);
+	padding: 1.4rem 0;
+}
+
+.home .nav > .structure {
+	font-weight: 700;
+	font-size: 2.4rem;
+}
+
 .nav {
 	font-weight: 700;
 	font-size: 2.4rem;
-	margin: 3.6rem 0;
+	margin: 2.2rem 0;
 }
 
 .nav a {
@@ -62,6 +76,11 @@ body {
 }
 
 /* flex */
+
+.toggle-flex {
+	display: flex;
+	align-items: center;
+}
 
 .nav ul {
 	display: flex;
@@ -121,9 +140,9 @@ p {
 /* work */
 
 .work .card {
-	border: 1px solid var(--blue);
+	border: 1px solid var(--ink);
 	background-color: var(--white);
-	color: var(--blue);
+	color: var(--ink);
 	padding: 16px;
 	border-radius: 10px;
 	height: 100%;
@@ -200,7 +219,7 @@ p {
 }
 
 .vitae .border {
-	border-top: 1px solid var(--blue);
+	border-top: 1px solid var(--ink);
 	margin-top: 2rem;
 }
 
@@ -241,8 +260,8 @@ p {
 }
 
 .button {
-	border: 1px solid var(--blue);
-	background-color: var(--blue);
+	border: 1px solid var(--ink);
+	background-color: var(--ink);
 	color: var(--white);
 	padding: 4px 16px;
 	border-radius: 16px;
@@ -250,9 +269,62 @@ p {
 
 .button:hover {
 	background-color: var(--white);
-	color: var(--blue);
+	color: var(--ink);
 	transition: all .2s ease-in-out;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2);
+}
+
+/* dark-theme */
+
+html.dark-theme {
+	--white: var(--black);
+	--ink: var(--dark-ink);
+	--ground-light: var(--ground-dark);
+}
+
+/* dark mode toggle */
+
+label {
+	transform: rotate(90deg);
+	min-width: 62.5px;
+	min-height: 25px;
+	position: relative; 
+	display: block;
+	background: var(--ink);
+	border-radius: 25px;
+	box-shadow: inset 0px 5px 15px rgba(0, 0, 0, .5), inset 0px -5px 15px rgba(255, 255, 255, .5);
+	cursor: pointer;
+	transition: 0.3s;
+}
+label:after {
+	content: "";
+	min-width: 20px;
+	min-height: 20px;
+	position: absolute;
+	top: 2.5px;
+	left: 2.5px;
+	background: linear-gradient(190deg, var(--ground-light), var(--ink));
+	border-radius: 20px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+	transition: 0.3s;
+}
+
+input {
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+input:checked + label {
+	background: var(--dark-ink);
+}
+input:checked + label:after {
+	left: 60px;
+	transform: translateX(-100%);
+	background: linear-gradient(-180deg, var(--ground-light), var(--dark-ink));
+}
+
+label:active:after {
+	width: 25px;
 }
 
 /* underline animation */
@@ -264,7 +336,7 @@ p {
 
 .about a:after {
 	content: "";
-	background-color: var(--white);
+	background-color: var(--ink);
 	display: block;
 	position: relative;
 	bottom: 6px;
@@ -297,7 +369,6 @@ p {
 	body {
 		padding: 6rem 0 6rem 0;
 	}
-	h1 {
-		font-size: 6rem;
-	}
 }
+
+

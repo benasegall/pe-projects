@@ -1,8 +1,4 @@
 
-<?php
-	include "header.php";
-?>
-
 <title>Resume - Benjamin Segall</title>
 
 <section class="vitae">

@@ -1,8 +1,4 @@
 
-<?php
-	include "header.php";
-?>
-
 <title>Benjamin Segall</title>
 
 <section class="about">
