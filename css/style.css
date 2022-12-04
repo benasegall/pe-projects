@@ -9,6 +9,8 @@ html {
 	--dark-ink: #508fc0;
 	--ground-light: #fbfbfb;
 	--ground-dark: #191e25;
+	--home-ink: #fbfbfb;
+	--home-ground-light: #0135e9;
 }
 
 * {
@@ -28,8 +30,8 @@ body {
 }
 
 .home {
-	background-color: var(--ground-light);
-	color: var(--ink);
+	background-color: var(--home-ground-light);
+	color: var(--home-ink);
 }
 
 .code {
@@ -56,7 +58,7 @@ body {
 	position: sticky;
 	top: 0;
 	z-index: 100;
-	background-color: var(--ground-light);
+	background-color: var(--home-ground-light);
 	padding: 1.4rem 0;
 }
 
@@ -280,9 +282,20 @@ html.dark-theme {
 	--white: var(--black);
 	--ink: var(--dark-ink);
 	--ground-light: var(--ground-dark);
+	--home-ink: var(--dark-ink);
+	--home-ground-light: var(--ground-dark);
 }
 
 /* dark mode toggle */
+
+.home label {
+	background: var(--home-ink);
+}
+.home label:after {
+	background: linear-gradient(190deg, var(--home-ground-light), var(--home-ink));
+}
+
+/**/
 
 label {
 	transform: rotate(90deg);
@@ -336,7 +349,7 @@ label:active:after {
 
 .about a:after {
 	content: "";
-	background-color: var(--ink);
+	background-color: var(--home-ink);
 	display: block;
 	position: relative;
 	bottom: 6px;
