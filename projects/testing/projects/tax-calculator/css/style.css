@@ -1,0 +1,20 @@
+	
+	form {
+		padding: 10px;
+	}
+
+	label, input {
+		display: block;
+	}
+
+	[type=submit] {
+		margin-top: 15px;
+	}
+
+	.field + .field {
+		margin-top: 10px;
+	}
+
+	.feedback {
+		color: forestgreen;
+	}

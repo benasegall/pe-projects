@@ -1,0 +1,61 @@
+	
+/* setup */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	--black: #040404;
+	--white: #fbfbfb;
+}
+
+/* structure */
+
+body {
+	background-color: var(--white);
+	color: var(--black);
+	padding: 4rem 0 4rem 0;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.structure {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 5%;
+	max-width: 1440px;
+	margin: auto;
+}
+
+label, input, button {
+	display: block;
+}
+
+form {
+	padding: 10px;
+}
+
+[type=submit] {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.field + .field {
+	margin-top: 10px;
+}
+
+.feedback {
+	color: forestgreen;
+}
+
+/* type */
+
+form p {
+	font-size: 1.4rem;
+}

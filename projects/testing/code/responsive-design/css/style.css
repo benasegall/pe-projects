@@ -1,0 +1,13 @@
+
+.nav {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background-color: var(--ground-light);
+	padding: 1.4rem 0;
+}
+
+.nav > .structure {
+	font-weight: 700;
+	font-size: 2.4rem;
+}
