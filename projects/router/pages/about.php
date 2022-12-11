@@ -1,2 +1,2 @@
 
-<h1>About</h1>
+<?php include("page-header.php"); ?>

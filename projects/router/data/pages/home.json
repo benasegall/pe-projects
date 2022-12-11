@@ -1,12 +1,13 @@
 
 {
-	"id:" "home",
+	"id": "home",
 
-	"pageTitle": "Hullo",
+	"title": "Hullo",
+	"intro": "testing",
 
 	"sections": [
 		{
-			"heading": "Work",
+			"heading": "Landing"
 		}
 	]
 }

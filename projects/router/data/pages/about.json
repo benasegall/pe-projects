@@ -1,12 +1,13 @@
 
 {
-	"id:" "about",
+	"id": "About",
 
-	"pageTitle": "404: Page not found",
+	"title": "About",
+	"intro": "About",
 
 	"sections": [
 		{
-			"heading": "Sorry, the page you're looking for does not exist.",
+			"heading": "About."
 		}
 	]
 }
