@@ -2,6 +2,9 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 12 12-14
+These last few days I'v been re examining my website and the backend specifially. Going through implementing JSON and PHP to make a truly dynamic webiste with individual and malleable sections and remaking the website to be smoother and more modernist
+
 # 11 28
 Today I made a new responsive layout and am working on some PHP problem solutions
 
