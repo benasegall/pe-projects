@@ -2,6 +2,9 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 12 19
+Setting up my file structure for a new website. Making sure all JSON files have information that works properly and setting up layouts to be filled with JSON data
+
 # 12 12-14
 These last few days I'v been re examining my website and the backend specifially. Going through implementing JSON and PHP to make a truly dynamic webiste with individual and malleable sections and remaking the website to be smoother and more modernist
 
