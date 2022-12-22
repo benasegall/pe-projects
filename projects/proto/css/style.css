@@ -1,13 +1,11 @@
-
 /* setup */
 
 html {
 	font-size: 62.5%;
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+	--black: #050505;
+	--card-border: #a1a1a6;
+	--light-grey: #151516;
 	--white: #fff;
-	--off-white: #fbfbfb;
-	--blue: #0135e9;
-	--black: #011627;
 }
 
 * {
@@ -19,38 +17,53 @@ a {
 	color: inherit;
 }
 
-picture {
-	display: block;
-}
-
-img {
-	display: block;
-	width: 100%;
-	min-width: ;
-	max-width: ;
-	height: auto;
-}
-
 body {
+	background-color: var(--black);
+	color: var(--white);
 	font-size: 1.6rem;
 }
 
-/* button */
+/* structure */
 
-.button {
-	border: 1px solid;
-	background-color: ;
-	color: ;
+.structure {
+	border: 1px solid green;
+	max-width: 1440px;
+	margin: auto;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+@media (max-width: 600px) {
+	.grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+.site-nav {
+	display: flex;
+}
+
+/* themes */
+
+.card-theme {
 	padding: ;
-	border-radius: ;
+	border: 1px solid var(--card-border);
+	background-color: var(--light-grey);
+	border-radius: 10px;
+	padding: 10px;
+	height: 100%;
 }
 
-.button:hover {
-	background-color: ;
-	color: ;
-	transition: all .2s ease-in-out;
-	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2);
-}
+/* components */
 
 /* underline animation */
 

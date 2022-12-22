@@ -1,22 +1,30 @@
 <?php include("header.php"); ?>
 
-		<header class="page-title">
-			<h1>Research</h1>
-			<h1>Design</h1>
-			<h1>Develop</h1>
-		</header>
+		<div class="grid">
+			<header class="home-page-title">
+				<?php 
 
-		<section class="page-info">
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam odit, esse soluta.</p>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam odit, esse soluta.</p>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam odit, esse soluta.</p>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam odit, esse soluta.</p>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam odit, esse soluta.</p>
-		</section>
+				$title = "<p>Research</p><p>Design</p><p>Develop</p>";
 
-		<section class="page-footer">
-			<h2>Benjamin Segall</h2>
-		</section>
+				include("page-title.php");
+
+				?>
+			</header>
+
+			<section class="home-page-info">
+				<?php 
+
+				$info = "Home page info";
+
+				include("page-info.php");
+
+				?>
+			</section>
+
+			<section class="home-page-footer">
+				<h2>Benjamin Segall</h2>
+			</section>
+		</div>
 	</main>
 </body>
 </html>

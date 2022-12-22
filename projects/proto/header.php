@@ -25,9 +25,9 @@
 				<li>
 					<a href="contact.php">Contact</a>
 				</li>
-				<li>
+				<!-- <li>
 					<a href="resume.php">Resume</a>
-				</li>
+				</li> -->
 			</ul>
 		</nav>
 	</header>
