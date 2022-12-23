@@ -2,23 +2,27 @@
 
 		<div class="grid">
 			<header class="about-page-title">
-				<?php 
+				<div class="column">
+					<?php 
 
-				$title = "<p>About</p>";
+					$title = "<p>About</p>";
 
-				include("page-title.php");
+					include("templates/modules/page-title.php");
 
-				?>
+					?>
+				</div>
 			</header>
 
 			<section class="about-page-info">
-				<?php 
+				<div class="column">
+					<?php 
 
-				$info = "About page info";
+					$info = "About page info";
 
-				include("page-info.php");
+					include("templates/modules/page-info.php");
 
-				?>
+					?>
+				</div>
 			</section>
 		</div>
 	</main>
