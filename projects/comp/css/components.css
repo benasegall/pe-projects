@@ -1,0 +1,35 @@
+/* CARD TILE */
+
+.card-theme {
+	border: 1px solid var(--card-dark-border);
+	background-color: var(--card-dark);
+	border-radius: ;
+	padding: ;
+	height: 100%;
+}
+
+/* UNDERLINE ANIMATION */
+
+a.line-motion {
+	display: inline-block;
+	position: relative;
+}
+
+a.line-motion:after {
+	content: "";
+	background-color: ;
+	display: block;
+	position: relative;
+	bottom: ;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	transform-origin: bottom left;
+	will-change: transform;
+	transition: transform 0.2s ease-out;
+}
+
+a.line-motion:hover:after {
+	transform: scaleX(0);
+	transform-origin: bottom right;
+}

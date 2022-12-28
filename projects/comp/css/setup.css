@@ -1,14 +1,12 @@
 html {
-	box-sizing: border-box;
 	font-size: 62.5%;
 }
 
-*, *:before, *:after {
-	box-sizing: inherit;
+* {
+	box-sizing: border-box;
 }
 
 a {
-	display: block;
 	text-decoration: none;
 	color: inherit;
 }
@@ -30,8 +28,6 @@ svg {
 }
 
 body {
-	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
 	font-size: 1.6rem;
 }
@@ -40,7 +36,7 @@ main {
 	flex-grow: 1;
 }
 
-site-header {
+.site-header {
 	position: sticky;
 	top: 0;
 	z-index: 10;

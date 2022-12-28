@@ -15,6 +15,15 @@ html {
 
 body {
 	font-family: 'Inter', sans-serif;
+	background-color: var(--ink-dark);
+	color: var(--ink-light);
+}
+
+/* NAV */
+
+.site-nav ul {
+	display: flex;
+	gap: 6.4rem;
 }
 
 /* TYPE */
@@ -32,7 +41,11 @@ body {
 }
 
 .title {
-	font-size: ;
+	font-size: 40px;
+}
+
+.info {
+	font-size: 16px;
 }
 
 /* STRUCTURE */
@@ -41,20 +54,25 @@ body {
 	max-width: 1400px;
 	margin: auto;
 	padding: 0 5%;
+	line-height: 1.5;
 }
 
-/* NAV */
+/* CONTAINERS AND ALIGNMENT */
 
-.site-nav ul {
+.align-content {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	float: left;
+	width: 50%;
+}
+
+.content-wrap {
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 /* GRID */
-
-.grid-wrap {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-}
 
 .card-grid {
 	display: grid;
@@ -62,7 +80,7 @@ body {
 }
 
 @media (max-width: 600px) {
-	.grid-wrap {
-		grid-template-columns: repeat(1, 1fr);
+	.align-content {
+		width: 100%;
 	}
 }
