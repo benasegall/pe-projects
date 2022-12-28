@@ -12,25 +12,24 @@
 </head>
 <body>
 	<header class="site-header">
-		<nav class="site-nav">
-			<ul>
-				<li>
-					<a href="index.php">Home</a>
-				</li>
-				<li>
-					<a href="about.php">About</a>
-				</li>
-				<li>
-					<a href="projects.php">Projects</a>
-				</li>
-				<li>
-					<a href="contact.php">Contact</a>
-				</li>
-				<!-- <li>
-					<a href="resume.php">Resume</a>
-				</li> -->
-			</ul>
-		</nav>
+		<div class="structure">
+			<nav class="site-nav">
+				<ul>
+					<li>
+						<a href="index.php">Home</a>
+					</li>
+					<li>
+						<a href="about.php">About</a>
+					</li>
+					<li>
+						<a href="projects.php">Projects</a>
+					</li>
+					<li>
+						<a href="contact.php">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 
 	<main class="page-content">

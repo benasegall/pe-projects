@@ -1,8 +1,7 @@
-/* setup */
+/* SETUP */
 
 @import "reset.css";
 @import "setup.css";
-@import "components.css";
 
 html {
 	--ink-light: #fff;
@@ -15,13 +14,10 @@ html {
 }
 
 body {
-	background-color: var(--ink-light);
-	color: var(--ink-dark);
 	font-family: 'Inter', sans-serif;
-	padding: 6rem 2rem 6rem 4rem;
 }
 
-/* typography */
+/* TYPE */
 
 .light {
 	font-weight: 300;
@@ -35,23 +31,27 @@ body {
 	font-weight: 700;
 }
 
-/* structure */
+.title {
+	font-size: ;
+}
 
-/*.column {
-	max-width: 1100px;
+/* STRUCTURE */
+
+.structure {
+	max-width: 1400px;
 	margin: auto;
 	padding: 0 5%;
-}*/
+}
 
-/* nav */
+/* NAV */
 
 .site-nav ul {
 	display: flex;
 }
 
-/* grid */
+/* GRID */
 
-.grid {
+.grid-wrap {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
@@ -62,7 +62,7 @@ body {
 }
 
 @media (max-width: 600px) {
-	.grid {
+	.grid-wrap {
 		grid-template-columns: repeat(1, 1fr);
 	}
 }
