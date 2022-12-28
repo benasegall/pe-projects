@@ -1,12 +1,12 @@
 [
     {
-        "name": "Project one",
-        "langs": "languages",
-        "descr": "dragon"
+        "name": "Responsive Design Modules",
+        "langs": "HTML, CSS, PHP",
+        "descr": "A series of responsively designed webpage layout components."
     },
     {
-        "name": "Project two",
-        "langs": "languages",
-        "descr": "snake"
+        "name": "Layout Concept",
+        "langs": "HTML, CSS, PHP",
+        "descr": "A first iteration using PHP for making a dynamic webpage."
     }
 ]

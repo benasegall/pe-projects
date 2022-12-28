@@ -26,9 +26,6 @@
 				<li>
 					<a href="contact.php">Contact</a>
 				</li>
-				<!-- <li>
-					<a href="resume.php">Resume</a>
-				</li> -->
 			</ul>
 		</nav>
 	</header>
