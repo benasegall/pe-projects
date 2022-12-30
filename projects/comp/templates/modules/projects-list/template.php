@@ -5,7 +5,7 @@
 
 <div class="card-grid">
 	<?php foreach ($projectsData as $projectCard) { ?>
-		<section>
+		<section class="card-theme">
 			<h2><?=$projectCard["name"]?></h2>
 			<h3><?=$projectCard["langs"]?></h3>
 			<p><?=$projectCard["descr"]?></p>

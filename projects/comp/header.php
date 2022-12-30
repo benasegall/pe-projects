@@ -14,22 +14,30 @@
 	<header class="site-header">
 		<div class="structure">
 			<nav class="site-nav">
-				<ul>
-					<li>
-						<a href="index.php">Home</a>
-					</li>
-					<li>
-						<a href="about.php">About</a>
-					</li>
-					<li>
-						<a href="projects.php">Projects</a>
-					</li>
-					<li>
-						<a href="contact.php">Contact</a>
-					</li>
+				<div class="name">
+					<ul>
+						<li>Benjamin Segall</li>
+					</ul>
+				</div>
+				<div class="pages">
+					<ul>
+						<li>
+							<a href="index.php">Home</a>
+						</li>
+						<li>
+							<a href="about.php">About</a>
+						</li>
+						<li>
+							<a href="projects.php">Projects</a>
+						</li>
+						<li>
+							<a href="contact.php">Contact</a>
+						</li>
 				</ul>
+				</div>
 			</nav>
 		</div>
 	</header>
 
 	<main class="page-content">
+		<div class="structure">

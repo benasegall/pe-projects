@@ -3,9 +3,10 @@
 .card-theme {
 	border: 1px solid var(--card-dark-border);
 	background-color: var(--card-dark);
-	border-radius: ;
-	padding: ;
+	border-radius: 10px;
+	padding: 10px;
 	height: 100%;
+	max-width: ;
 }
 
 /* UNDERLINE ANIMATION */

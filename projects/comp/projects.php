@@ -1,30 +1,21 @@
 <?php include("header.php"); ?>
 
-	<div class="content-wrap">
-		<header class="title">
-			<div class="structure">
-				<div class="align-content">
+			<div class="content-wrap">
 
-				<?php 
+				<header class="title align-content-Cone-Rone">
+					<?php 
 					$title = "Projects";
 
 					include('templates/modules/page-title/template.php')
-				?>
-				
-				</div>
+					?>
+				</header>
+
+				<section class="info align-content-Ctwo-Rone">
+					<?php include('templates/modules/projects-list/template.php'); ?>
+				</section>
+
 			</div>
-		</header>
 
-		<section class="info">
-			<div class="structure">
-				<div class="align-content">
-
-				<?php include('templates/modules/projects-list/template.php'); ?>
-
-				</div>
-			</div>
-		</section>
-	</div>
-
+		</div>
 	</main>
 </body>
