@@ -4,8 +4,8 @@ if (isset($_POST['submit'])) {
 $to = "benasegall@gmail.com";
 $from = $_POST['user_email'];
 $name = $_POST['user_name'];
-$subject = "Site contact form";
-$subjectCopy = "Copy of your form submission";
+$subject = $_POST['email_subject'] ?? "Client form submission : Hi there : )";
+$subjectCopy = "Copy of " . $_POST['email_subject'];
 $message = $name . " wrote the following:" . "\n\n" . $_POST['user_message'];
 $messageCopy = "Here is a copy of your message " . $name . "\n\n" . $_POST['user_message'];
 
