@@ -10,10 +10,10 @@
 					?>
 				</header>
 
-				<section class="info align-content-Cone-Rtwo">
+				<section class="title align-content-Cone-Rtwo">
 					<?php 
 					$info =
-					'<p class="title">Hello, my name is Ben.</p>';
+					'<p>Hello, my name is Ben.</p>';
 
 					include('templates/modules/page-info/template.php')
 					?>

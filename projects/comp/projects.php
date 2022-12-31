@@ -10,7 +10,7 @@
 					?>
 				</header>
 
-				<section class="info align-content-Ctwo-Rone">
+				<section class="info align-content-Cthree-Rtwo">
 					<?php include('templates/modules/projects-list/template.php'); ?>
 				</section>
 

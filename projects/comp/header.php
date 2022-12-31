@@ -16,14 +16,13 @@
 			<nav class="site-nav">
 				<div class="name">
 					<ul>
-						<li>Benjamin Segall</li>
+						<li>
+							<a href="index.php">Benjamin Segall</a>
+						</li>
 					</ul>
 				</div>
 				<div class="pages">
 					<ul>
-						<li>
-							<a href="index.php">Home</a>
-						</li>
 						<li>
 							<a href="about.php">About</a>
 						</li>
