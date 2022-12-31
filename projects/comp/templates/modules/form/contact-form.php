@@ -6,16 +6,11 @@ $from = $_POST['user_email'];
 $name = $_POST['user_name'];
 $subject = "Site contact form";
 $subjectCopy = "Copy of your form submission";
-$message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
+$message = $name . " wrote the following:" . "\n\n" . $_POST['user_message'];
 $messageCopy = "Here is a copy of your message " . $name . "\n\n" . $_POST['user_message'];
 
 $header = "From:" . $from;
 $header2 = "From:" . $to;
-
-// mail($to, $subject, $message, $header);
-// mail($from, $subjectCopy, $messageCopy, $header2); // sends a copy of the message to the sender
-
-// echo "Your message sent. Thank you " . $name . ", I'll be in contact.";
 
 	if (mail($to, $subject, $message, $header) && mail($from, $subjectCopy, $messageCopy, $header2)) {
 		echo "Your message sent. Thank you " . $name . ", I'll be in contact.";
