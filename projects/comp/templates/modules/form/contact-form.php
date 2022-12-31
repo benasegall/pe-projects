@@ -5,11 +5,9 @@ $to = "benasegall@gmail.com";
 $from = $_POST['user_email'];
 $name = $_POST['user_name'];
 $subject = $_POST['email_subject'];
-$subject = $subject ?? "Client form submission";
 $subjectCopy = "Copy of " . $_POST['email_subject'];
-$subjectCopy = $subjectCopy ?? "Client form submission";
 $message = $name . " wrote the following:" . "\n\n" . $_POST['user_message'];
-$messageCopy = "Here is a copy of your message, " . $name . "\n\n" . $_POST['user_message'];
+$messageCopy = "Here is a copy of your message " . $name . "\n\n" . $_POST['user_message'];
 
 $header = "From:" . $from;
 $header2 = "From:" . $to;
