@@ -1,3 +1,7 @@
+<?php 
+include('templates/modules/form/contact-form.php')
+?>
+
 <p>Fill out this quick form to get in touch through email.</p>
 
 <form class="contact-form" method="post">
