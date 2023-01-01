@@ -2,7 +2,7 @@
 
 			<div class="content-wrap">
 
-				<header class="title align-content-Cone-Rone">
+				<header class="head opener align-content-Cone-Rone">
 					<?php 
 					$title = "About";
 
@@ -10,7 +10,7 @@
 					?>
 				</header>
 
-				<section class="info align-content-Ctwo-Rone">
+				<section class="info opener align-content-Ctwo-Rone">
 					<?php 
 					$info = 
 					"<p>My high school and college years set the footing for my career path. In high school I enrolled myself in a graphic design program at a vocational training school. This was my first experience in a design field. Later on I took courses at the Fashion Institute of Technology in New York. In college I pursued a marketing degree but was not fully connected with this field of study.</p>

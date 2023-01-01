@@ -2,7 +2,7 @@
 
 			<div class="content-wrap">
 
-				<header class="title align-content-Cone-Rone">
+				<header class="head opener align-content-Cone-Rone">
 					<?php 
 					$title = "Projects";
 

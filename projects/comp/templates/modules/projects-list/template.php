@@ -7,11 +7,11 @@
 	<?php foreach ($projectsData as $projectCard) { ?>
 		<section class="card-theme">
 			<ul>
-				<h2 class="card-title"><?=$projectCard["name"]?></h2>
-				<p class="card-info"><?=$projectCard["langs"]?></p>
-				<p class="card-info"><?=$projectCard["descr"]?></p>
-				<p class="card-info"><a href="#">Case Study</a></p>
-				<p class="card-info"><a href="#">View Website</a></p>
+				<h2 class="subhead"><?=$projectCard["name"]?></h2>
+				<p><?=$projectCard["langs"]?></p>
+				<p><?=$projectCard["descr"]?></p>
+				<p><a href="#">Case Study</a></p>
+				<p><a href="#">View Website</a></p>
 			</ul>
 		</section>
 	<?php } ?>

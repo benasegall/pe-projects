@@ -2,16 +2,13 @@
 include('templates/modules/form/contact-form.php')
 ?>
 
-<p>Fill out this quick form to get in touch through email.</p>
+<p>You can also fill out this form if it's easier.</p>
 
 <form class="contact-form" method="post">
 	<label for="name">Name</label> <br> <input type="text" id="name" name="user_name" required="required" />
 	<br>
 
 	<label for="email">Email</label> <br> <input type="text" id="email" name="user_email" required="required" />
-	<br>
-
-	<label for="phone">Phone</label> <br> <input type="text" id="phone" name="user_phone" />
 	<br>
 
 	<label for="subject">Subject</label> <br> <input type="text" id="subject" name="email_subject" required="required" />

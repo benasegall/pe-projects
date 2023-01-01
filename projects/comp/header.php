@@ -6,7 +6,9 @@
 
 	<title>Benjamin Segall</title>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,7 +16,7 @@
 	<header class="site-header">
 		<div class="structure">
 			<nav class="site-nav">
-				<div class="name">
+				<div class="name subhead">
 					<ul>
 						<li>
 							<a href="index.php">Benjamin Segall</a>

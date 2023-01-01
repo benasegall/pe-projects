@@ -1,7 +1,0 @@
-/* CARD TILE */
-
-.card-theme {
-	border-top: 1px solid var(--ink-card);
-	padding: 40px 0;
-	height: 100%;
-}

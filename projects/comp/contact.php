@@ -2,7 +2,7 @@
 
 			<div class="content-wrap">
 
-				<header class="title align-content-Cone-Rone">
+				<header class="head opener align-content-Cone-Rone">
 					<?php 
 					$title = "Contact";
 
@@ -10,17 +10,31 @@
 					?>
 				</header>
 
-				<section class="info align-content-Ctwo-Rone">
-					<?php
-					include('templates/modules/form/template.php')
-					?>
+				<section class="info align-content-Cone-Rtwo">
+					<div class="touch">
+						<?php
+						$info =
+						'<p>If you would like to know more, please get in touch. <br> Im always up for a chat.</p>';
+
+						include('templates/modules/page-info/template.php')
+						?>
+					</div>
+					<div class="email">
+						<?php
+						$emailMessage = "Send an email to";
+						$emailBar = "benasegall@gmail.com";
+
+						include('templates/modules/email-bar/template.php')
+						?>
+					</div>
+					<div class="socials">
+						<?php include('templates/modules/social-list/template.php'); ?>
+					</div>
 				</section>
 
-				<section class="footer align-content-Cone-Rtwo">
-					<?php 
-					$emailBar = "benasegall@gmail.com";
-
-					include('templates/modules/email-bar/template.php')
+				<section class="info opener align-content-Ctwo-Rtwo">
+					<?php
+					include('templates/modules/form/template.php')
 					?>
 				</section>
 
