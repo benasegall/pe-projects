@@ -1,1 +1,0 @@
-<p><?=$emailMessage?> <a href="mailto:benasegall@gmail.com"><?=$emailBar?></a></p>

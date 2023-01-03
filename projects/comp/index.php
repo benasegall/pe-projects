@@ -16,7 +16,7 @@
 				<section class="info align-content-Cone-Rtwo">
 					<?php
 					$info =
-					'<h2 class="subhead p-spacing">Who am I</h2>
+					'<h2 class="subhead p-spacing">Profile</h2>
 					<p class="p-spacing">I am a front-end developer based on the East Coast. I aim to contribute to analytically oriented organizations that deliver innovative ideas and create quality relationships that matter.</p>';
 
 					include('templates/modules/page-info/template.php')

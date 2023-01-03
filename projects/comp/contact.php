@@ -17,14 +17,14 @@
 					<div>
 						<?php
 						$info =
-						'<p class="subhead card-spacing">If you would like to know more, please get in touch. <br> Im always up for a chat.</p>';
+						'<p class="subhead card-spacing">Thank you for checking out my site, I would love to connect with you.</p>';
 
 						include('templates/modules/page-info/template.php')
 						?>
 					</div>
 					<div class="p-spacing">
 						<?php
-						$emailMessage = "Send an email to";
+						$emailMessage = "Send me an email directly at";
 						$emailBar = "benasegall@gmail.com";
 
 						include('templates/modules/email-bar/template.php')

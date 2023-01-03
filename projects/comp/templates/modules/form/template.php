@@ -1,21 +1,21 @@
+<link rel="stylesheet" href="templates/modules/form/style.css">
+
 <?php 
 include('templates/modules/form/contact-form.php')
 ?>
 
-<p>You can also fill out this form if it's easier.</p>
+<p class="p-spacing">For your convenience, you can also send me an email through this quick form.</p>
 
 <form class="contact-form" method="post">
-	<label for="name">Name</label> <br> <input type="text" id="name" name="user_name" required="required" />
-	<br>
+	<fieldset>
+		<label for="name">Name</label> <br> <input type="text" id="name" name="user_name" required="required" />
 
-	<label for="email">Email</label> <br> <input type="text" id="email" name="user_email" required="required" />
-	<br>
+		<label for="email">Email</label> <br> <input type="text" id="email" name="user_email" required="required" />
 
-	<label for="subject">Subject</label> <br> <input type="text" id="subject" name="email_subject" required="required" />
-	<br>
+		<label for="subject">Subject</label> <br> <input type="text" id="subject" name="email_subject" required="required" />
 
-	<label for="message">Message</label> <br> <textarea type="text" id="message" name="user_message" required="required" rows="5" cols="30"></textarea>
-	<br>
+		<label for="message">Message</label> <br> <textarea type="text" id="message" name="user_message" required="required"></textarea>
 
-	<button type="submit" name="submit">Send</button>
+		<button type="submit" name="submit">Send</button>
+	</fieldset>
 </form>
