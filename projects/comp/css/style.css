@@ -196,6 +196,10 @@ a {
 /* C == column // Ctwo == grid-column 2 */
 /* R == row // Rone == grid-row 1*/
 
+.opener {
+	grid-column: 1 / -1;
+}
+
 .align-content-Cone-Rone {
 	grid-column: 1 / 3;
 	grid-row: 1;

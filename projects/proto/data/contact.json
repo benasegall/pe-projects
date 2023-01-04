@@ -1,0 +1,12 @@
+{
+    "title": "Contact",
+    "sections":
+    [
+        {
+            "page": "contact",
+            "subtitle": "Thank you for checking out my site, I would love to connect with you.",
+            "emailBar": "Send me an email directly at <a href='mailto:benasegall@gmail.com'>benasegall@gmail.com</a>",
+            "socialsBar": "Find me on <a href='#'>GitHub</a>, <a href='#'>LinkedIn</a> and <a href='#'>Substack</a>"
+        }
+    ]
+}

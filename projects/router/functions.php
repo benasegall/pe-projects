@@ -20,17 +20,17 @@
 
 	function pageData() {
 		$page = currentPage();
-		$filePath = "data/pages/$page.json";
+		$filePath = "data/$page.json";
 		$json = file_get_contents($filePath);
 		if (!$json) {
-			$json = file_get_contents("data/pages/404.json");
+			$json = file_get_contents("data/404.json");
 		}
 		$pageData = json_decode($json, true);
 		return $pageData;
 	}
 
 	function renderPage() {
-		$filePath = "pages/" . "standard" . ".php";
+		$filePath = "pages/standard.php";
 		$pageData = pageData();
 		if (file_get_contents($filePath)) {
 			include($filePath);

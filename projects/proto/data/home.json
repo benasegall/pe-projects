@@ -1,0 +1,16 @@
+{
+    "title": "Hello, my name is Ben.",
+    "sections":
+    [
+        {
+            "page": "home",
+            "subtitle": "Profile",
+            "info": "I am a front-end developer based on the East Coast. I aim to contribute to analytically oriented organizations that deliver innovative ideas and create quality relationships that matter."
+        },
+        {
+            "page": "home",
+            "subtitle": "My approach",
+            "info": "It is important to me that I have a complete view of the development process. Collaborating with and learning from others with a common goal of delivering the greatest value to customers and users is the best way to connect the dots and gain a thorough understanding of the craft."
+        }
+    ]
+}

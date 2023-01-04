@@ -1,6 +1,4 @@
-<?php 
-include('templates/modules/form/contact-form.php')
-?>
+<?php include('templates/components/form/contact-form.php'); ?>
 
 <p class="p-spacing">For your convenience, you can also send me an email through this quick form.</p>
 
