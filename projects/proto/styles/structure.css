@@ -1,0 +1,41 @@
+.structure {
+	max-width: 1400px;
+	margin: auto;
+	padding: 0 3%;
+	line-height: 1.5;
+}
+
+.site-header {
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}
+
+/* grid wrapper */
+
+.content-wrap {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+/* projects grid */
+
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 801px) {
+	.content-wrap {
+		display: block;
+	}
+	.card-grid {
+		display: block;
+	}
+}
+
+/* grid organization */
+
+.opener {
+	grid-column: 1 / -1;
+}

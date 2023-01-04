@@ -1,0 +1,15 @@
+html {
+	--light-background-color: #f8f8f8;
+	--light-color: #000;
+	--light-header: #fff;
+	--light-border: #dedee1;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--dark-background-color: #101111;
+		--dark-color: #fff;
+		--dark-header: #292a31;
+		--dark-border: #272724;
+	}
+}

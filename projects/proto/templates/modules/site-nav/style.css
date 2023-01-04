@@ -1,0 +1,34 @@
+/* site-nav */
+
+.site-nav {
+	display: flex;
+	align-items: center;
+}
+
+.site-nav ul {
+	display: flex;
+}
+
+.site-nav .name {
+	margin-right: auto;
+}
+
+.site-nav .pages {
+	margin-left: auto;
+}
+
+.site-nav ul {
+	gap: 3em;
+}
+
+@media (max-width: 801px) {
+	.site-nav ul {
+		gap: 2em;
+	}
+}
+
+@media (max-width: 480px) {
+	.site-nav ul {
+		gap: 1em;
+	}
+}

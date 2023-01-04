@@ -27,10 +27,6 @@ input, textarea, button {
   background-color: inherit;
 }
 
-.field {
-/*	border: 1px solid red;*/
-}
-
 .contact-form {
 	display: grid;
 	gap: 20px;
