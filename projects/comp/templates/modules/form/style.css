@@ -1,14 +1,20 @@
-label, textarea, button {
+form :is(label, textarea, button) {
 	display: block;
 }
 
-label, input, textarea, button {
-	min-width: 100%;
+input[type="text"], textarea {
+	display: block;
+	width: 100%;
+	font: inherit;
+	padding: 2rem;
+}
+
+textarea {
+	resize: vertical;
 }
 
 button {
 	font-family: Inter, sans-serif;
-	text-align: right;
 }
 
 label {
@@ -19,4 +25,17 @@ input, textarea, button {
 	outline: none;
   border: 0;
   background-color: green;
+}
+
+.field {
+/*	border: 1px solid red;*/
+}
+
+.contact-form {
+	display: grid;
+	gap: 20px;
+}
+
+button {
+	justify-self: end;
 }
