@@ -1,8 +1,10 @@
 <nav class="site-nav">
-	<div class="name subhead">
+	<div class="name">
 		<ul>
 			<li>
-				<a href="?page=home">Benjamin Segall</a>
+				<h2>
+					<a href="?page=home">Benjamin Segall</a>
+				</h2>
 			</li>
 		</ul>
 	</div>

@@ -18,24 +18,8 @@
 	grid-template-columns: repeat(2, 1fr);
 }
 
-/* projects grid */
-
-.card-grid {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-}
-
 @media (max-width: 801px) {
 	.content-wrap {
 		display: block;
 	}
-	.card-grid {
-		display: block;
-	}
-}
-
-/* grid organization */
-
-.opener {
-	grid-column: 1 / -1;
 }

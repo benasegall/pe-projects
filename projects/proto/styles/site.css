@@ -2,8 +2,8 @@
 @import 'setup.css';
 @import 'settings.css';
 @import 'structure.css';
-/*@import 'typography.css';*/
-/*@import 'modules.css';*/
+@import 'typography.css';
+@import 'modules.css';
 
 body {
 	font-family: 'Inter', sans-serif;

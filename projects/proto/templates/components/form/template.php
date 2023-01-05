@@ -1,3 +1,4 @@
+<section class="info">
 <?php include('templates/components/form/contact-form.php'); ?>
 
 <p class="p-spacing">For your convenience, you can also send me an email through this quick form.</p>
@@ -17,3 +18,4 @@
 
 	<button type="submit" name="submit">Send</button>
 </form>
+</section>

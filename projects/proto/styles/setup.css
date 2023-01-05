@@ -15,8 +15,6 @@ a {
 
 p a {
 	display: inline;
-	color: inherit;
-	text-decoration: underline;
 }
 
 picture {
@@ -35,7 +33,7 @@ svg {
   width: 100%;
 }
 
-// selects for custom elements
+/*selects for custom elements*/
 :where(:not(:defined)) {
 	display: block;
 }

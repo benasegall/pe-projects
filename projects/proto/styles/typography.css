@@ -12,10 +12,6 @@ h2 {
 	font-size: 2.4rem;
 }
 
-p {
-	font-size: 1.8rem;
-}
-
 /* spacing */
 
 body {
@@ -23,19 +19,27 @@ body {
 }
 
 h1 {
-	margin-top: 3em;
+	margin-top: 1em;
 }
 
-h1 + h2 {
-	margin-top: 3em;
+header + .content-wrap {
+	margin-top: 1em;
 }
 
 h2 + p {
-	margin-top: 2em;
+	margin-top: 1em;
 }
 
 p + p {
 	margin-top: 1em;
+}
+
+section + section {
+/*	margin-top: 1em;*/
+}
+
+.projects :is(h2 + p, p + p) {
+  margin-top: .5em;
 }
 
 p a {
@@ -45,7 +49,7 @@ p a {
 /* site-header */
 
 .site-header {
-	padding: 20px 0 20px 0;
+	padding: 1em 0 1em 0;
 }
 
 /* grid layout */
@@ -54,14 +58,10 @@ p a {
 	column-gap: 3em;
 }
 
-.card-grid {
-	column-gap: 3em;
-}
-
 /* page divider */
 
 .separator {
 	display: block;
 	height: 1px;
-	margin-top: 3em;
+	margin-top: 1em;
 }

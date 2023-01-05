@@ -16,7 +16,9 @@
 </head>
 <body>
 	<header class="site-header">
-		<?php include('templates/modules/site-nav/template.php'); ?> 
+		<div class="structure">
+			<?php include('templates/modules/site-nav/template.php'); ?> 
+		</div>
 	</header>
 
 	<main class="page-content">
