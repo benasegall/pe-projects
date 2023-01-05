@@ -1,12 +1,16 @@
+p + form.contact-form {
+	margin-top: 1em;
+}
+
 form :is(label, textarea, button) {
 	display: block;
 }
 
-input[type="text"], textarea {
+input[type="text"], textarea, button {
 	display: block;
-	width: 100%;
 	font: inherit;
-	padding: 2rem;
+	width: 100%;
+	padding: 1em 0 1em 0;
 }
 
 textarea {
@@ -14,11 +18,7 @@ textarea {
 }
 
 button {
-	font-family: Inter, sans-serif;
-}
-
-label {
-	border-bottom: 1px solid var(--light-border);
+	font-family: inherit;
 }
 
 input, textarea, button { 
@@ -27,11 +27,11 @@ input, textarea, button {
   background-color: inherit;
 }
 
-.contact-form {
-	display: grid;
-	gap: 20px;
+label {
+	border-bottom: 1px solid var(--light-border);
 }
 
 button {
-	justify-self: end;
+	text-align: center;
+	border: 1px solid var(--light-border);
 }

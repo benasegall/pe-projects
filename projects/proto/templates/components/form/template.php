@@ -1,7 +1,7 @@
 <section class="info">
 <?php include('templates/components/form/contact-form.php'); ?>
 
-<p class="p-spacing">For your convenience, you can also send me an email through this quick form.</p>
+<p>For your convenience, you can also send me an email through this quick form.</p>
 
 <form class="contact-form" method="post">
 	<div class="field">

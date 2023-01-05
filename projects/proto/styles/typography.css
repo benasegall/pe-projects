@@ -34,8 +34,8 @@ p + p {
 	margin-top: 1em;
 }
 
-section + section {
-/*	margin-top: 1em;*/
+section.info {
+	margin-bottom: 1em;
 }
 
 .projects :is(h2 + p, p + p) {

@@ -13,9 +13,9 @@ $header = "From:" . $from;
 $header2 = "From:" . $to;
 
 	if (mail($to, $subject, $message, $header) && mail($from, $subjectCopy, $messageCopy, $header2)) {
-		echo "Your message sent. Thank you " . $name . ", I'll be in contact.";
+		echo "<h2>Your message has been delivered successfully, I'll be in contact.</h2>";
 	} else {
-		echo "Sorry, an error occcured. The message did not send.";
+		echo "My apologies, an error occcured. Please refresh the page and try again.";
 	}
 	
 }

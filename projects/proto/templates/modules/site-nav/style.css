@@ -31,4 +31,7 @@
 	.site-nav ul {
 		gap: 1em;
 	}
+	.site-nav {
+		display: block;
+	}
 }
