@@ -16,6 +16,9 @@
 		if ($section["page"] == "contact") {
 			include("contact.php");
 		}
+		if ($section["page"] == "404") {
+			include("404.php");
+		}
 	}
 	?>
 </div>

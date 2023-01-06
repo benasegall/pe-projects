@@ -6,13 +6,17 @@
             "page": "projects",
             "name": "Lorem ipsum dolor sit amet",
             "langs": "Lorem ipsum dolor sit amet",
-            "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quos est, natus quam aliquid laboriosam quasi dolor, delectus ipsam mollitia."
+            "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quos est, natus quam aliquid laboriosam quasi dolor, delectus ipsam mollitia.",
+            "study": "#",
+            "website": "#"
         },
         {
             "page": "projects",
             "name": "Lorem ipsum dolor sit amet",
             "langs": "Lorem ipsum dolor sit amet",
-            "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quos est, natus quam aliquid laboriosam quasi dolor, delectus ipsam mollitia."
+            "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quos est, natus quam aliquid laboriosam quasi dolor, delectus ipsam mollitia.",
+            "study": "#",
+            "website": "#"
         }
     ]
 }

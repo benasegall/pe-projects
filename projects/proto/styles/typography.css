@@ -43,7 +43,9 @@ section.info {
 }
 
 p a {
-	border-bottom: 1px solid;
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-thickness: 1px;
 }
 
 /* site-header */

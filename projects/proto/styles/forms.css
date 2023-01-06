@@ -19,6 +19,7 @@ textarea {
 
 button {
 	font-family: inherit;
+	color: var(--light-color);
 }
 
 input, textarea, button { 
@@ -27,11 +28,15 @@ input, textarea, button {
   background-color: inherit;
 }
 
-label {
+input, textarea, button {
+	margin-bottom: 1em;
 	border-bottom: 1px solid var(--light-border);
 }
 
+input:hover, textarea:hover, button:hover {
+	border-bottom: 1px solid;
+}
+
 button {
-	text-align: center;
-	border: 1px solid var(--light-border);
+	text-align: left;
 }

@@ -1,0 +1,1 @@
+<?php include('templates/components/404/template.php'); ?>
