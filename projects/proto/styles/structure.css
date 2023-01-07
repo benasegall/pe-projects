@@ -1,14 +1,28 @@
+.site-header {
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.site-content {
+	flex: 1;
+}
+
+.site-footer {
+	flex-shrink: 0;
+}
+
 .structure {
 	max-width: 1400px;
 	margin: auto;
 	padding: 0 3%;
 	line-height: 1.5;
-}
-
-.site-header {
-	position: sticky;
-	top: 0;
-	z-index: 5;
 }
 
 /* grid wrapper */

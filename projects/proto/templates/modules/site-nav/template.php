@@ -1,24 +1,34 @@
-<nav class="site-nav">
-	<div class="name">
+<!-- HTML -->
+<div class="nav-wrapper">
+
+	<nav class="logo-menu">
 		<ul>
-			<li>
-				<h2>
-					<a href="?page=home">Benjamin Segall</a>
-				</h2>
-			</li>
+			<li><h2><a href="?page=home">Benjamin Segall</a></h2></li>
+			<li><button class="toggle">Menu</button></li>
 		</ul>
-	</div>
-	<div class="pages">
+	</nav>
+
+	<nav class="site-menu">
 		<ul>
-			<li>
-				<a href="?page=about">About</a>
-			</li>
-			<li>
-				<a href="?page=projects">Projects</a>
-			</li>
-			<li>
-				<a href="?page=contact">Contact</a>
-			</li>
+			<div class="pages">
+			<li><a href="?page=about">About</a></li>
+			<li><a href="?page=projects">Projects</a></li>
+			<li><a href="?page=contact">Contact</a></li>
+			</div>
 		</ul>
-	</div>
-</nav>
+	</nav>
+
+</div>
+
+<!-- JS -->
+
+<script>
+	let body = document.querySelector('body');
+
+	document.addEventListener('click', function(event) {
+		console.log(event.target);
+		if (event.target.matches('.toggle')) {
+			body.classList.toggle('small-menu-open');
+		}
+	});
+</script>

@@ -21,5 +21,5 @@
 		</div>
 	</header>
 
-	<main class="page-content">
+	<main class="site-content">
 		<?php renderPage(); ?>
