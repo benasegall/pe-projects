@@ -13,8 +13,9 @@ function currentPage() {
 function pageData() {
 	$page = currentPage();
 	$filePath = "data/$page.json";
-	$json = file_get_contents($filePath);
-	if (!$json) {
+	if ( file_exists($filePath) ) {
+		$json = file_get_contents("data/$page.json");
+	} else {
 		$json = file_get_contents("data/404.json");
 	}
 	$pageData = json_decode($json, true);
