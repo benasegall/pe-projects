@@ -1,37 +1,25 @@
+<?php include ('functions.php'); ?>
 
-<?php
-	require "meta.php";
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script src="js/script.js" defer></script>
+	<title>Benjamin Segall</title>
 
-<body class="home">
-	<header>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="styles/site.css">
+</head>
+<body>
+	<header class="site-header">
 		<div class="structure">
-			<div class="toggle-flex">
-				<h1>Benjamin Segall</h1>
-				<input type="checkbox" id="darkmode-toggle">
-				<label for="darkmode-toggle"></label>
-			</div>
+			<?php include('templates/modules/site-nav/template.php'); ?> 
 		</div>
 	</header>
 
-	<section class="nav">
-		<div class="structure">
-			<nav>
-				<ul>
-					<li class="on"><a href="../ben">About</a></li>
-					<li class="off"><a href="./code">Code</a></li>
-					<li class="off"><a href="./resume">Resume</a></li>
-				</ul>
-			</nav>
-		</div>
-	</section>
-
-	<div class="structure">
-		<?php
-			include "about.php";
-		?>
-	</div>
-</body>
-</html>
+	<main class="site-content">
+		<?php renderPage(); ?>
