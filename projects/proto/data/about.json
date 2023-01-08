@@ -5,22 +5,22 @@
         {
             "page": "about",
             "subtitle": "My Background",
-            "info": "My high school and college years set the footing for my career path. In high school I enrolled myself in a graphic design program at a vocational training school. This was my first experience in a design field. Later on I took courses at the Fashion Institute of Technology in New York. In college I pursued a marketing degree but was not fully connected with this field of study."
+            "info": "My interest in design started at a young age. As a kid, I was exposed to a variety of artistic expressions and as I grew up I began viewing design as less as a hobby and more as a career. In high school, I enrolled myself in a graphic design program at a vocational training school. Later in high school, I took courses at the Fashion Institute of Technology in New York. In college, I pursued a marketing degree however I was not fully connected with this field of study. In 2020, I decided to take a leave of absence from college and moved to New York. During my time in the city, I came across a computer science prep course offered by Codesmith. This was my first significant experience with software development. After completion, I decided instead of returning to campus I would pursue a different route and was accepted into the developer-led mentorship program at Perpetual Education."
         },
         {
             "page": "about",
             "subtitle": "Present",
-            "info": "Once the pandemic hit, I decided to take a leave of absence from school and moved to New York. There I discovered Codesmith and took their Computer Science prep course. This was my first significant experience with software development. After this, I decided instead of returning to campus I would pursue a different route and was accepted into the design oriented software development mentorship program at Perpetual Education."
+            "info": "To date, I am near completion of my web development mentorship. During the course, I have learned a wide range of skills and worked with several software technologies. These skills include experience with responsive web design techniques, advanced CSS, version control, staging, dynamic data and databases, libraries and frameworks, drawing tools, content management systems, client-side and server-side scripting and rendering. I am looking to enter the workforce as a Front-end developer."
         },
         {
             "page": "about",
             "subtitle": "Goals",
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam non, in, labore voluptatibus velit quas repudiandae sint eius impedit voluptas."
+            "info": "My aim is to turn complex problems into intuitive and elegant designs, through easy-to-navigate code. I seek to gain employment on a communicative and adaptable team that will allow me to expand my knowledge of the development process and grow as a designer."
         },
         {
             "page": "about",
             "subtitle": "Outside of Work",
-            "info": "Beyond staring into my code editor I spend my days with my dog, at lunch, on FaceTime or waiting for a favorable wind. I'm into architecture, interior design, video games, video essays and artisanal teas."
+            "info": "Beyond staring into my code editor, I spend my days with my dog, out with a friend, or waiting for a favorable wind. I try to stay active and enjoy a casual match of tennis. I'm into architecture, interior design, video games, video essays, and artwork."
         }
     ]
 }

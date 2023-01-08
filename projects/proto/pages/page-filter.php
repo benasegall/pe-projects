@@ -23,8 +23,6 @@
 	?>
 </div>
 
-	<?php include ('templates/modules/site-footer/template.php'); ?>
-
 </div>
 </main>
 </body>
