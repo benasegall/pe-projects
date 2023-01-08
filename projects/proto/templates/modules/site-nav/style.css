@@ -21,7 +21,7 @@
 
 		opacity: 0;
 		pointer-events: none;
-		transform: translateX(100%);
+		transform: translateX(0);
 	}
 	.site-menu .pages {
 		margin-left: 18px;
@@ -32,7 +32,6 @@
 		opacity: 0;
 	}
 	body.small-menu-open .site-menu {
-		background-color: var(--light-background-color);
 		opacity: 1;
 		pointer-events: initial;
 		transform: translateX(0);
