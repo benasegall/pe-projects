@@ -1,0 +1,627 @@
+@import 'reset.css';
+
+/* static */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	--ink: #040404;
+	--paper: #fbfbfb;
+	--paperM4: #dcdcdc;
+	--pink: #ff00ae;
+	--highlight: #307cff;
+	--highlightM4: #222222;
+	--cardM4: #e5e5e5;
+	--line: 1px;
+}
+
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+	padding: 8rem 0 8rem 0;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.module-3, .module-4, .module-5 {
+	margin-top: 80px;
+}
+
+.dark-theme-structure h2 {
+	margin-bottom: 25px;
+}
+
+.dark-theme-structure h2 a {
+			display: block;
+			text-decoration: underline;
+			color: blue;
+}
+
+/* dark-mode */
+
+body.dark-theme {
+	--ink: #fbfbfb;
+	--paper: #252525;
+	--cardM4: #292a31;
+}
+
+/* editable */
+
+.module-2 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.module-2 picture {
+	display: block;
+}
+
+.module-2 img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.module-2 .mode {
+	max-width: 75px;
+}
+
+/* typography */
+
+.module-2 h2 {
+	font-size: 3.2rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.module-2 h3 {
+	font-size: 2.4rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+/* structure */
+
+.module-2 .dark-theme-structure {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 5%;
+	max-width: 1440px;
+	margin: auto;
+}
+
+.module-2 .structure {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 5%;
+	max-width: 1440px;
+	margin: auto;
+
+	display: grid;
+	gap: 20px;
+}
+
+.module-2 .site-nav ul {
+	display: flex;
+}
+
+.module-2 .site-nav ul li:not(:nth-child(1)) {
+	margin-left: 2rem;
+}
+
+.module-2 .opener {
+	max-width: 25em;
+}
+
+.module-2 .card-grid {
+	display: grid;
+	gap: 2rem;
+}
+
+.module-2 .card {
+	border-top: var(--line) solid var(--ink);
+	padding-top: 2rem;
+}
+
+.module-2 .image-grid {
+	display: grid;
+	gap: 2rem;
+}
+
+@media (min-width: 481px) {
+	.module-2 .image-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+
+@media (min-width: 641px) {
+	.module-2 .structure {
+		padding: 0 4%;
+	}
+
+	.module-2 .dark-theme-structure {
+		padding: 0 4%;
+	}
+
+	.module-2 .card-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+
+@media (min-width: 1025px) {
+	.module-2 .structure {
+		padding: 0 3%;
+	}
+
+	.module-2 .dark-theme-structure {
+		padding: 0 3%;
+	}
+
+	.module-2 .structure {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.module-2 .card-grid {
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+	}
+
+	.module-2 .image-grid {
+		grid-column: 2 / 3 ;
+		grid-row: 1 / 3;
+		align-self: center;
+	}
+}
+
+
+
+/* MOD 3 */
+
+
+
+/* setup */
+
+.module-3 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.module-3 picture {
+	display: block;
+}
+
+.module-3 img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* structure */
+
+.module-3 .structure {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 5%;
+	max-width: 1440px;
+	margin: auto;
+}
+
+.module-3 .opener {
+	max-width: 24em;
+	padding: 6rem 0 2rem 0;
+}
+
+.module-3 .closer {
+	margin-top: 4rem;
+}
+
+.module-3 .line {
+	border-top: 3px solid var(--highlight);
+	max-width: 20rem;
+	padding-bottom: 1rem;
+}
+
+.module-3 .logo {
+	max-width: 80px;
+}
+
+/* typography */
+
+.module-3 h2 {
+	font-size: 3.2rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.module-3 h3 {
+	font-size: 2.4rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.module-3 .card p {
+	max-width: 24em;
+}
+
+.module-3 .closer p {
+	max-width: 18em;
+}
+
+.module-3 .teaser {
+	color: var(--pink);
+	font-weight: 700;
+}
+
+/* flex */
+
+.module-3 .flex {
+	display: flex;
+	align-items: center;
+}
+
+/* grid */
+
+.module-3 .card-grid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.module-3 picture {
+	padding-top: 2rem;
+}
+
+.module-3 .card {
+	display: flex;
+	flex-direction: column;
+}
+
+.module-3 .card + .card {
+	margin-top: 2rem;
+}
+
+.module-3 .space {
+	margin-bottom: 2rem;
+}
+
+/* media query */
+
+@media (min-width: 641px) {
+	.module-3 .card-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+	}
+
+	.module-3 .opener {
+		padding: 6rem 0 4rem 0;
+	}
+
+	.module-3 .closer {
+		max-width: 42rem;
+		background-color: var(--highlight);
+		color: var(--paper);
+		padding: 20px;
+	}
+
+	.module-3 .border {
+		padding: 20px;
+		border: 3px solid var(--ink);
+	}
+
+	.module-3 .space {
+		margin-bottom: 0;
+	}
+
+	.module-3 .line {
+		padding-bottom: 0;
+	}
+
+	.module-3 .structure {
+		padding: 0 4%;
+	}
+}
+
+@media (min-width: 1281px) {
+	.module-3 .card-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.module-3 .opener {
+		padding: 6rem 0 6rem 0;
+	}
+
+	.module-3 .closer {
+		margin-top: 6rem;
+	}
+
+	.module-3 .structure {
+		padding: 0 3%;
+	}
+
+	.module-3 .border {
+		padding: 30px;
+	}
+}
+
+
+/* MOD 4 */
+
+
+
+/* setup */
+
+
+.module-4 img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* structure */
+
+.module-4 .structure {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 5%;
+	max-width: 1440px;
+	margin: auto;
+}
+
+.module-4 .opener {
+	background-color: var(--highlightM4);
+	color: var(--paperM4);
+	padding: 8rem 0 2rem 0;
+}
+
+.module-4 .logo {
+	max-width: 80px;
+}
+
+/* typography */
+
+.module-4 h2 {
+	font-size: 3.2rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.module-4 h3 {
+	font-size: 2.4rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.module-4 .opener p {
+	max-width: 24em;
+}
+
+.module-4 .card p {
+	max-width: 24em;
+}
+
+.module-4 .teaser {
+	color: var(--pink);
+	font-weight: 700;
+}
+
+/* grid */
+
+.module-4 .card-grid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	padding-top: 4rem;
+}
+
+.module-4 .card {
+	display: flex;
+	flex-direction: column;
+}
+
+.module-4 .card + .card {
+	margin-top: 2rem;
+}
+
+.module-4 .space {
+	margin-bottom: 2rem;
+}
+
+/* media query */
+
+@media (min-width: 641px) {
+	..module-4 {
+		background-color: var(--paperM4);
+		padding: 0 0 0 0
+	}
+
+	.module-4 .opener {
+		padding: 8rem 0 14rem 0;
+	}
+
+	.module-4 .card-grid {
+		transform: translate(0, -126px);
+	}
+
+	.module-4 .card {
+		background-color: var(--cardM4);
+	}
+
+	.module-4 .border {
+		padding: 20px;
+	}
+
+	.module-4 .space {
+		margin-bottom: 0;
+	}
+
+	.module-4 .line {
+		padding-bottom: 0;
+	}
+
+	.module-4 .structure {
+		padding: 0 4%;
+	}
+}
+
+/* max */
+
+@media (max-width: 1025px) {
+	.module-4 .teaser {
+		display: none;
+	}
+}
+
+/* min */
+
+@media (min-width: 1025px) {
+	/* flex */
+
+	.module-4 .flex-grid {
+		display: flex;
+	}
+
+	.module-4 .flex-box {
+		display: block;
+	}
+
+	.module-4 .opener {
+		padding: 8rem 0 21rem 0;
+	}
+
+	.module-4 .structure {
+		padding: 0 3%;
+	}
+
+	.module-4 .card + .card {
+		margin-top: 0;
+		margin-left: 2.4rem;
+	}
+
+	.module-4 .border {
+		padding: 30px;
+	}
+}
+
+
+/* MOD 5 */
+
+
+/* setup */
+
+.module-5 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.module-5 picture {
+	display: block;
+}
+
+.module-5 img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+/* typography */
+
+.module-5 h2 {
+	font-size: 3.2rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.module-5 h3 {
+	font-size: 2.4rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.module-5 .h3 {
+	font-size: 2.4rem;
+	font-weight: 700;
+}
+
+.module-5 .teaser {
+	color: var(--pink);
+	font-weight: 700;
+}
+
+/* structure */
+
+.module-5 .structure {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 5%;
+	max-width: 1440px;
+	margin: auto;
+
+	display: grid;;
+	gap: 20px;
+}
+
+.module-5 .opener {
+	max-width: 25em;
+}
+
+.module-5 .card-grid {
+	display: grid;
+	gap: 2rem;
+}
+
+.module-5 .card {
+	padding-top: 2rem;
+}
+
+.module-5 details p {
+	max-width: 25em;
+	padding-top: 5px;
+}
+
+.module-5 summary {
+	border-bottom: var(--line) solid var(--ink);
+	list-style: none;
+}
+
+.module-5 summary::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.module-5 details[open] summary::after {
+	content: "–";
+}
+
+@media (min-width: 641px) {
+	.module-5 .structure {
+		padding: 0 4%;
+	}
+}
+
+
+@media (min-width: 1025px) {
+	.module-5 .structure {
+		padding: 0 3%;
+	}
+
+	.module-5 .structure {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.module-5 .card-grid {
+		grid-column: 2 / 3;
+	}
+
+	.module-5 .opener {
+		max-width: 30em;
+	}
+}
+
+
+
+
+

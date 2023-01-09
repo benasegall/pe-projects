@@ -4,19 +4,27 @@
     [
         {
             "page": "projects",
-            "name": "Lorem ipsum dolor sit amet",
-            "langs": "Lorem ipsum dolor sit amet",
-            "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quos est, natus quam aliquid laboriosam quasi dolor, delectus ipsam mollitia.",
-            "study": "#",
-            "website": "#"
+            "link": "View Demo",
+            "name": "Dynamic Router",
+            "langs": "PHP, JSON",
+            "descr": "A PHP-enabled page routing system built with page data from JSON structures.",
+            "website": "projects/dynamic-router"
         },
         {
             "page": "projects",
-            "name": "Lorem ipsum dolor sit amet",
-            "langs": "Lorem ipsum dolor sit amet",
-            "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quos est, natus quam aliquid laboriosam quasi dolor, delectus ipsam mollitia.",
-            "study": "#",
-            "website": "#"
+            "link": "View Demo",
+            "name": "Layout Concept",
+            "langs": "CSS, PHP",
+            "descr": "A first iteration using PHP for making a dynamic webpage.",
+            "website": "projects/layout-concept"
+        },
+        {
+            "page": "projects",
+            "link": "View Demo",
+            "name": "Responsive Design Modules",
+            "langs": "CSS, PHP",
+            "descr": "A series of responsively designed webpage layout modules. Using media queries, grid layout, flexbox, dropdown functionality, light/dark themes and SVGs.",
+            "website": "projects/RDM"
         }
     ]
 }

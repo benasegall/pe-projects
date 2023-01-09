@@ -1,0 +1,1 @@
+<?php include('pages/templates/generic-404.php') ?>

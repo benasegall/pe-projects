@@ -1,0 +1,13 @@
+{
+    "title": "Home page title",
+    "subtitle": "Home page subtitle",
+    "sections":
+    [
+        {
+            "id": "home",
+            "heading": "Section header",
+            "text-one": "Supporting info",
+            "text-two": "Supporting info"
+        }
+    ]
+}

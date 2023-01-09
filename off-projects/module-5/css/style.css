@@ -1,0 +1,131 @@
+
+/* setup */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+html {
+	font-size: 62.5%;
+	--line: 1px;
+	--ink: #040404;
+	--white: #fbfbfb;
+	--pink: #ff00ae;
+}
+
+/* typography */
+
+h2 {
+	font-size: 3.2rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+h3 {
+	font-size: 2.4rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.h3 {
+	font-size: 2.4rem;
+	font-weight: 700;
+}
+
+.teaser {
+	color: var(--pink);
+	font-weight: 700;
+}
+
+/* structure */
+
+body {
+	background-color: var(--white);
+	color: var(--black);
+	padding: 8rem 0 8rem 0;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.structure {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 5%;
+	max-width: 1440px;
+	margin: auto;
+
+	display: grid;;
+	gap: 20px;
+}
+
+.opener {
+	max-width: 25em;
+}
+
+.card-grid {
+	display: grid;
+	gap: 2rem;
+}
+
+.card {
+	padding-top: 2rem;
+}
+
+details p {
+	max-width: 25em;
+	padding-top: 5px;
+}
+
+summary {
+	border-bottom: var(--line) solid var(--ink);
+	list-style: none;
+}
+
+summary::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+details[open] summary::after {
+	content: "–";
+}
+
+@media (min-width: 641px) {
+	.structure {
+		padding: 0 4%;
+	}
+}
+
+
+@media (min-width: 1025px) {
+	.structure {
+		padding: 0 3%;
+	}
+
+	.structure {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.card-grid {
+		grid-column: 2 / 3;
+	}
+
+	.opener {
+		max-width: 30em;
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "title": "About page title",
+    "subtitle": "About page subtitle",
+    "sections":
+    [
+        {
+            "id": "about",
+            "heading": "Section header",
+            "text-one": "Supporting info",
+            "text-two": "Supporting info"
+        }
+    ]
+}
