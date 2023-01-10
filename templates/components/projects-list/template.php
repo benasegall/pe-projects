@@ -1,8 +1,17 @@
+<?php
+	$json = file_get_contents("data/projects.json");
+	$projectsData = json_decode($json, true);
+?>
+
 <section class="projects">
 	<ul>
-		<h2><?=$section["name"]?></h2>
-		<p><?=$section["langs"]?></p>
-		<p><?=$section["descr"]?></p>
-		<p><a href="<?=$section["website"]?>"><?=$section["link"]?></a></p>
+		<?php
+			foreach ($projectsData as project) {
+				echo "<li>";
+				include ("projects-card.php");
+				echo "</li>";	
+			}
+		?>
 	</ul>
 </section>
+

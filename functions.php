@@ -23,8 +23,7 @@ function pageData() {
 }
 
 function renderPage() {
-	$filePath = "pages/page-filter.php";
-	$pageData = pageData();
+	$filePath = "templates/pages/default.php";
 	if (file_get_contents($filePath)) {
 		include($filePath);
 	} else {

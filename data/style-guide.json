@@ -1,0 +1,40 @@
+{
+    "title": "Style Guide",
+    "slug": "style-guide",
+    "sections": [
+        {
+            "type": "generic-text",
+            "subtitle": "This is a generic-text module",
+            "info": "This is the text content"
+        },
+        {
+            "type": "info-grid",
+            "list": [
+                {
+                    "subtitle": "This is the info grid module",
+                    "info": "This is the text content"
+                },
+                {
+                    "subtitle": "This is the info grid module",
+                    "info": "This is the text content"
+                },
+                {
+                    "subtitle": "This is the info grid module",
+                    "info": "This is the text content"
+                },
+                {
+                    "subtitle": "This is the info grid module",
+                    "info": "This is the text content"
+                }
+            ]
+        },
+        {
+            "type": "project-req",
+            "subtitle": "This is a project-req module",
+            "info": "This is the text content"
+        },
+        {
+            "type": "image-figure"
+        }
+    ]
+}

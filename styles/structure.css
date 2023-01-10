@@ -27,7 +27,7 @@ body {
 
 /* grid wrapper */
 
-.content-wrap {
+/*.content-wrap {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
@@ -36,4 +36,4 @@ body {
 	.content-wrap {
 		display: block;
 	}
-}
+}*/

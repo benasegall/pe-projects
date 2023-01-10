@@ -1,4 +1,5 @@
 <?php include ('functions.php'); ?>
+<?php $pageData = pageData(); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,4 +23,14 @@
 	</header>
 
 	<main class="site-content">
+
+	<div class="structure">
+		<?php include ('templates/components/page-header/template.php'); ?>
+
+	<div class="content-wrap">
 		<?php renderPage(); ?>
+	</div>
+
+	</div>
+	</main>
+	</body>
