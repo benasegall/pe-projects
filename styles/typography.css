@@ -44,6 +44,14 @@ section.info {
 	margin-bottom: 1em;
 }
 
+section.contact {
+	margin-bottom: 2em;
+}
+
+section.projects {
+	margin-bottom: 2em;
+}
+
 .projects :is(h2 + p, p + p) {
   margin-top: .5em;
 }

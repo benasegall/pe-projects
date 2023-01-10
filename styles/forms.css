@@ -28,12 +28,20 @@ input, textarea, button {
   background-color: inherit;
 }
 
-input, textarea, button[type="submit"] {
+input, textarea {
 	margin-bottom: 1em;
 	border-bottom: 1px solid var(--light-border);
 }
 
-input:hover, textarea:hover, button[type="submit"]:hover {
+input:hover, textarea:hover {
+	border-bottom: 1px solid;
+}
+
+button[type="submit"] {
+	border-bottom: 1px solid var(--light-border);
+}
+
+button[type="submit"]:hover {
 	border-bottom: 1px solid;
 }
 

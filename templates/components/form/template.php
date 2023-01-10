@@ -1,4 +1,4 @@
-<section class="info">
+<section>
 <?php include('templates/components/form/contact-form.php'); ?>
 
 <p>For your convenience, you can also send me an email through this form.</p>
