@@ -6,22 +6,18 @@
             "type": "info-grid",
             "list": [
                 {
-                    "type": "generic-text",
                     "subtitle": "My Background",
                     "info": "My interest in design started at a young age. In my early youth, I was exposed to a variety of artistic expressions through my parents. As I grew up I began viewing design less as a hobby and more as a career. In high school, I enrolled myself in a graphic design program at a vocational training school. Later in high school, I took courses at the Fashion Institute of Technology in New York. In college, I pursued a marketing degree however I was not fully connected with this field of study. In 2020, I decided to take a leave of absence from college and moved to New York. During my time in the city, I came across a computer science prep course offered by Codesmith. This was my first significant experience with software development. After completion, I decided instead of returning to campus I would pursue a different route. In 2022 I was accepted into the developer-led mentorship program at Perpetual Education."
                 },
                 {
-                    "type": "generic-text",
                     "subtitle": "Present",
                     "info": "To date, I am near completion of my web development mentorship. During the course, I have learned a wide range of skills and worked with several software technologies. These skills include experience with responsive web design techniques, advanced CSS, version control, staging, dynamic data and databases, libraries and frameworks, drawing tools, content management systems, client-side and server-side scripting and rendering. I am looking to enter the workforce as a front-end developer."
                 },
                 {
-                    "type": "generic-text",
                     "subtitle": "Goals",
                     "info": "My aim is to turn complex problems into intuitive and elegant designs, through easy-to-navigate code. I seek to gain employment on a communicative and adaptable team that will enable me to expand my knowledge of the development process and grow as a designer."
                 },
                 {
-                    "type": "generic-text",
                     "subtitle": "Outside of Work",
                     "info": "Beyond staring into my code editor, I spend my days with my dog, out with a friend, or waiting for a favorable wind. I try to stay active and enjoy a casual match of tennis. I'm into architecture, interior design, video games, video essays, and artwork."
                 }

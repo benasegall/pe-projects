@@ -12,11 +12,11 @@ function currentPage() {
 
 function pageData() {
 	$page = currentPage();
-	$filePath = "data/$page.json";
+	$filePath = "pages/$page.json";
 	if ( file_exists($filePath) ) {
-		$json = file_get_contents("data/$page.json");
+		$json = file_get_contents($filePath);
 	} else {
-		$json = file_get_contents("data/404.json");
+		$json = file_get_contents("pages/404.json");
 	}
 	$pageData = json_decode($json, true);
 	return $pageData;

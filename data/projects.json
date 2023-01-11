@@ -1,26 +1,30 @@
 [
     {
         "name": "Dynamic Router",
-        "slug": "dynamic-router"
-        "link": "View Demo",
         "langs": "PHP, JSON",
         "descr": "A PHP-enabled page routing system built with page data from JSON structures.",
-        "website": "projects/dynamic-router"
+        "reveal": "",
+        "case-study": "",
+        "link": "projects/dynamic-router",
+        "website": "View Demo"
     },
     {
         "name": "Layout Concept",
-        "slug": "layout-concept"
-        "link": "View Website",
+        "slug": "layout-concept",
         "langs": "CSS, PHP",
         "descr": "A first iteration using PHP for making a dynamic webpage.",
-        "website": "projects/layout-concept"
+        "reveal": "",
+        "case-study": "?page=detail?slug=layout-concept",
+        "link": "projects/layout-concept",
+        "website": "View Website"
     },
     {
         "name": "Responsive Design Modules",
-        "slug": "responsive-design-modules"
-        "link": "View Demo",
         "langs": "CSS, PHP",
         "descr": "A series of responsively designed webpage layout modules. Using media queries, grid layout, flexbox, dropdown functionality, light/dark themes and SVGs.",
-        "website": "projects/RDM"
+        "reveal": "",
+        "case-study": "",
+        "link": "projects/RDM",
+        "website": "View Demo"
     }
 ]

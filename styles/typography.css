@@ -48,11 +48,11 @@ section.contact {
 	margin-bottom: 2em;
 }
 
-section.projects {
+section.project {
 	margin-bottom: 2em;
 }
 
-.projects :is(h2 + p, p + p) {
+.project :is(h2 + p, p + p) {
   margin-top: .5em;
 }
 
@@ -66,12 +66,6 @@ p a {
 
 .site-header {
 	padding: 1em 0 1em 0;
-}
-
-/* grid layout */
-
-.content-wrap {
-	column-gap: 3em;
 }
 
 /* page divider */

@@ -29,12 +29,13 @@
             ]
         },
         {
-            "type": "project-req",
-            "subtitle": "This is a project-req module",
-            "info": "This is the text content"
+            "type": "projects-grid"
         },
         {
-            "type": "image-figure"
+            "type": "contact-grid",
+            "subtitle": "This is a contact grid module",
+            "emailBar": "This is where an email link or other link would be located",
+            "socialsBar": "This is where social media links or other links would be located"
         }
     ]
 }

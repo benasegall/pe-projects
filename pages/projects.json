@@ -1,0 +1,9 @@
+{
+    "title": "Projects",
+    "slug": "projects",
+    "sections": [
+        {
+            "type": "projects-grid"
+        }
+    ]
+}

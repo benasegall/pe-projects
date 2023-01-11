@@ -22,15 +22,16 @@
 		</div>
 	</header>
 
-	<main class="site-content">
+		<main class="site-content">
 
-	<div class="structure">
-		<?php include ('templates/components/page-header/template.php'); ?>
+			<div class="structure">
+				
+				<?php include ('templates/modules/page-header/template.php'); ?>
 
-	<div class="content-wrap">
-		<?php renderPage(); ?>
-	</div>
+				<div class="content-wrap">
+					<?php renderPage(); ?>
+				</div>
 
-	</div>
-	</main>
+			</div>
+		</main>
 	</body>

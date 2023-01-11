@@ -1,7 +1,11 @@
 <section>
-<?php include('templates/components/form/contact-form.php'); ?>
+<?php include('templates/components/contact-form/contact-form.php'); ?>
 
-<p>For your convenience, you can also send me an email through this form.</p>
+<?php $formHeader = $formHeader ?? "This is a form header" ?>
+
+<?php $formHeader = "For your convenience, you can also send me an email through this form." ?>
+
+<p><?=$formHeader?></p>
 
 <form class="contact-form" method="post">
 	<div class="field">
