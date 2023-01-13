@@ -1,0 +1,13 @@
+main {
+	padding-bottom: 6em;
+}
+
+.site-footer ul {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.site-footer ul li {
+	margin-left: 2em;
+}

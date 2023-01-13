@@ -14,10 +14,6 @@ h2 {
 
 /* spacing */
 
-body {
-	margin-bottom: 6em;
-}
-
 header h1 {
 	margin-top: 2em;
 }
@@ -62,10 +58,14 @@ p a {
 	text-decoration-thickness: 1px;
 }
 
-/* site-header */
+/* site-header / footer */
 
 .site-header {
 	padding: 1em 0 1em 0;
+}
+
+.site-footer {
+	padding: .5em 0 .5em 0;
 }
 
 /* page divider */

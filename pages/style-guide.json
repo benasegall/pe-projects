@@ -4,6 +4,16 @@
     "sections": [
         {
             "type": "generic-text",
+            "subtitle": "Minimalistic, Intentional, Concise",
+            "info": "These are the keywords I used to design this portfolio."
+        },
+        {
+            "type": "generic-text",
+            "subtitle": "Typography",
+            "info": "This is the text content"
+        },
+        {
+            "type": "generic-text",
             "subtitle": "This is a generic-text module",
             "info": "This is the text content"
         },

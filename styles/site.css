@@ -7,7 +7,6 @@
 
 body {
 	font-family: 'Hind Siliguri', sans-serif;
-	background-color: var(--light-background-color);
 	color: var(--light-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,4 +18,12 @@ body {
 
 .separator {
 	background-color: var(--light-border);
+}
+
+.site-content {
+	background-color: var(--light-background-color);
+}
+
+.site-footer {
+	background-color: var(--light-header);
 }
