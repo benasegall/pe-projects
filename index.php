@@ -9,6 +9,8 @@
 
 	<title>Benjamin Segall</title>
 
+	<link rel="icon" href="images/favicon.svg">
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
