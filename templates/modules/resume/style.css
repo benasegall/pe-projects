@@ -1,0 +1,44 @@
+.resume h2 {
+	font-weight: 700;
+}
+
+.resume h3 {
+	font-weight: 700;
+	display: inline-block;
+}
+
+.resume ul {
+	padding-left: 40px;
+}
+
+.resume ul li {
+	list-style-type: disc;
+}
+
+.date-handle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 480px) {
+	.date-handle {
+		display: block;
+	}
+}
+
+.resume :is(ul, li, .date-handle) {
+	margin-top: .5em;
+}
+
+.resume h2 + p {
+	margin-top: .5em;
+}
+
+.resume :is(h2):not(:first-of-type) {
+	margin-top: 1.5em;
+}
+
+.resume :is(p, ul) {
+	max-width: 40em;
+}
