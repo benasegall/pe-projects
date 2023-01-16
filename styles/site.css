@@ -7,6 +7,7 @@
 
 body {
 	font-family: 'Hind Siliguri', sans-serif;
+	background-color: var(--light-header);
 	color: var(--light-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
