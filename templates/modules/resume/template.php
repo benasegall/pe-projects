@@ -32,5 +32,6 @@
 	<ul>
 		<li>Non-Degree</li>
 	</ul>
-	<h2><a href="javascript:if(window.print)window.print()">Print</a></h2>
+
+	<h2><a class="print" href="javascript:if(window.print)window.print()">Print</a></h2>
 </section>
