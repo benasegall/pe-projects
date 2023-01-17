@@ -5,8 +5,8 @@
 
 	<h2>Technical Skills</h2>
 	<ul>
-		<li><h3>Programming Languages</h3>: HTML, CSS, PHP, JavaScript, jQuery, Python</li>
-		<li><h3>Tools & Frameworks</h3>: Wordpress, Affinity Designer, GitHub, Agile/Scrum</li>
+		<li><h3>Programming Languages</h3>: HTML, CSS, PHP, JavaScript, Python</li>
+		<li><h3>Tools & Frameworks</h3>: jQuery, Wordpress, Affinity Designer, GitHub, Agile/Scrum</li>
 	</ul>
 
 	<h2>Education</h2>
