@@ -21,7 +21,7 @@
     {
         "name": "Responsive Design Modules",
         "langs": "CSS, PHP",
-        "descr": "A series of responsively designed webpage layout modules. Using media queries, grid layout, flexbox, dropdown functionality, light/dark themes and SVGs.",
+        "descr": "A series of responsively designed webpage layout modules; using media queries, grid layout, flexbox, dropdown functionality, light/dark themes and SVGs.",
         "reveal": "",
         "case-study": "",
         "link": "projects/RDM",

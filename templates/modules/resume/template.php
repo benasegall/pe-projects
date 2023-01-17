@@ -23,7 +23,7 @@
 		<p>September 2021 - January 2022</p>
 	</div>
 	<ul>
-		<li>Learned fundamental JavaScript concepts, the foundations of programming languages, engineering best practices, and technical communication skills</li>
+		<li>Exposure to fundamental JavaScript concepts, the foundations of programming languages, engineering best practices, and technical communication skills</li>
 	</ul>
 	<div class="date-handle">
 		<h3>Brookdale Community College</h3>
