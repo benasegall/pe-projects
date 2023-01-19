@@ -14,7 +14,7 @@
 			<li>•</li>
 			<li><a href='https://github.com/benasegall' target='_blank'>github.com/benasegall</a></li>
 			<li>•</li>
-			<li><a href='https://www.linkedin.com/in/benasegall/' target='_blank'>linkedin.com/in/benaseagll</a></li>
+			<li><a href='https://www.linkedin.com/in/benasegall/' target='_blank'>linkedin.com/in/benasegall</a></li>
 		</ul>
 	</div>
 
