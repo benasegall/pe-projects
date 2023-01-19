@@ -99,6 +99,10 @@
 }
 
 @media print {
+	html, body {
+		height: 100vh;
+		overflow: hidden;
+	}
 	.resume .header-print {
 		display: contents;
 	}
@@ -106,17 +110,17 @@
 		display: contents;
 	}
 	.resume .print-space-top {
-		margin-top: 1.8em;
+		margin-top: 2em;
 	}
 	.resume .print-space-bottom {
-		margin-bottom: 1.8em;
+		margin-bottom: 2em;
 	}
 	.resume :is(h3, p, ul,) {
 		font-size: 14.4px;
 		max-width: 100vw;
 	}
 	.resume :is(h2):not(:first-of-type) {
-		margin-top: 1.8em;
+		margin-top: 2em;
 	}
 	header + .content-wrap {
 	    margin: 0;
