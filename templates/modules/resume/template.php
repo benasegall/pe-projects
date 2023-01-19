@@ -1,6 +1,24 @@
 <section class="resume">
 
-	<h2>Career Objective</h2>
+	<div class="header-print">
+		<h1>Benjamin Segall</h1>
+		<ul class="line-one">
+			<li>New York, NY 10038</li>
+			<li>•</li>
+			<li>(732)947-9414</li>
+			<li>•</li>
+			<li><a href='mailto:benasegall@gmail.com'>benasegall@gmail.com</a></li>
+		</ul>
+		<ul class="line-two">
+			<li><a href="https://hellobenjamin.dev" target="_blank">hellobenjamin.dev</a></li>
+			<li>•</li>
+			<li><a href='https://github.com/benasegall' target='_blank'>github.com/benasegall</a></li>
+			<li>•</li>
+			<li><a href='https://www.linkedin.com/in/benasegall/' target='_blank'>linkedin.com/in/benaseagll</a></li>
+		</ul>
+	</div>
+
+	<h2 class="print-space-top">Career Objective</h2>
 	<p>Dynamic front-end developer looking to bring his skills and passion for responsive website design, adaptation and maintenance to a communicative team setting, with the goal of delivering frictionless experiences across devices.</p>
 
 	<h2>Technical Skills</h2>
@@ -32,6 +50,25 @@
 	<ul>
 		<li>Non-Degree</li>
 	</ul>
+
+	<div class="print-space-bottom"></div>
+
+	<div class="projects-print">
+		<h2>Projects</h2>
+		<div class="date-handle">
+			<h3>Responsive Design Modules</h3>
+		</div>
+		<ul>
+			<li>A series of responsively designed webpage layout modules; using media queries, grid layout, flexbox, dropdown functionality, light/dark themes, and SVGs</li>
+		</ul>
+		<div class="date-handle">
+			<h3>Layout Concept</h3>
+		</div>
+		<ul>
+			<li>Iteratively designed using style tiles, mockups, and custom elements</li>
+			<li>Tracking and organizing information from a large database</li>
+		</ul>
+	</div>
 
 	<h2><a class="print" href="javascript:if(window.print)window.print()">Print</a></h2>
 </section>

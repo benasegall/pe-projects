@@ -1,5 +1,9 @@
 /* official */
 
+.nav-wrapper button {
+	padding: 0;
+}
+
 .logo-menu ul{
 	display: flex;
 	align-items: center;

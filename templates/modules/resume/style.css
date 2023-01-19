@@ -31,6 +31,10 @@
 	margin-top: .5em;
 }
 
+.resume h2 + ul {
+	margin-top: .5em;
+}
+
 .resume :is(h2):not(:first-of-type) {
 	margin-top: 1.5em;
 }
@@ -58,3 +62,81 @@
 .print:hover {
 	border: 1px solid var(--light-color);
 }
+
+/* print */
+
+.resume .header-print {
+	display: none;
+}
+.resume .projects-print {
+	display: none;
+}
+
+.resume .header-print h1 {
+	text-align: center;
+	font-weight: 700;
+}
+
+.resume .header-print ul {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	max-width: 100vw;
+}
+
+.resume .header-print ul li {
+	list-style-type: none;
+}
+
+.resume .header-print :is(ul, li) {
+    margin-top: 0;
+    margin-left: .2em;
+    margin-right: .2em;
+}
+
+.resume .header-print li a {
+	text-decoration: underline;
+}
+
+@media print {
+	.resume .header-print {
+		display: contents;
+	}
+	.resume .projects-print {
+		display: contents;
+	}
+	.resume .print-space-top {
+		margin-top: 1.8em;
+	}
+	.resume .print-space-bottom {
+		margin-bottom: 1.8em;
+	}
+	.resume :is(h3, p, ul,) {
+		font-size: 14px;
+		max-width: 100vw;
+	}
+	.resume :is(h2):not(:first-of-type) {
+		margin-top: 1.8em;
+	}
+	header {
+		display: none;
+	}
+	h1 {
+		font-size: 24px;
+		margin-bottom: .2em;
+	}
+	h2 {
+		font-weight: 700;
+		font-size: 17px;
+	}
+	.resume .header-print h1, ul {
+		margin-top: .2em;
+	}
+	footer {
+		display: none;
+	}
+	.print {
+		display: none;
+	}
+}
+
