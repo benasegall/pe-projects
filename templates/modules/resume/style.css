@@ -43,14 +43,26 @@
 	max-width: 40em;
 }
 
-.print {
+.print-wrap {
+	display: flex;
+	align-items: center;
 	margin-top: 4em;
-	font-size: 1.8rem;
+}
+
+.print svg {
+	max-width: 1em;
+	margin-right: .2em;
+}
+
+.print {
+	display: flex;
+	font-size: 2.4rem;
 	padding: .5em 0 .5em 0;
 	max-width: 12.5em;
-	text-align: center;
+	justify-content: center;
+	border-bottom: 1px solid var(--light-border);
+	width: 6em;
 	margin-left: auto;
-	border: 1px solid var(--light-border);
 }
 
 @media (max-width: 480px) {
@@ -60,7 +72,7 @@
 }
 
 .print:hover {
-	border: 1px solid var(--light-color);
+	border-bottom: 1px solid var(--light-color);
 }
 
 /* print */
