@@ -112,7 +112,7 @@
 		margin-bottom: 1.8em;
 	}
 	.resume :is(h3, p, ul,) {
-		font-size: 14px;
+		font-size: 14.4px;
 		max-width: 100vw;
 	}
 	.resume :is(h2):not(:first-of-type) {
@@ -125,7 +125,7 @@
 		display: none;
 	}
 	h1 {
-		font-size: 24px;
+		font-size: 23px;
 		margin-bottom: .2em;
 	}
 	h2 {
