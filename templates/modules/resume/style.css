@@ -118,6 +118,9 @@
 	.resume :is(h2):not(:first-of-type) {
 		margin-top: 1.8em;
 	}
+	header + .content-wrap {
+	    margin: 0;
+	}
 	header {
 		display: none;
 	}
