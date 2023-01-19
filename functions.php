@@ -22,6 +22,8 @@ function pageData() {
 	return $pageData;
 }
 
+// MAIN CONTENT
+
 function renderPage() {
 	$filePath = "templates/pages/default.php";
 	if (file_get_contents($filePath)) {

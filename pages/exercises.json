@@ -1,0 +1,25 @@
+{
+    "title": "Exercises",
+    "slug": "exercises",
+    "sections": [
+        {
+            "type": "exercises-grid",
+            "list": [
+                {
+                    "subtitle": "Saying Hello",
+                    "PHPlink": "projects/exercises/php/saying-hello",
+                    "PHPdemo": "View PHP Demo",
+                    "JSlink": "projects/exercises/js/saying-hello",
+                    "JSdemo": "View JS Demo"
+                },
+                {
+                    "subtitle": "Printing Quotes",
+                    "PHPlink": "projects/exercises/php/printing-quotes",
+                    "PHPdemo": "View PHP Demo",
+                    "JSlink": "projects/exercises/js/printing-quotes",
+                    "JSdemo": "View JS Demo"
+                }
+            ]
+        }
+    ]
+}

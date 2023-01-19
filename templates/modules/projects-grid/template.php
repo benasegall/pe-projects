@@ -7,15 +7,11 @@
 
 <?php foreach ($projectsData as $project) { ?>
 	<section class="project">
-		<ul>
-				<li>
-					<h2><?=$project["name"]?></h2>
-					<p><?=$project["langs"]?></p>
-					<p><?=$project["descr"]?></p>
-					<p><a href="<?=$project["case-study"]?>"><?=$project["reveal"]?></a></p>
-					<p><a href="<?=$project["link"]?>"><?=$project["website"]?></a></p>
-				</li>
-		</ul>
+		<h2><?=$project["name"]?></h2>
+		<p><?=$project["langs"]?></p>
+		<p><?=$project["descr"]?></p>
+		<p><a href="<?=$project["case-study"]?>"><?=$project["reveal"]?></a></p>
+		<p><a href="<?=$project["link"]?>"><?=$project["website"]?></a></p>
 	</section>
 <?php } ?>
 

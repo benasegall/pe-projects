@@ -26,5 +26,14 @@
         "case-study": "",
         "link": "projects/RDM",
         "website": "View Demo"
+    },
+    {
+        "name": "Exercises for Programmers",
+        "langs": "PHP, JS",
+        "descr": "A series of exercises completed in PHP and JavaScript.",
+        "reveal": "",
+        "case-study": "",
+        "link": "?page=exercises",
+        "website": "View Demo"
     }
 ]
