@@ -4,44 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Printing Quotes</title>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
 </head>
 <body>
-	<style>
-		body {
-			max-width: 600px;
-			margin: auto;
-		}
-
-		form {
-			display: grid;
-			gap: 20px;
-			padding: 30px 0;
-		}
-
-		form fieldset {
-			display: grid;
-			padding: 20px;
-		}
-
-		form button {
-			font-family: inherit;
-			justify-self: start;
-			font-size: 1rem;
-			padding: .5em 1em;
-		}
-
-		input + label {
-			margin-top: 10px;
-		}
-
-		.links {
-			display: grid;
-			margin-top: 40px;
-			gap: 20px;
-		}
-
-
-	</style>
 
 	<?php
 	$theQuote = '';
@@ -66,10 +31,10 @@
 		<h1>Printing Quotes</h1>
 
 		<fieldset>
-			<label>Enter a quote.</label>
+			<label>What's the quote?</label>
 			<input type="text" name="quote" value="<?=$quote?>">
 
-			<label>Enter the author.</label>
+			<label>Who said it first?</label>
 			<input type="text" name="author" value="<?=$author?>">
 		</fieldset>
 		<button type="submit" name="submitted">Submit</button>
