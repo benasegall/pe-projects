@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Saying Hello</title>
+	<title>Printing Quotes</title>
 </head>
 <body>
 	<style>
@@ -11,7 +11,7 @@
 			max-width: 600px;
 			margin: auto;
 		}
-		
+
 		form {
 			display: grid;
 			gap: 20px;
@@ -44,37 +44,46 @@
 	</style>
 
 	<?php
-	$greeting = '';
-	$name = '';
+	$theQuote = '';
+	$whoSays = '';
+	$quote = '';
+	$author = '';
 
 	if (isset($_POST['submitted'])) {
-		if (isset($_POST['name'])) {
-			$name = $_POST['name'];
+		if (isset($_POST['quote'])) {
+			$quote = $_POST['quote'];
 		}
-		$greeting = 'Hello there, ' . $name . ', thanks for trying out the demo!';
+		if (isset($_POST['author'])) {
+			$author = $_POST['author'];
+		}
+		$theQuote = 'What is the quote? ' . $quote;
+		$whoSays = 'Who said it? ' . $author;
 	}
 	?>
 
 	<form method="POST">
 
-		<h1>Saying Hello</h1>
+		<h1>Printing Quotes</h1>
 
 		<fieldset>
-			<label>Enter your name.</label>
-			<input type="text" name="name" value="<?=$name?>">
+			<label>Enter a quote.</label>
+			<input type="text" name="quote" value="<?=$quote?>">
 
+			<label>Enter the author.</label>
+			<input type="text" name="author" value="<?=$author?>">
 		</fieldset>
 		<button type="submit" name="submitted">Submit</button>
 	</form>
 
 	<div class="print">
-		<p><?=$greeting?></p>
+		<p><?=$theQuote?></p>
+		<p><?=$whoSays?></p>
 	</div>
 
 	<div class="links">
 		<a href="../../../../?page=projects">Return to Projects</a>
 		<a href="../../../../?page=exercises">Return to Exercises</a>
 	</div>
-
+	
 </body>
 </html>
