@@ -18,6 +18,13 @@
                     "PHPdemo": "View PHP Demo",
                     "JSlink": "projects/exercises/js/printing-quotes",
                     "JSdemo": "View JS Demo"
+                },
+                {
+                    "subtitle": "Mad Libs",
+                    "PHPlink": "",
+                    "PHPdemo": "",
+                    "JSlink": "projects/exercises/js/mad-libs",
+                    "JSdemo": "View JS Demo"
                 }
             ]
         }
