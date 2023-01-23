@@ -5,7 +5,10 @@
 
 <div class="projects-grid">
 
-<?php foreach ($projectsData as $project) { ?>
+<!-- php foreach ($projectsData as $project) { -->
+<!-- Style Guide connection fix -->
+
+<?php foreach($section["list"] as $project) { ?>
 	<section class="project">
 		<h2><?=$project["name"]?></h2>
 		<p><?=$project["langs"]?></p>
