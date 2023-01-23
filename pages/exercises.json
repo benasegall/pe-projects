@@ -25,6 +25,13 @@
                     "PHPdemo": "",
                     "JSlink": "projects/exercises/js/mad-libs",
                     "JSdemo": "View JS Demo"
+                },
+                {
+                    "subtitle": "Magic 8 Ball",
+                    "PHPlink": "",
+                    "PHPdemo": "",
+                    "JSlink": "projects/exercises/js/magic-8-ball",
+                    "JSdemo": "View JS Demo"
                 }
             ]
         }
