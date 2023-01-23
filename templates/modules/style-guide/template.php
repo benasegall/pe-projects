@@ -51,7 +51,7 @@
 
 <section class="info">
 	<h2>Typography</h2>
-	<p>Typeface: Hind Siliguri</p>
+	<p><a href="https://fonts.google.com/specimen/Hind+Siliguri?query=Hind+Siliguri" target="_blank">Typeface: Hind Siliguri</a></p>
 	<p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
 	<p>abcdefghijklmnopqrstuvwxyz</p>
 	<p>0123456789</p>
