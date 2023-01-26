@@ -1,44 +1,37 @@
-function log(note = "") {
-	console.log(`–${note}`);
-	console.log("todo:", todos);
+const todoApp = {
+
+	todos: [],
+	todoId: 0,
+
+	log: function(note = "") {
+		console.log(`–${note}`);
+		console.log("todo:", this.todos);
+	},
+
+	add: function(content) {
+		let todo = {
+			id: `${this.todoId++}`,
+			content: content
+		};
+		this.todos = [...this.todos, todo];
+		this.log(`Added ${content}`);
+	},
+
+	remove: function(id) {
+		this.log(`Removed ${id}`);
+		this.todos.splice(id, 1);
+	},
+
+	completed: function(id) {
+		this.todos[id].completed = true;
+		this.log(`completed ${this.todos[id].content}`);
+	},
+
+	update: function(newContent) {
+		this.todos[id].content = newContent;
+	},
 }
 
-const todos = [];
-let count = 0;
-
-function add(content) {
-	let todo = {
-		id: `${count++}`,
-		content: content
-	};
-	todos.push(todo);
-	log(`Added ${content}`);
-}
-
-function remove(index) {
-	log(`Removed ${index}`);
-	todos.splice(index, 1);
-}
-
-function completed(index) {
-	todos[index].completed = true;
-	log(`completed ${todos[index].content}`);
-}
-
-function update(newContent) {
-	todos[index].content = newContent;
-}
-
-add("Complete todo app");
-
-completed(0);
-
-add("Complete 1 new JavaScript form");
-add("Browse appartments");
-add("Eat dinner.")
-
-remove(3);
-
-add("Get ready for bed")
-
-update(todos[2].content = "This is an updated list item")
+todoApp.add("Complete todo list day 2");
+todoApp.add("Complete Constructor functions and debugger");
+todoApp.completed(1);
