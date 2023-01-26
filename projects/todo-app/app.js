@@ -1,14 +1,38 @@
+function Constructor(name, age) {
+	this.name = name,
+	this.age = age,
+
+	this.sound = function() {
+		alert(`${name}`);
+	}
+}
+
+const toby = new Constructor("Tobuscus", 15);
+const rick = new Constructor("Richard", 2);
+
+toby.sound();
+rick.sound();
+
+Constructor.prototype.greeting = function() {
+	console.log(`... ${this.name} says, "Hewo my hooman"`)
+}
+
+toby.greeting();
+
+
+
 const todoApp = {
 
 	todos: [],
 	todoId: 0,
 
-	log: function(note = "") {
+	log(note = "") {
 		console.log(`–${note}`);
 		console.log("todo:", this.todos);
+		// debugger;
 	},
 
-	add: function(content) {
+	add(content) {
 		let todo = {
 			id: `${this.todoId++}`,
 			content: content
@@ -17,17 +41,17 @@ const todoApp = {
 		this.log(`Added ${content}`);
 	},
 
-	remove: function(id) {
+	remove(id) {
 		this.log(`Removed ${id}`);
 		this.todos.splice(id, 1);
 	},
 
-	completed: function(id) {
+	completed(id) {
 		this.todos[id].completed = true;
 		this.log(`completed ${this.todos[id].content}`);
 	},
 
-	update: function(newContent) {
+	update(newContent) {
 		this.todos[id].content = newContent;
 	},
 }
