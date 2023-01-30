@@ -1,3 +1,101 @@
+// localStorage.setItem('theme', 'dark');
+
+// const color = localStorage.getItem('theme');
+
+// const theme = `The theme is ${color}`;
+
+// document.body.textContent = theme;
+
+
+
+
+
+function todoApp() {
+	this.todos = [];
+	this.todosId = 0,
+
+	this.log = function(note = '') {
+	console.log(`-${note}`);
+	console.log('todo:', this.todos);
+	},
+
+	this.add = function(content) {
+		let todo = {
+			id: `${this.todosId++}`,
+			content: content
+		}
+		this.todos = [...this.todos, todo];
+		this.log(`Added ${content}`);
+
+		saveData('todos', this.todos);
+	},
+
+	this.remove = function(id) {
+		this.log(`Removed ${id}`);
+		this.todo.splice(id, 1);
+		saveData('todos', this.todos);
+	},
+
+	this.update = function(id, newContent) {
+		this.todos.splice(id, 1);
+		this.add(newContent);
+		saveData('todos', this.todos);
+	}
+
+}
+
+const app = new todoApp();
+
+
+function getData(key) {
+	let string = localStorage.getItem(key);
+	let object = JSON.parse(string);
+	return object;
+}
+
+function saveData(key, data) {
+	let string = JSON.stringify(data);
+	localStorage.setItem(key, string);
+}
+
+
+
+function initialize() {
+	// if item exists in local storage
+	if (localStorage.getItem('todos')) { 
+		// assign items to my todos array
+		app.todos = getData('todos');
+	} else {
+		// set local storage to empty array
+		saveData('todos', []);
+	}
+}
+initialize();
+
+
+
+
+
+// app.add("Brush your teeth");
+// app.add("Put on the dishwasher");
+// app.add("Complete a Constructor function");
+// app.update(3, "Onto the next lesson!");
+
+// todoApp.prototype.completed = function(id) {
+// 	this.todos[id].completed = true;
+// 	this.log(`completed ${this.todos[id].content}`);
+// }
+
+// app.completed(2);
+
+
+
+
+
+
+
+
+
 // function Constructor(name, age) {
 // 	this.name = name,
 // 	this.age = age,
@@ -19,51 +117,6 @@
 
 // toby.greeting();
 
-
-
-function todoApp() {
-	this.todos = [];
-	this.todosId = 0,
-
-	this.log = function(note = '') {
-	console.log(`-${note}`);
-	console.log('todo:', this.todos);
-	},
-
-	this.add = function(content) {
-		let todo = {
-			id: `${this.todosId++}`,
-			content: content
-		}
-		this.todos = [...this.todos, todo];
-		this.log(`Added ${content}`);
-	},
-
-	this.remove = function(id) {
-		this.log(`Removed ${id}`);
-		this.todo.splice(id, 1);
-	},
-
-	this.update = function(id, newContent) {
-		this.todos.splice(id, 1);
-		this.add(newContent);
-	}
-
-}
-
-const todo = new todoApp();
-
-todo.add("Brush your teeth");
-todo.add("Put on the dishwasher");
-todo.add("Complete a Constructor function");
-todo.update(3, "Onto the next lesson!");
-
-todoApp.prototype.completed = function(id) {
-	this.todos[id].completed = true;
-	this.log(`completed ${this.todos[id].content}`);
-}
-
-todo.completed(2);
 
 
 // const todoApp = {
