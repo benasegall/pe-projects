@@ -1,159 +1,85 @@
-// localStorage.setItem('theme', 'dark');
+let todos = [];
+let id = 0;
+const $form = document.querySelector('form');
+const $input = $form.querySelector('input');
+const $output = document.querySelector('output');
 
-// const color = localStorage.getItem('theme');
+function add(content) {
+	const todo = {
+		id: `${id++}`,
+		content: content,
+		complete: false,
+	};
 
-// const theme = `The theme is ${color}`;
+	todos = [...todos, todo];
+	renderTodos(todos);
+}
 
-// document.body.textContent = theme;
+function remove(id) {
+	// filter through the todo list
+	const filtered = todos.filter(function(todo) {
+		// if todo id is not equal to the id being checked
+		// return all but that id
+		return todo.id != id;
+	});
 
+	todos = [...filtered];
+	renderTodos(todos);
+}
 
-
-
-
-function todoApp() {
-	this.todos = [];
-	this.todosId = 0,
-
-	this.log = function(note = '') {
-	console.log(`-${note}`);
-	console.log('todo:', this.todos);
-	},
-
-	this.add = function(content) {
-		let todo = {
-			id: `${this.todosId++}`,
-			content: content
+function complete(id) {
+	for (let i = 0; i < todos.length; i++) {
+		if (todos[i].id == id) {
+			todos[i].complete = true;
 		}
-		this.todos = [...this.todos, todo];
-		this.log(`Added ${content}`);
+	}
+	renderTodos(todos);
+}
 
-		saveData('todos', this.todos);
-	},
+function renderTodo(todo) {
+	return `
+	<li data-id='${todo.id}'>
+		<todo-card class='${todo.complete ? 'complete' : ''}'>
+			<h2>${todo.content}</h2>
 
-	this.remove = function(id) {
-		this.log(`Removed ${id}`);
-		this.todo.splice(id, 1);
-		saveData('todos', this.todos);
-	},
+			<actions>
+				<button>complete</button>
+				<button>clear</button>
+			</actions>
+		</todo-card>
+	</li>
+	`;
+}
 
-	this.update = function(id, newContent) {
-		this.todos.splice(id, 1);
-		this.add(newContent);
-		saveData('todos', this.todos);
+function renderTodos(todos) {
+	let template = "<ul>";
+	todos.forEach(function(todo) {
+		template += renderTodo(todo);
+	});
+	template += "</ul>";
+	$output.innerHTML = template;
+}
+
+add("So much todo")
+
+
+$form.addEventListener('submit', function(event) {
+	event.preventDefault();
+
+	add($input.value);
+	$input.value = "";
+	console.log('todos: ', todos);
+});
+
+$output.addEventListener('click', function(event) {
+
+	if (event.target.textContent == 'clear') {
+		const id = event.target.closest('li').dataset.id;
+		remove(id);
 	}
 
-}
-
-const app = new todoApp();
-
-
-function getData(key) {
-	let string = localStorage.getItem(key);
-	let object = JSON.parse(string);
-	return object;
-}
-
-function saveData(key, data) {
-	let string = JSON.stringify(data);
-	localStorage.setItem(key, string);
-}
-
-
-
-function initialize() {
-	// if item exists in local storage
-	if (localStorage.getItem('todos')) { 
-		// assign items to my todos array
-		app.todos = getData('todos');
-	} else {
-		// set local storage to empty array
-		saveData('todos', []);
+		if (event.target.textContent == 'complete') {
+		const id = event.target.closest('li').dataset.id;
+		complete(id);
 	}
-}
-initialize();
-
-
-
-
-
-// app.add("Brush your teeth");
-// app.add("Put on the dishwasher");
-// app.add("Complete a Constructor function");
-// app.update(3, "Onto the next lesson!");
-
-// todoApp.prototype.completed = function(id) {
-// 	this.todos[id].completed = true;
-// 	this.log(`completed ${this.todos[id].content}`);
-// }
-
-// app.completed(2);
-
-
-
-
-
-
-
-
-
-// function Constructor(name, age) {
-// 	this.name = name,
-// 	this.age = age,
-
-// 	this.sound = function() {
-// 		alert(`${name}`);
-// 	}
-// }
-
-// const toby = new Constructor("Tobuscus", 15);
-// const rick = new Constructor("Richard", 2);
-
-// toby.sound();
-// rick.sound();
-
-// Constructor.prototype.greeting = function() {
-// 	console.log(`... ${this.name} says, "Hewo my hooman"`)
-// }
-
-// toby.greeting();
-
-
-
-// const todoApp = {
-
-// 	todos: [],
-// 	todoId: 0,
-
-// 	log(note = "") {
-// 		console.log(`–${note}`);
-// 		console.log("todo:", this.todos);
-// 		// debugger;
-// 	},
-
-// 	add(content) {
-// 		let todo = {
-// 			id: `${this.todoId++}`,
-// 			content: content
-// 		};
-// 		this.todos = [...this.todos, todo];
-// 		this.log(`Added ${content}`);
-// 	},
-
-// 	remove(id) {
-// 		this.log(`Removed ${id}`);
-// 		this.todos.splice(id, 1);
-// 	},
-
-// 	completed(id) {
-// 		this.todos[id].completed = true;
-// 		this.log(`completed ${this.todos[id].content}`);
-// 	},
-
-// 	update(newContent) {
-// 		this.todos[id].content = newContent;
-// 	},
-// }
-
-// todoApp.add("Complete todo list day 2");
-// todoApp.add("Complete Constructor functions and debugger");
-// todoApp.completed(1);
+});
