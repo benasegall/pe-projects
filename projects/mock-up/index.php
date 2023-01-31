@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>mock-up</title>
 
-	<!-- <link rel="stylesheet" href="styles/site.css"> -->
+	<link rel="stylesheet" href="styles/site.css">
 </head>
 <body>
 	<header>
@@ -15,13 +15,9 @@
 	</header>
 
 	<main>
-		<div class="stucture">
-			<section class="diptych">
-				<?php include('templates/modules/diptych/template.php'); ?>
-			</section>
+		<?php include('templates/modules/diptych/template.php'); ?>
 
-			<section></section>
-		</div>
+		<section></section>
 	</main>
 </body>
 </html>

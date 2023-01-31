@@ -1,0 +1,41 @@
+.diptych {
+	background-image: url('../../../images/diptych-background.png');
+	background-repeat: round;
+	text-align: center;
+}
+
+.diptych-wrap {
+	max-width: 960px;
+	margin: auto;
+	padding-top: 6em;
+}
+
+.diptych h1 {
+	font-size: 6rem;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.diptych p {
+	font-size: 1.8rem;
+	color: var(--gray);
+	max-width: 600px;
+	margin: 1em auto;
+}
+
+.diptych button {
+	padding: 12px 48px;
+	margin: 2em 1em;
+}
+
+.diptych button.blue {
+	background-color: var(--blue);
+	color: var(--white);
+	border: 1px solid var(--blue);
+}
+
+.diptych button.white {
+	background-color: var(--white);
+	color: var(--blue);
+	border: 1px solid var(--blue);
+}
