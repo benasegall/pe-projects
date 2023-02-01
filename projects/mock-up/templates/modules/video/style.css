@@ -1,0 +1,25 @@
+.video {
+	padding: 80px 120px;
+	text-align: center;
+}
+
+.video h1 {
+	font-size: 5rem;
+	font-weight: 600;
+	padding: .25em 0 .25em 0;
+}
+
+.video p {
+	color: var(--gray);
+}
+
+
+.video picture {
+	display: flex;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+.video img {
+	min-width: 926px;
+}
