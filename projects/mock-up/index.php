@@ -22,6 +22,8 @@
 		<?php include('templates/modules/diptych/template.php'); ?>
 
 		<?php include('templates/modules/video/template.php'); ?>
+
+		<?php include('templates/modules/image-description/template.php'); ?>
 	</main>
 </body>
 </html>

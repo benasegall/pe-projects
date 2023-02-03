@@ -4,15 +4,8 @@
 }
 
 .video h1 {
-	font-size: 5rem;
-	font-weight: 600;
-	padding: .25em 0 .25em 0;
+	padding: 15px 0 15px 0;
 }
-
-.video p {
-	color: var(--gray);
-}
-
 
 .video picture {
 	display: flex;

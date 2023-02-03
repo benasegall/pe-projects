@@ -13,12 +13,9 @@
 .diptych h1 {
 	font-size: 6rem;
 	font-weight: 700;
-	line-height: 1.2;
 }
 
 .diptych p {
-	font-size: 1.8rem;
-	color: var(--gray);
 	max-width: 600px;
 	margin: 1em auto;
 }

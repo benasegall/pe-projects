@@ -1,0 +1,22 @@
+.img-descr {
+	display: flex;
+	flex-direction: row;
+}
+
+.image-header, .list {
+	max-width: 50%;
+}
+
+.img-descr ul li {
+	display: flex;
+	align-items: flex-start;
+}
+
+.img-descr p {
+	padding-top: 15px;
+}
+
+.img-descr li picture {
+	min-width: 60px;
+	max-width: 60px;
+}
