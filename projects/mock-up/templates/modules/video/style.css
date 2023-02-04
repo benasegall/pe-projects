@@ -4,15 +4,12 @@
 }
 
 .video h1 {
-	padding: 15px 0 15px 0;
+	padding: .5em 0 .5em 0;
 }
 
 .video picture {
 	display: flex;
-	justify-content: center;
-	margin-top: 2em;
-}
-
-.video img {
-	min-width: 926px;
+	align-items: center;
+	max-width: 926px;
+	margin: 5rem auto auto auto;
 }

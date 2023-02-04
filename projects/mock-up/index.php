@@ -24,6 +24,8 @@
 		<?php include('templates/modules/video/template.php'); ?>
 
 		<?php include('templates/modules/image-description/template.php'); ?>
+
+		<?php include('templates/modules/free-quotes/template.php'); ?>
 	</main>
 </body>
 </html>

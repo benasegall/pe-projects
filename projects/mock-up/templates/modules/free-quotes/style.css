@@ -1,0 +1,30 @@
+.free-quotes {
+	background-color: #f7f9ff;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.free-quotes h1 {
+	padding: 24px 0 24px 0;
+}
+
+.free-quotes img {
+	max-width: 1em;
+}
+
+.free-quotes button {
+	padding: 12px 48px;
+	margin: 2em 1em;
+	display: flex;
+	align-items: center;
+}
+
+.free-quotes button.blue {
+	background-color: var(--blue);
+	color: var(--white);
+	border: 1px solid var(--blue);
+}
+.free-quotes img {
+	max-width: .5em;
+	margin-left: 20px;
+}

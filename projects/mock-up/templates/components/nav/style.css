@@ -2,8 +2,14 @@ header {
 	border-bottom: 1px solid var(--light-gray);
 }
 
-.site-nav ul {
+.logo img {
+	max-width: 150px;
+	min-width: 150px;
+}
+
+.site-nav ul, .site-nav p {
 	font-size: 1.4rem;
+	font-weight: 600;
 }
 
 .lang-settings img {
@@ -12,10 +18,6 @@ header {
 
 .lang-settings p {
 	margin-left: .5em;
-}
-
-.logo img {
-	min-width: 150px;
 }
 
 .site-nav {
