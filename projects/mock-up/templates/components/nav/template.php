@@ -1,4 +1,4 @@
-<nav class="site-nav">
+<nav class="site-nav structure">
 	<ul class="logo">
 		<li><img src="images/logo.svg" alt="default logo"></li>
 	</ul>

@@ -1,7 +1,6 @@
 .img-descr {
 	display: flex;
 	flex-direction: row;
-	padding-top: 80px;
 	gap: 70px;
 }
 
@@ -13,6 +12,10 @@
 
 .img-descr p {
 	padding-top: 20px;
+}
+
+.image-header h1 {
+	font-size: 4rem;
 }
 
 .image-header picture {

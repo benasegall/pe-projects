@@ -1,11 +1,15 @@
 .free-quotes {
 	background-color: #f7f9ff;
 	text-align: center;
-	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	padding: 60px 120px;
 }
 
 .free-quotes h1 {
 	padding: 24px 0 24px 0;
+	max-width: 900px;
+	margin: auto;
 }
 
 .free-quotes img {
@@ -23,6 +27,7 @@
 	background-color: var(--blue);
 	color: var(--white);
 	border: 1px solid var(--blue);
+	align-self: center;
 }
 .free-quotes img {
 	max-width: .5em;

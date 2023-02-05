@@ -12,10 +12,8 @@
 	<link rel="stylesheet" href="styles/site.css">
 </head>
 <body>
-	<header>
-		<div class="structure">
-			<?php include('templates/components/nav/template.php'); ?>
-		</div>
+	<header class="site-header">
+		<?php include('templates/components/nav/template.php'); ?>
 	</header>
 
 	<main>
@@ -24,6 +22,8 @@
 		<?php include('templates/modules/video/template.php'); ?>
 
 		<?php include('templates/modules/image-description/template.php'); ?>
+
+		<?php include('templates/modules/reviews/template.php'); ?>
 
 		<?php include('templates/modules/free-quotes/template.php'); ?>
 	</main>
