@@ -43,6 +43,15 @@
                     "website": "View Website"
                 },
                 {
+                    "name": "Todo App",
+                    "langs": "PHP, JS",
+                    "descr": "Demonstrative, functional todo app",
+                    "reveal": "",
+                    "case-study": "",
+                    "link": "projects/todo-app",
+                    "website": "View Demo"
+                },
+                {
                     "name": "Exercises for Programmers",
                     "langs": "PHP, JS",
                     "descr": "A series of exercises completed in PHP and JavaScript.",
