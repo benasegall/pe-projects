@@ -1,11 +1,10 @@
 header {
 	background-color: var(--white);
-	border-bottom: 1px solid var(--light-gray);
+	border-bottom: 1px solid var(--nav-border);
 }
 
 .logo img {
 	max-width: 150px;
-	min-width: 150px;
 }
 
 .site-nav ul, .site-nav p {

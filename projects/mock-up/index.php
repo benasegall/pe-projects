@@ -26,6 +26,12 @@
 		<?php include('templates/modules/reviews/template.php'); ?>
 
 		<?php include('templates/modules/free-quotes/template.php'); ?>
+
+		<?php include('templates/modules/FAQ/template.php'); ?>
 	</main>
+
+	<footer class="site-footer">
+		<?php include('templates/components/footer/template.php'); ?>
+	</footer>
 </body>
 </html>

@@ -22,5 +22,9 @@ h2 {
 
 p {
 	font-size: 1.8rem;
+	color: var(--light-gray);
+}
+
+.gray-bold {
 	color: var(--gray);
 }
