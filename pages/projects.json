@@ -34,6 +34,15 @@
                     "website": "View Demo"
                 },
                 {
+                    "name": "Webpage Design Mockup",
+                    "langs": "CSS, PHP",
+                    "descr": "A high fidelity, static, non functional webpage mockup",
+                    "reveal": "",
+                    "case-study": "",
+                    "link": "projects/mock-up",
+                    "website": "View Website"
+                },
+                {
                     "name": "Exercises for Programmers",
                     "langs": "PHP, JS",
                     "descr": "A series of exercises completed in PHP and JavaScript.",
