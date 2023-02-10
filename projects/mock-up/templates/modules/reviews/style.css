@@ -52,3 +52,22 @@ p.img-weight {
 .review img {
 	justify-content: center;
 }
+
+.small {
+	display: none;
+}
+
+@media(max-width:700px) {
+	.review-grid {
+		gap: 40px;
+	}
+	.small {
+		display: initial;
+	}
+	.large {
+		display: none;
+	}
+	.reviews .header {
+		margin-bottom: 40px;
+	}
+}

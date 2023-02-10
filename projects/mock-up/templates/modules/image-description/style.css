@@ -29,3 +29,14 @@
 .img-descr .text {
 	margin-left: 20px;
 }
+
+@media(max-width:700px) {
+	.img-descr {
+		display: flex;
+		flex-direction: column;
+		gap: 70px;
+	}
+	.image-header h1, .image-header p {
+		text-align: center;
+	}
+}

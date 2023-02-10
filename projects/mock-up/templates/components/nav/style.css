@@ -64,3 +64,14 @@ nav ul{
 }
 
 
+@media(max-width:700px) {
+	nav	{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	nav ul li {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+}
