@@ -36,3 +36,12 @@
 	color: var(--blue);
 	border: 1px solid var(--blue);
 }
+
+@media(max-width:800px) {
+	.diptych-wrap {
+		padding: 0 0 0 0;
+	}
+	.diptych button {
+		margin: 1em 0;
+	}
+}
