@@ -1,0 +1,52 @@
+p + form.contact-form {
+	margin-top: 1em;
+}
+
+form :is(label, textarea, button[type="submit"]) {
+	display: block;
+}
+
+input[type="text"], textarea, button[type="submit"] {
+	display: block;
+	font: inherit;
+	width: 100%;
+	padding: .5em 0 .5em 0;
+}
+
+textarea {
+	resize: vertical;
+}
+
+button {
+	font-family: inherit;
+	color: var(--light-color);
+}
+
+input, textarea, button { 
+	outline: none;
+  border: 0;
+  background-color: inherit;
+}
+
+input, textarea {
+	margin-bottom: 1em;
+	border-bottom: 1px solid var(--light-border);
+}
+
+input:hover, textarea:hover {
+	border-bottom: 1px solid var(--light-color);
+}
+
+button[type="submit"] {
+	border: 1px solid var(--light-border);
+	max-width: 50%;
+	margin-left: auto;
+}
+
+button[type="submit"]:hover {
+	border: 1px solid var(--light-color);
+}
+
+button[type="submit"] {
+	text-align: center;
+}

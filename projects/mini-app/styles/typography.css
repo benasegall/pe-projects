@@ -1,0 +1,12 @@
+body {
+	font-size: 1.6rem;
+}
+
+.units {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.units img {
+	max-width: 10em;
+}
