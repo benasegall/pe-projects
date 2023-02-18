@@ -11,22 +11,13 @@ function setScreen(screen) {
 	$output.innerHTML = pages[screen];
 }
 
-// for Add a filter search tool
-function filterItem(unitList, userFilter) {
-	unitList.forEach(function(description) {
-		if (description.includes(userFilter) {
-			return unit
-		})
-	})
-}
-
 function renderUnit(unitList) {
 	let unit = "";
 
 	unitList.forEach(function(unitItem) {
 		unit += 
 		`<div class="unit-card">
-			<img src="${unitItem.image}">
+			<img data-screen="unitDetails" src="${unitItem.image}">
 			<h2>${unitItem.name}</h2>
 			<p>${unitItem.description}</p>
 			<button>Save for later</button>
@@ -51,10 +42,16 @@ pages.logo = `
 		</div>
 	</section>
 
-	<section class='units'>
+	<section id=unitListSection class='units'>
 		${renderUnit(unitList)}
+		<button id=viewMore>View More</button>
 	</section>
 
+`;
+
+pages.unitDetails = `
+	<h1>Details</h1>
+	<button data-screen="logo">Back</button>
 `;
 
 
@@ -77,5 +74,6 @@ setScreen("logo"); // default landing page
 
 export {
 	setScreen,
-	$output
+	$output,
+	renderUnit
 };
