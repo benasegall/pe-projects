@@ -2,13 +2,13 @@ let unitList = [
 	{
 		name: "name",
 		description: "description",
-		features: "dishwasher",
+		features: "dishwasher, pets",
 		image: "./images/generic.jpeg"
 	},
 	{
 		name: "name",
 		description: "description",
-		features: "washer/dryer",
+		features: "washer",
 		image: "./images/generic.jpeg"
 	},
 	{

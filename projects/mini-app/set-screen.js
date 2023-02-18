@@ -11,19 +11,22 @@ function setScreen(screen) {
 	$output.innerHTML = pages[screen];
 }
 
-function renderUnit(unitList) {
-	let unit = "";
-
-	unitList.forEach(function(unitItem) {
-		unit += 
-		`<div class="unit-card">
+function renderUnit(unitItem) {
+	return `<div class="unit-card">
 			<img data-screen="unitDetails" src="${unitItem.image}">
 			<h2>${unitItem.name}</h2>
 			<p>${unitItem.description}</p>
 			<button>Save for later</button>
 		</div>`;
+}
+
+function renderUnits(unitList) {
+	let units = "";
+
+	unitList.forEach(function(unitItem) {
+		units += renderUnit(unitItem);
 	})
-	return unit;
+	return units;
 }
 
 
@@ -36,15 +39,15 @@ pages.logo = `
 
 		<div class="search">
 			<form>
-				<input type="text" placeholder="Add a filter" name="filter">
-				<button>Go</button>
+				<input id="filter" type="text" placeholder="Add a filter" name="filter">
+				<button id="go">Go</button>
 			</form>
 		</div>
 	</section>
 
-	<section id=unitListSection class='units'>
-		${renderUnit(unitList)}
-		<button id=viewMore>View More</button>
+	<section id="unitListSection" class='units'>
+		${renderUnits(unitList)}
+		<button id="viewMore">View More</button>
 	</section>
 
 `;
@@ -65,7 +68,13 @@ pages.savedHomes = `
 
 pages.addNew = `
 	<h1>New</h1>
-
+	<form>
+		<input id="name" type="text" placeholder="Add a name">
+		<input id="desc" type="text" placeholder="Add a description">
+		<input id="feat" type="text" placeholder="Add some features">
+		<input id="img" type="text" placeholder="Add an image">
+		<button id="unitInfo" type="submit"> Submit</button>
+	</form>
 `;
 
 
@@ -75,5 +84,6 @@ setScreen("logo"); // default landing page
 export {
 	setScreen,
 	$output,
+	renderUnits,
 	renderUnit
 };
