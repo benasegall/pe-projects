@@ -9,6 +9,7 @@ import {
 	unitList
 } from './units.js';
 
+
 function getData(key) {
 	return JSON.parse(localStorage.getItem(key));
 }
@@ -27,16 +28,15 @@ function initialize() {
 initialize();
 
 // 
-function addNewUnit(name, desc, feat, img) {
+function addNewUnit(name, desc, feat) {
 	let unitsData = getData("userUnits");
 	let newUnit = {
 		name: name,
 		description: desc,
-		features: feat,
-		image: img
+		features: feat
 	};
 		unitsData.push(newUnit);
-		console.log("clicked");
+		console.log("create new data");
 		setData("userUnits", unitsData);
 }
 
@@ -73,10 +73,12 @@ window.addEventListener("submit", function(event) {
 		let $name = event.target.querySelector("#name");
 		let $desc = event.target.querySelector("#desc");
 		let $feat = event.target.querySelector("#feat");
-		let $img = event.target.querySelector("#img");
 
-		addNewUnit($name.value, $desc.value, $feat.value, $img.value);
+		addNewUnit($name.value, $desc.value, $feat.value);
 })
 
+export {
+	addNewUnit
+}
 
 

@@ -71,8 +71,7 @@ pages.addNew = `
 	<form>
 		<input id="name" type="text" placeholder="Add a name">
 		<input id="desc" type="text" placeholder="Add a description">
-		<input id="feat" type="text" placeholder="Add some features">
-		<input id="img" type="text" placeholder="Add an image">
+		<input id="feat" type="text" placeholder="Add searchable features">
 		<button id="unitInfo" type="submit"> Submit</button>
 	</form>
 `;

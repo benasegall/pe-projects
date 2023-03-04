@@ -2,6 +2,10 @@ Journal
 by Benjamin Segall
 https://peprojects.dev/alpha-5/ben/
 
+# 3 3 23
+It has been a while.
+Currently I am studying Vue2 and its use in solving code problems. Starting with Hello World.
+
 # 12 19
 Setting up my file structure for a new website. Making sure all JSON files have information that works properly and setting up layouts to be filled with JSON data
 
