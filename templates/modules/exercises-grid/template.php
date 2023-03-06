@@ -5,6 +5,7 @@
 			<h2><?=$solution["subtitle"]?></h2>
 			<p><a href="<?=$solution["PHPlink"]?>"><?=$solution["PHPdemo"]?></a></p>
 			<p><a href="<?=$solution["JSlink"]?>"><?=$solution["JSdemo"]?></a></p>
+			<p><a href="<?=$solution["VUElink"]?>"><?=$solution["VUEdemo"]?></a></p>
 		</section>
 	<?php } ?>
 
