@@ -1,0 +1,30 @@
+/* font-size */
+
+body {
+	font-size: 1.6rem;
+}
+
+button {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+h1 {
+	font-size: 5rem;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+p {
+	font-size: 1.8rem;
+	color: var(--light-gray);
+}
+
+.gray-bold {
+	color: var(--gray);
+}

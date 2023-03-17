@@ -1,0 +1,180 @@
+
+/* setup */
+
+html {
+	font-size: 62.5%;
+	--white: #fff;
+	--off-white: #fbfbfb;
+	--blue: #0135e9;
+	--black: #011627;
+	--tile: #f6f8fa;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	min-width: 440px;
+	max-width: 440px;
+	height: auto;
+}
+
+/* site wide */
+
+body {
+	color: var(--blue);
+}
+
+.content {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 10%;
+	max-width: 1440px;
+	margin: auto;
+}
+
+.about {
+	padding: 8rem 0 8rem 0;
+}
+
+.challenge {
+	background-color: var(--tile);
+	padding: 8rem 0 8rem 0;
+}
+
+.prototype {
+	padding: 8rem 0 8rem 0;
+}
+
+.solution {
+	background-color: var(--tile);
+	padding: 8rem 0 8rem 0;
+}
+
+.style {
+	padding: 8rem 0 8rem 0;
+}
+
+.results {
+	background-color: var(--tile);
+	padding: 8rem 0 8rem 0;
+}
+
+.center {
+	text-align: -webkit-center;
+}
+
+.results-images {
+	display: flex;
+	justify-content: center;
+}
+
+@media (min-width: 1120px) {
+	.results-images {
+		padding: 3.2rem 0 0 0;
+	}
+}
+
+@media (max-width: 550px) {
+	.formal-images {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.link {
+	background-color: var(--tile);
+	padding: 0 0 8rem 0;
+	text-align: center;
+}
+
+.button {
+	font-weight: 500;
+	background-color: var(--blue);
+	border: 1px solid var(--blue);
+	color: var(--white);
+	padding: 16px 32px;
+	border-radius: 25px;
+}
+
+.button:hover {
+	background-color: var(--white);
+	color: var(--blue);
+	transition: all .2s ease-in-out;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .2);
+}
+
+/* typography */
+
+h1 {
+	font-size: 6.4rem;
+	font-weight: 500;
+	margin-bottom: 1.6rem;
+}
+
+h2 {
+	font-size: 4.8rem;
+	font-weight: 500;
+}
+
+p {
+	max-width: 30em;
+	margin: 1.6rem 0 1.6rem 0;
+}
+
+picture {
+	padding: 3.2rem 0 0 0;
+}
+
+/* screen size */
+
+@media (min-width: 1120px) {
+	picture {
+		padding: 0 0 0 0;
+	}
+
+	.formal-images {
+		padding: 0 0 0 1.6rem;
+	}
+
+	.flex {
+		display: flex;
+	}
+
+	.left {
+	width: 60%;
+	}
+
+	.right {
+	width: 40%;
+	}
+}
+
+/* mobile */
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 5.4rem;
+	}
+
+	h2 {
+		font-size: 3.6rem
+	}
+
+	img {
+		min-width: 360px;
+		max-width: 360px;
+	}
+}

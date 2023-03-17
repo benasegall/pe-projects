@@ -1,0 +1,11 @@
+@import 'preset.css';
+@import 'setup.css';
+@import 'color-settings.css';
+@import 'structure.css';
+@import 'typography.css';
+@import 'modules.css';
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

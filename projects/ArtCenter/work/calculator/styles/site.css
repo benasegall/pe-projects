@@ -1,0 +1,12 @@
+@import 'preset.css';
+@import 'setup.css';
+@import 'color-settings.css';
+@import 'structure.css';
+@import 'typography.css';
+
+body {
+  background-color: #000;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

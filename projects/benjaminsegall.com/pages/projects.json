@@ -1,0 +1,66 @@
+{
+    "title": "Projects",
+    "slug": "projects",
+    "sections": [
+        {
+            "type": "projects-grid",
+            "list": [
+                {
+                    "name": "Dynamic Router",
+                    "langs": "PHP, JSON",
+                    "descr": "A PHP-enabled page routing system built with page data from JSON structures.",
+                    "reveal": "",
+                    "case-study": "",
+                    "link": "projects/dynamic-router",
+                    "website": "View Demo"
+                },
+                {
+                    "name": "Layout Concept",
+                    "slug": "layout-concept",
+                    "langs": "CSS, PHP",
+                    "descr": "A first iteration using PHP for making a dynamic webpage.",
+                    "reveal": "",
+                    "case-study": "?page=detail?slug=layout-concept",
+                    "link": "projects/layout-concept",
+                    "website": "View Website"
+                },
+                {
+                    "name": "Responsive Design Modules",
+                    "langs": "CSS, PHP",
+                    "descr": "A series of responsively designed webpage layout modules; using media queries, grid layout, flexbox, dropdown functionality, light/dark themes and SVGs.",
+                    "reveal": "",
+                    "case-study": "",
+                    "link": "projects/RDM",
+                    "website": "View Demo"
+                },
+                {
+                    "name": "Webpage Design Mockup",
+                    "langs": "CSS, PHP",
+                    "descr": "A high fidelity, static, non functional webpage mockup",
+                    "reveal": "",
+                    "case-study": "",
+                    "link": "projects/mock-up",
+                    "website": "View Website"
+                },
+                {
+                    "name": "Todo App",
+                    "langs": "PHP, JS",
+                    "descr": "Demonstrative, functional todo app",
+                    "reveal": "",
+                    "case-study": "",
+                    "link": "projects/todo-app",
+                    "website": "View Demo"
+                },
+                {
+                    "name": "Exercises for Programmers",
+                    "langs": "PHP, JS",
+                    "descr": "A series of exercises completed in PHP and JavaScript.",
+                    "reveal": "",
+                    "case-study": "",
+                    "link": "?page=exercises",
+                    "website": "View Demo"
+                }
+            ]
+        }
+    ]
+}

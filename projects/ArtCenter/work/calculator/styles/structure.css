@@ -1,0 +1,52 @@
+body {
+	padding-top: 15vh;
+	padding-bottom: 15vh;
+}
+
+header {
+	text-align: center;
+}
+
+main {
+	margin-top: 400px;
+}
+
+section {
+	margin-top: 50px;
+}
+
+section:first-of-type {
+	margin-top: 25px;
+}
+
+.read {
+	margin-top: 25px;
+}
+
+.alt-footer {
+	margin-top: 50px;
+}
+
+.column {
+	max-width: 700px;
+	width: 90%;
+	margin: auto;
+}
+
+img {
+	margin: 50px auto;
+}
+
+.small-img {
+	max-width: 300px;
+}
+
+.reg-img {
+	max-width: 600px;
+}
+
+footer {
+	margin-top: 200px;
+	font-size: 1.6rem;
+	text-align: center;
+}

@@ -1,0 +1,35 @@
+body {
+  font-family: system-ui, sans-serif;
+  color: #212121;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 2em 2em 2em;
+  margin: 4em auto;
+  border: 2px solid #0ff913;
+  border-radius: 10px;
+}
+
+form field {
+  display: grid;
+  gap: 10px;
+}
+
+input {
+  padding: .5em;
+  border: 1px solid lightgray;
+}
+
+output {
+  margin-top: 20px;
+}
+
+.links {
+  display: grid;
+  margin-top: 40px;
+  gap: 20px;
+}

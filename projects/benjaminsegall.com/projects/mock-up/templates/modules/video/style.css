@@ -1,0 +1,14 @@
+.video {
+	text-align: center;
+}
+
+.video h1 {
+	padding: .5em 0 .5em 0;
+}
+
+.video picture {
+	display: flex;
+	align-items: center;
+	max-width: 926px;
+	margin: 5rem auto auto auto;
+}

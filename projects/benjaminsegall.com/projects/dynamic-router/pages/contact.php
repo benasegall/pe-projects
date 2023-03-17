@@ -1,0 +1,1 @@
+<?php include('pages/templates/generic-list.php') ?>

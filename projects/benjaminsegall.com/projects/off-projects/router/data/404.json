@@ -1,0 +1,12 @@
+{
+  "id": "404",
+  "title": "404: Page not found",
+  "intro": "",
+  "sections":
+  [
+    {
+      "module": "404",
+      "heading": "Sorry, the page you're looking for does not exist."
+    }
+  ]
+}
