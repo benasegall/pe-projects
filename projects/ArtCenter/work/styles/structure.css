@@ -3,6 +3,12 @@ body {
 	padding-bottom: 15vh;
 }
 
+.column {
+	max-width: 700px;
+	width: 90%;
+	margin: auto;
+}
+
 header {
 	text-align: center;
 }
@@ -25,12 +31,6 @@ section:first-of-type {
 
 .alt-footer {
 	margin-top: 50px;
-}
-
-.column {
-	max-width: 700px;
-	width: 90%;
-	margin: auto;
 }
 
 img {

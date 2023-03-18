@@ -3,9 +3,10 @@
 @import 'color-settings.css';
 @import 'structure.css';
 @import 'typography.css';
-@import 'modules.css';
 
 body {
+  background-color: #fff;
+  color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
