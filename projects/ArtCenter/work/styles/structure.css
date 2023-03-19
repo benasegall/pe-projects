@@ -41,6 +41,10 @@ img {
 	max-width: 300px;
 }
 
+.med-img {
+	max-width: 450px;
+}
+
 .reg-img {
 	max-width: 600px;
 }
