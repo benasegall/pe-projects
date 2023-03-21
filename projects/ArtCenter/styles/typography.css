@@ -19,7 +19,7 @@ p {
 }
 
 .title {
-	font-size: 7rem;
+	font-size: 7.2rem;
 	position: relative;
 	right: 3px;
 	font-weight: 900;
@@ -27,9 +27,19 @@ p {
 }
 @media (max-width: 768px) {
 	.title {
-		font-size: 5rem;
+		font-size: 5.4rem;
 	}
 }
+
+@media (max-width: 480px) {
+	.title {
+		font-size: 3.6rem;
+	}
+	.contact {
+		font-size: 1.6rem;
+	}
+}
+
 .title {
 	display: flex;
 }

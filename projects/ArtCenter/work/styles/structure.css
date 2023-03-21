@@ -37,6 +37,10 @@ img {
 	margin: 50px auto;
 }
 
+.img {
+	margin: 50px auto;
+}
+
 .small-img {
 	max-width: 300px;
 }
