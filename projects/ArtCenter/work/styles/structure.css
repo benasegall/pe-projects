@@ -29,6 +29,15 @@ section:first-of-type {
 	margin-top: 25px;
 }
 
+.read + .read {
+	margin-left: 20px;
+}
+@media (max-width: 768px) {
+	.read + .read {
+		margin-left: 0px;
+	}
+}
+
 .alt-footer {
 	margin-top: 50px;
 }
