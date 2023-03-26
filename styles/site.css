@@ -3,28 +3,10 @@
 @import 'color-settings.css';
 @import 'structure.css';
 @import 'typography.css';
-@import 'modules.css';
 
 body {
-	font-family: 'Hind Siliguri', sans-serif;
-	background-color: var(--light-header);
-	color: var(--light-color);
+  background-color: #fff;
+  color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.site-header {
-	background-color: var(--light-header);
-}
-
-.separator {
-	background-color: var(--light-border);
-}
-
-.site-content {
-	background-color: var(--light-background-color);
-}
-
-.site-footer {
-	background-color: var(--light-header);
 }
