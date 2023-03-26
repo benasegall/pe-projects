@@ -1,1 +1,0 @@
-<?php include('pages/templates/generic-header.php') ?>
