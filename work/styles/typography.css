@@ -19,6 +19,10 @@ header h2 {
 	font-size: 2rem;
 }
 
+p + p {
+	margin-top: 10px;
+}
+
 .read {
 	font-weight: 700;
 	border: 1px solid #dedee1;
