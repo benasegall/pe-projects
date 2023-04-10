@@ -23,6 +23,10 @@ p + p {
 	margin-top: 10px;
 }
 
+span {
+	font-weight: 700;
+}
+
 .read {
 	font-weight: 700;
 	border: 1px solid #dedee1;
